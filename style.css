@@ -362,6 +362,8 @@ nav{
 }
     #plano-titulo{
         text-align: center;
+        font-size: 32px;
+        margin: 50px;
     }
 #all-planos{
     display: flex;
