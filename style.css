@@ -1,0 +1,446 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+button{
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px gray;
+}
+body{
+    background: linear-gradient(45deg, #d0d8d7,#abc1c0,#d0d8d7) ;
+}
+
+header{
+    height: 100vh;
+}
+nav{
+    width: 100%; 
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10vw;
+}
+    #logo{
+        font-size: 2em;
+        font-weight: bolder;
+    }
+    .itemMenu{
+        padding: 20px;
+        color: black;
+    }
+    #acessarPlataforma{
+        background-color: black;
+        color: #fff;
+        border-radius: 30px;
+        padding: 10px 50px;
+    }
+
+
+#div1{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+    #divTexto{
+        margin-left: 10vw;
+        font-size: 14px;
+    }
+    
+    #divBtnCidade{
+        display: flex;
+        margin-left: 7vw;
+        margin-top: 30px;
+        box-shadow: 0px 0px 8px gray;
+        border-radius: 30px;
+        width: 480px;
+
+    }
+        #input-cidade{
+            background: #fff;
+            border: none;
+            border-radius: 30px 0 0 30px; 
+            padding: 12px 50px;
+            width: 400px;
+            font-size: 16px;
+        }
+            #input-cidade::placeholder {
+                color: black;
+                font-size: 16px;
+            }
+        #btn-cidade{
+            background: 30% center url('./imagens/btnCidade.svg') no-repeat;
+            background-size: 30px;
+            background-color: #fff;
+            border: none;
+            box-shadow: none;
+            border-radius:  0 30px 30px 0;
+            padding: 20px 40px;
+        }
+            #btn-cidade:hover{
+                background-size: 32px ;
+            }
+
+    #powered{
+        display: flex;
+        justify-content: space-between;
+        margin: auto 10vw;
+        vertical-align: center;
+    }
+
+/*   PAP = PROPOSITO - ALGORITIMO - PRODUTO   */
+
+    #PAP{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px 10vw;
+        text-align: center;
+        }
+            .imgPAP{
+                height: 30%;
+                width: 90%;
+                margin-top: 70px;
+            }
+            .tituloPAP{
+                font-size: 25px;
+                padding: 20px;
+                font-weight: 500;
+            }
+       
+            .setas{
+                display: flex;
+                align-items: center;
+            }
+        #btnPAP{
+            background: black;
+            color: white;
+            border-radius: 20px;
+            margin: 20px;
+            padding: 10px 50px;
+        }
+
+/*      DADOS        */
+
+#dados{
+    display: flex;
+    justify-content: space-around;
+    padding: 9vh;
+    background: black;
+}
+    .dadosItens h1{
+        font-size: 40px;
+        color: #abc1c0;
+    }
+    .dadosItens p {
+        color: #fff;
+    }
+
+/*      ALGORITMO           */
+
+#algoritmo{
+    margin: 10vh 10vw 0 10vw;
+
+}
+    #algoritmo-titulo{
+        margin-bottom:40px;
+        font-weight: normal;
+    }
+
+    #algoritmo-lei-via{
+    display: flex;  
+    justify-content: space-between;
+    align-items: stretch;
+    height: 65vh;
+    } 
+        .legislacao-via{
+            display: flex;
+            flex-direction: column;
+            width: 30vw;
+        } 
+            .legislacao-via > h1 {
+                font-size: 18px;
+            }
+            .lei-via{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 92%;
+            }
+            .lei-via-updown{
+                display: flex;
+                justify-content: space-between;
+
+            }
+            .lei-via-right{
+                display: flex;
+                justify-content: space-between;
+                padding-right: 5vw ;
+            }
+                .lei-via-itens{
+                    display: flex;
+                    flex-direction: column;
+                    min-width: 130px;
+
+                }
+                .lei-via-img{
+                    width: 80px;
+                    height: 80px;
+                    
+                }
+                .lei-via-p{
+                    font-size: 12px;
+                    height: 92px;
+                }
+            .lei-via-btn{
+                padding: 5px 45px;
+                margin: 10px 0;
+                color: black;
+                border: 1px solid #fff;
+                border-radius: 30px;
+            }
+
+    #mais{
+        display: flex;
+        
+
+    } 
+        #mais > img{
+            width: 100px;
+        }
+
+/*      FUNCIONALIDADES     */
+
+#funcionalidades{
+    padding-top: 60px;
+
+}
+    #func-Titulo{
+        text-align: center;
+        height: 10vh;
+    }
+    #divFunc{
+        height: 90vh;
+    }
+    #menuFunc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10vw;
+        height: 110px;
+        
+    }
+        .itensFunc{
+            color: black;
+            width: 12.5%;
+            text-align: center;
+            padding: 45px 0;   
+            border-radius: 30px 30px 0 0;          
+        }
+
+            .itensFunc:hover{
+                background: #D7E2E1;
+            }
+        #painelFunc{
+            background: #D7E2E1;
+            height: 50vh;
+            
+        }
+
+/*      Utilidades       */
+
+#utilidade{
+    height: 800px;
+    
+
+}
+    #util-titulo{
+        text-align: center;
+        font-weight: normal;
+    }
+    #utilDiv{
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 0;
+    }
+        .uteis{
+            margin: 0;
+            padding: 4vh 2vw;
+            width: 17vw; 
+            border: 2px solid #e8e8e8;
+            border-radius: 30px;
+        }
+            .uteis-img{
+                height: 80px;
+                width:  80px;
+                margin-bottom: 20px;
+
+            }
+            .uteis-p{
+                
+            }
+                #util1{
+                    width: 28vw ;
+                    border-radius: 0 30px 30px 0;
+                    padding-left: 10vw;
+                }
+                #util4{
+                    width: 28vw;
+                    border-radius: 30px 0 0 30px;
+                }
+        #util-btn{
+            display: block;
+            margin: 30px auto;
+            background: black;
+            color: #fff;
+            border-radius: 15px;
+            padding: 10px 40px;
+        }
+
+/*      ESCOLHA         */
+
+#escolha{
+
+}
+    #escolha-titulo{
+        text-align: center;
+        font-weight: normal;
+    }
+    #escolha-notebook{
+        margin: 0 10vw;
+        background: center center url('./imagens/07\ _escolha/mac.svg') no-repeat;
+        background-size: 700px;
+        height: 80vh;
+    }
+    #escolha-video{
+        margin-top: 110px;
+        margin-left: 340px;  
+    }
+
+
+/*      MAPA        */
+
+#mapa{
+    background: center center  url('./imagens/08_mapa/mapa.png') no-repeat;
+    background-size: 100%;
+    height: 80vh;
+
+}
+
+
+/*      APROVAÇÃO       */
+#aprovacao{
+    margin: 10vh 0;
+
+}
+    #aprovacao-titulo{
+        text-align: center;
+        font-weight: 600;
+    }
+    #aprovado-por{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 8vh 15vw;
+    }
+    #aprovado-por > img{
+        height: 40px;
+    }
+        
+/*      PLANOS          */
+#plano{
+    padding: 10vh 5vw;
+
+}
+    #plano-titulo{
+        text-align: center;
+    }
+#all-planos{
+    display: flex;
+    justify-content: space-between;
+
+}
+#planos-f-p{
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+}
+    .planos-free-plus{
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 20px;
+    }
+        .planos-free-plus > p{
+            font-size: 12px;        
+        }
+        .linha{
+            margin: 5px auto;
+            border-top: 1px solid black;
+            width: 70px;
+        }
+#plano-premium-plus{
+
+}
+
+
+/*      NOTICIAS       */
+#noticias{
+
+}
+    #noticias-titulo{
+        text-align: center;
+        font-size: 32px;
+        margin: 40px auto;
+    }
+    #div-noticias{
+        display: flex;
+        justify-content: space-around;
+    }
+/*      TIME        */
+#time{
+    margin: 20vh 10vw;
+}
+#time-titulo{
+    text-align: center;
+    font-size: 32px;
+    margin: 40px auto;
+    
+}
+.time-linha{
+    display: flex;
+    justify-content: space-between;
+}
+.membro-time{
+    margin-bottom: 40px ;
+    width: 18%;
+}
+.membro-time > h1{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+.membro-time > p {
+    font-size: 10px;
+    text-align: center;
+}
+    .membro-img{
+        display: block;
+        margin: 10px auto;
+        width: 80px;
+        border-radius: 50%;
+    }
+    .img-cargo-superior{
+        width: 82px;
+        border: 4px solid #fff;
+    }
+
+/*      FOOTER      */
+
