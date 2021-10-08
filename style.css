@@ -78,7 +78,7 @@ nav{
                 font-size: 16px;
             }
         #btn-cidade{
-            background: 30% center url('./imagens/btnCidade.svg') no-repeat;
+            background: 30% center url('./imagens/01_viabilidade/btnCidade.svg') no-repeat;
             background-size: 30px;
             background-color: #fff;
             border: none;
@@ -480,4 +480,11 @@ nav{
 #footer-place{
     background-color: #fff;
     color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 8vh 10vw;
+}
+#sobre-comunidade-contato{
+    display: flex;
+    justify-content: space-between;
 }
