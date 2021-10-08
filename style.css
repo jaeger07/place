@@ -4,25 +4,25 @@
     box-sizing: border-box;
     font-family: 'poppins';
 }
-button{
-    background: none;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    box-shadow: 0px 0px 8px gray;
-    border-radius: 20px;
-}
-a{
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 20px;
-}
-input{
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-}
+    button{
+        background: none;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        box-shadow: 0px 0px 8px gray;
+        border-radius: 20px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    input{
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+    }
 body{
     background: linear-gradient(45deg, #d0d8d7,#abc1c0,#d0d8d7) ;
 }
@@ -45,7 +45,6 @@ nav{
     }
     .itemMenu{
         padding: 20px;
-        color: black;
     }
     #acessarPlataforma{
         background-color: black;
@@ -78,7 +77,6 @@ nav{
     }
         #input-cidade{
             background: #fff;
-            border: none;
             border-radius: 30px 0 0 30px; 
             padding: 12px 50px;
             width: 400px;
@@ -147,11 +145,11 @@ nav{
     padding: 9vh;
     background: black;
 }
-    .dadosItens h1{
+    .dadosItens > h1{
         font-size: 40px;
         color: #abc1c0;
     }
-    .dadosItens p {
+    .dadosItens > p {
         color: #fff;
     }
 
@@ -214,15 +212,11 @@ nav{
             .lei-via-btn{
                 padding: 5px 45px;
                 margin: 10px 0;
-                color: black;
                 border: 1px solid #fff;
-                border-radius: 30px;
             }
 
     #mais{
         display: flex;
-        
-
     } 
         #mais > img{
             width: 100px;
@@ -250,7 +244,6 @@ nav{
         
     }
         .itensFunc{
-            color: black;
             width: 12.5%;
             text-align: center;
             padding: 45px 0;   
@@ -268,11 +261,8 @@ nav{
 
 /*      Utilidades       */
 
-#utilidade{
-    height: 800px;
-    
+#utilidade{}
 
-}
     #util-titulo{
         text-align: center;
         font-weight: normal;
@@ -312,8 +302,7 @@ nav{
             margin: 30px auto;
             background: black;
             color: #fff;
-            border-radius: 15px;
-            padding: 10px 40px;
+            padding: 10px 50px;
         }
 
 /*      ESCOLHA         */
@@ -350,7 +339,6 @@ nav{
 /*      APROVAÇÃO       */
 #aprovacao{
     margin: 10vh 0;
-
 }
     #aprovacao-titulo{
         text-align: center;
@@ -395,7 +383,7 @@ nav{
             font-size: 12px;        
         }
         .linha{
-            margin: 5px auto;
+            margin: 15px auto;
             border-top: 1px solid black;
             width: 70px;
         }
@@ -464,7 +452,7 @@ nav{
         border-radius: 50%;
     }
     .img-cargo-superior{
-        width: 82px;
+        width: 84px;
         border: 4px solid #fff;
     }
 
