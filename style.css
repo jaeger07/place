@@ -444,5 +444,34 @@ nav{
         border: 4px solid #fff;
     }
 
-/*      FOOTER      */
+/*      FOOTER - OSPA    */
+
+#footer-ospa{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 5vh 10vw;
+
+}
+#footer-grupo-ospa{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+#footer-ospa-all-institutos{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+    .footer-ospa-each-institutos{
+
+    }
+    .footer-ospa-each-institutos > p{
+        font-size: 10px;
+        color: #e8e8e8;
+    }
+    #footer-instituto-place{
+        border-top: 1px solid white;
+    }
 
