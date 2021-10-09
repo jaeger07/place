@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-mobile.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,8 +83,12 @@
             <img src="./imagens/02_PAP/produto3.svg" class="imgPAP">
             <h1 class="tituloPAP">Produto</h1>
             <p class="pPAP"><strong>Estudos de <br>viabilidade <br>financeira e <br>urbanística </strong><br>em tempo real.</p>  
-            <button id="btnPAP">Começar</button>
+            <button class="btnPAP">Começar</button>
         </div>
+    </div>
+    <div id="mobile-PAP">
+        <img src="./imagens/mobile/mobile-PAP.svg" alt="">
+      <!--  <button class="btnPAP">Começar</button> -->
     </div>
 
     <div id="dados">
@@ -117,7 +122,7 @@
 
                 <div class="lei-via">
 
-                    <div class="lei-via-updown">
+                    <div class="lei-linhas-left">
                         <div class="lei-via-itens">
                             <img src="./imagens/04_como_algoritmo_funciona/lei/1.svg" class="lei-via-img">
                             <p class="lei-via-p">Índice de <br>aproveitame<br>nto mínimo e<br>máximo;</p>
@@ -132,7 +137,7 @@
                         </div>
                     </div>
 
-                    <div class="lei-via-updown">
+                    <div class="lei-linhas-left">
                         <div class="lei-via-itens">
                             <img src="./imagens/04_como_algoritmo_funciona/lei/4.svg"  style="height: 80px; width: 80px; padding: 8px 0; ">
                             <p class="lei-via-p">Exceções de plano diretor,<br>como patrimônio histórico,<br>bairro ambiental, vila / rua<br>sem saída;</p>
@@ -157,7 +162,7 @@
             <div class="legislacao-via">
                 <h1>Viabilidade</h1>
                 <div class="lei-via">
-                    <div class="lei-via-right">
+                    <div class="via-linhas-right">
                         <div class="lei-via-itens">
                             <img src="./imagens/04_como_algoritmo_funciona/via/1.svg" class="lei-via-img">
                             <p class="lei-via-p">Área privativa estimada<br>do terreno, incluindo<br>incentivos não<br>computáveis;</p>
@@ -168,7 +173,7 @@
                         </div>
                     </div>
 
-                    <div class="lei-via-right">
+                    <div class="via-linhas-right">
                         <div class="lei-via-itens">
                             <img src="./imagens/04_como_algoritmo_funciona/via/3.svg" class="lei-via-img">
                             <p class="lei-via-p">Custos advindos da<br>incorporação, como custo de<br>obra, marketing, comissões,<br>aprovação e impostos;</p>
@@ -185,11 +190,19 @@
                 </div>
             </div>
         </div>
+
+        <div id="mobile-algoritmo">
+            <img src="./imagens/mobile/mobile-algoritimo.svg" alt="">
+        </div>
     </div>
 
         <div id="funcionalidades">
             <h1 id="func-Titulo">Funcionalidades</h1>
             <div id="divFunc">
+                <div id="mobile-img-soon">
+                    <img src="./imagens/05_funcionalidade/disponivel.svg" alt="">
+                    <img src="./imagens/05_funcionalidade/soon.svg">
+                </div>
                 <div id="menuFunc">
                     <a href="" class="itensFunc">legislação</a>
                     <a href="" class="itensFunc">Avaliação</a>
@@ -217,11 +230,11 @@
                 </div>
                 <div id="util2" class="uteis">
                     <img src="./imagens/06_utilidade/2.svg" class="uteis-img">
-                    <p class="uteis-p">Arquitetos e<br>urbanistas,<br>com foco nos dados de<br>legislação e também do<br>envelope do plano<br>diretor;</p>
+                    <p class="uteis-p">Corretores de imóveis<br>e terrenistas,<br>com foco na avaliação<br>do terreno;</p>
                 </div>
                 <div id="util3" class="uteis">
                     <img src="./imagens/06_utilidade/3.svg" class="uteis-img">
-                    <p class="uteis-p">Corretores de imóveis<br>e terrenistas,<br>com foco na avaliação<br>do terreno;</p>
+                    <p class="uteis-p">Arquitetos e<br>urbanistas,<br>com foco nos dados de<br>legislação e também do<br>envelope do plano<br>diretor;</p>
                 </div>
                 <div id="util4" class="uteis">
                     <img src="./imagens/06_utilidade/4.svg" class="uteis-img">
@@ -229,7 +242,9 @@
                 </div>
             </div>
 
-            <button id="util-btn">Quero Testar</button>
+                <button id="util-btn">Quero Testar</button>
+
+            
         </div>
 
         <section id="escolha">
@@ -238,6 +253,11 @@
                 <iframe id="escolha-video"  src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
+            <div id="modelo-vigente">
+                <div id="imagem-modelo-vigente"></div>
+                <button id="btn-modelo-vigente">Testar&nbsp;Viabilidade</button>
+            </div>
+            
         </section>
 
         <section id="mapa"></section>
@@ -259,7 +279,7 @@
                     <div class="planos-free-plus">
                         <h1>Free</h1>
                         <p>Neste formato você tem acesso as<br>funcionalidades básicas da plataforma.</p>
-                        <div class="linha"></div>
+                        <div class="linha-planos"></div>
                         <p>Dados do terreno</p>
                         <p>Zoneamento</p>
                         <p>Envelope legal</p>
@@ -271,17 +291,17 @@
                         <p>Visualização de Camadas Premium</p>
                         <p>Painel do Desenvolvedor</p>
                         <p>Importar dados geolocalizados</p>
-                        <div class="linha"></div>
+                        <div class="linha-planos"></div>
                         <h1></h1>
                         <h2></h2>
 
-                        <a href="">Começar grátis</a>
+                        <a class="btn-plano" href="">Começar grátis</a>
 
                         </div>
                     <div class="planos-free-plus" >
                         <h1>Estudo Unitário</h1>
                         <p>Neste formato você tem acesso às<br>funcionalidades básicas da plataforma e a<br>viabilidade completa de 1 estudo por vez.</p>
-                        <div class="linha"></div>
+                        <div class="linha-planos"></div>
                         <p>Dados do terreno</p>
                         <p>Zoneamento</p>
                         <p>Envelope legal</p>
@@ -293,16 +313,16 @@
                         <p>Visualização de Camadas Premium</p>
                         <p>Painel do Desenvolvedor</p>
                         <p>Importar dados geolocalizados</p>
-                        <div class="linha"></div>
+                        <div class="linha-planos"></div>
                         <h1></h1>
                         <h2></h2>
 
-                        <a href="">Experimentar</a>
+                        <a class="btn-plano" href="">Experimentar</a>
                         </div>
                     <div class="planos-free-plus" >
                         <h1>Premium</h1>
                         <p>Neste formato você tem acesso a todas as<br>funcionalidades premium e a todos os dados<br>para até 50 estudos por mês por cidade.</p>
-                        <div class="linha"></div>
+                        <div class="linha-planos"></div>
                         <p>Dados do terreno</p>
                         <p>Zoneamento</p>
                         <p>Envelope legal</p>
@@ -314,18 +334,18 @@
                         <p>Visualização de Camadas Premium</p>
                         <p>Painel do Desenvolvedor</p>
                         <p>Importar dados geolocalizados</p>
-                        <div class="linha"></div>
+                        <div class="linha-planos"></div>
                         <h1></h1>
                         <h2></h2>
 
-                        <a href="">Experimentar</a>
+                        <a class="btn-plano" href="">Experimentar</a>
                         </div>
                     </div>
                 <div id="plano-premium-plus">
                     <div class="planos-free-plus">
                         <h1>Premium Plus</h1>
                         <p>Neste formato você tem acesso a todas as<br>funcionalidades premium e a todos os dados<br>para + de 50 estudos por mês por cidade.</p>
-                        <div class="linha"></div>
+                        <div class="linha-planos"></div>
                         <p>Dados do terreno</p>
                         <p>Zoneamento</p>
                         <p>Envelope legal</p>
@@ -337,11 +357,11 @@
                         <p>Visualização de Camadas Premium</p>
                         <p>Painel do Desenvolvedor</p>
                         <p>Importar dados geolocalizados</p>
-                        <div class="linha"></div>
+                        <div class="linha-planos"></div>
                         <h1></h1>
                         <h2></h2>
 
-                        <a href="">Customizar plano</a>
+                        <a class="btn-plano" href="">Customizar plano</a>
                         </div>
                     </div>
                 </div>

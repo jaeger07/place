@@ -12,6 +12,10 @@
         box-shadow: 0px 0px 8px gray;
         border-radius: 20px;
     }
+        button:hover{
+            background: #fff;
+            color: black;
+        }
     a{
         color: black;
         text-decoration: none;
@@ -23,8 +27,12 @@
         border-radius: 20px;
         padding: 10px 20px;
     }
+    body,html{
+        overflow-x: hidden;
+    }
 body{
     background: linear-gradient(45deg, #d0d8d7,#abc1c0,#d0d8d7) ;
+    
 }
 
 header{
@@ -76,14 +84,14 @@ nav{
         margin-top: 30px;
         box-shadow: 0px 0px 8px gray;
         border-radius: 30px;
-        width: 480px;
+        width: 30vw;
 
     }
         #input-cidade{
             background: #fff;
             border-radius: 30px 0 0 30px; 
             padding: 12px 50px;
-            width: 400px;
+            width: 28vw;
             font-size: 16px;
         }
             #input-cidade::placeholder {
@@ -133,13 +141,17 @@ nav{
                 display: flex;
                 align-items: center;
             }
-        #btnPAP{
+        .btnPAP{
             background: black;
             color: white;
             border-radius: 20px;
             margin: 20px;
             padding: 10px 50px;
         }
+
+            #mobile-PAP{
+                display: none;
+            }
 
 /*      DADOS        */
 
@@ -179,21 +191,22 @@ nav{
             flex-direction: column;
             width: 30vw;
         } 
-            .legislacao-via > h1 {
+            .legislacao-via > h1 { /* titulos legislação e viabilidade*/
                 font-size: 18px;
+                margin-bottom: 30px;
             }
-            .lei-via{
+            .lei-via{     /* div sem o titulo*/
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 height: 92%;
             }
-            .lei-via-updown{
+            .lei-linhas-left{
                 display: flex;
                 justify-content: space-between;
 
             }
-            .lei-via-right{
+            .via-linhas-right{
                 display: flex;
                 justify-content: space-between;
                 padding-right: 5vw ;
@@ -204,15 +217,15 @@ nav{
                     min-width: 130px;
 
                 }
-                .lei-via-img{
-                    width: 80px;
-                    height: 80px;
-                    
-                }
-                .lei-via-p{
-                    font-size: 12px;
-                    height: 92px;
-                }
+                    .lei-via-img{
+                        width: 80px;
+                        height: 80px;
+                        
+                    }
+                    .lei-via-p{
+                        font-size: 12px;
+                        height: 92px;
+                    }
             .lei-via-btn{
                 padding: 5px 45px;
                 margin: 10px 0;
@@ -225,6 +238,10 @@ nav{
         #mais > img{
             width: 100px;
         }
+
+    #mobile-algoritmo{
+        display: none;
+    }
 
 /*      FUNCIONALIDADES     */
 
@@ -262,10 +279,15 @@ nav{
             height: 50vh;
             
         }
+        #mobile-img-soon{
+            display: none;
+        }
 
 /*      Utilidades       */
 
-#utilidade{}
+#utilidade{
+    margin-top: 10vh;
+}
 
     #util-titulo{
         text-align: center;
@@ -277,7 +299,6 @@ nav{
         margin: 80px 0;
     }
         .uteis{
-            margin: 0;
             padding: 4vh 2vw;
             width: 17vw; 
             border: 2px solid #e8e8e8;
@@ -326,10 +347,26 @@ nav{
         justify-content: center;
         align-items: center;
     }
-    #escolha-video{
-        width: 534px;
-        height: 335px;  
+        #escolha-video{
+            width: 534px;
+            height: 335px;  
+        }
+    
+    #modelo-vigente{
+        margin: 0 25vw;
     }
+        #imagem-modelo-vigente{
+            padding: 22vh 40vw;
+            background: url('./imagens/07_escolha/modelo-vigente.svg') no-repeat ;
+            background-size: 50vw;
+        }
+        #btn-modelo-vigente{
+            display: block;
+            margin: 50px auto;
+            background: black;
+            color: #fff;
+            padding: 10px 50px;
+        }
 
 
 /*      MAPA        */
@@ -362,7 +399,7 @@ nav{
         
 /*      PLANOS          */
 #plano{
-    padding: 10vh 5vw;
+    padding: 10vh 4vw;
 
 }
     #plano-titulo{
@@ -372,23 +409,26 @@ nav{
     }
 #all-planos{
     display: flex;
-    justify-content: space-between;
+    justify-content: ;
 
 }
 #planos-f-p{
     display: flex;
     justify-content: space-between;
-    width: 65vw;
+    
 }
     .planos-free-plus{
         border: 1px solid white;
         border-radius: 15px;
-        padding: 20px;
+        width: 20vw;
+        margin: 0 20px;
+        padding: 15px;
+        text-align: center;
     }
         .planos-free-plus > p{
             font-size: 12px;        
         }
-        .linha{
+        .linha-planos{
             margin: 15px auto;
             border-top: 1px solid black;
             width: 70px;
@@ -459,7 +499,7 @@ nav{
     }
     .img-cargo-superior{
         width: 84px;
-        border: 4px solid #fff;
+        border: 4px solid white;
     }
 
 /*      FOOTER - OSPA    */
@@ -587,107 +627,4 @@ nav{
        /* border-radius: 0 20px 20px 0; */
         background-color: black;
         box-shadow: none;
-    }
-
-
-
-    /*   Menu Mobile    */
-
-
-    .mobile-menu {
-        display: none;
-        cursor: pointer;
-    }
-    .mobile-menu div {  /* LINHAS  DO HAMBURGUER*/
-        background: black;
-        transition: 0.3s;
-    }
-        .line1{
-            width: 15px;
-            height: 3px;
-            margin: 7px 0 7px 20px;
-            
-        } 
-        .line2{
-            width: 30px;
-            height: 3px;
-            margin: 7px;
-        } 
-        .line3{
-            width: 15px;
-            height: 3px;
-            margin: 7px;
-        }
-    
-    .nav-list.active {
-        transform: translateX(0);
-    }
-    @keyframes navLinkFade {
-        from{
-            opacity: 0;
-            transform: translateX(50px);
-        }	
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }	
-    .mobile-menu.active .line1 {
-        transform: rotate(-228deg) translate(1px, -1px);	
-        width: 13px;
-        height: 4px;
-    }
-    .mobile-menu.active .line2 {
-        transform: rotate(45deg) translate(-2px, 0px);
-        height: 4px;	
-    }
-    .mobile-menu.active .line3 {
-        transform: rotate(-47deg) translate(4px, -4px);		
-        width: 13px;
-        height: 4px;
-    }
-
-    @media screen and (max-width: 999px) {
-        body {
-        overflow-x: hidden;
-        }
-
-        #menu{
-            padding: 20px 3vw;
-        }
-
-        #acessarPlataforma{
-            position: fixed;
-            bottom: 20px;
-            left: 10vw;
-            right: 10vw;
-            text-align: center;
-            width: 80vw;
-        }
-        
-        .nav-list{
-        position: absolute;
-        top:0px;
-        right: 0;
-        width: 80vw;
-        max-width: 240px;
-        height: 60vw;
-        max-height: 400px;
-        background: #fff;
-        border: 2px solid #fff;   
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-        }
-        .nav-list li{
-        opacity: 0;
-        }
-        .mobile-menu {
-        display: block;
-        position: absolute;
-        left: 88vw;
-        top: 20px;
-        }
     }
