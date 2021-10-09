@@ -409,8 +409,6 @@ nav{
     }
 #all-planos{
     display: flex;
-    justify-content: ;
-
 }
 #planos-f-p{
     display: flex;
@@ -609,7 +607,6 @@ nav{
     }
     #newsletter-email{
         display: flex;
-        justify-content: ;
     }
     #newsletter-email > input{
         background-color: #77ACA8;
