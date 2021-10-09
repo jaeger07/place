@@ -319,14 +319,16 @@ nav{
         font-weight: normal;
     }
     #escolha-notebook{
-        margin: 0 10vw;
-        background: center center url('./imagens/07_escolha/mac.svg') no-repeat;
+        background: center 58% url('./imagens/07_escolha/mac.svg') no-repeat;
         background-size: 700px;
-        height: 80vh;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     #escolha-video{
-        margin-top: 110px;
-        margin-left: 340px;  
+        width: 534px;
+        height: 335px;  
     }
 
 
