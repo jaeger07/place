@@ -432,9 +432,19 @@ nav{
             border-top: 1px solid black;
             width: 70px;
         }
-#plano-premium-plus{
+        #plano-estudo-unitario{
+            background: #ececec;
+        }
+        #plano-premium{
+            background: #646464;
+            color: #fff;
+        }
 
-}
+        #plano-premium-plus{
+            background: #222;
+            color: #fff;
+
+        }
 
 
 /*      NOTICIAS       */
