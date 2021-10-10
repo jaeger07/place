@@ -358,10 +358,11 @@ padding: 2vh 0  10vh 0;
 }
 .time-linha{
     display: inline-table;
+    
 }
 .membro-time{
     display: inline-block;
-    width: 35vw;
+    width: 40vw;
 }
 
     
