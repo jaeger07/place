@@ -102,6 +102,7 @@
         bottom: 10px;
         left: 1vw;
         width: 95vw;
+        border: 1px solid #FFF;
     }
     /* Estudo Viabilidade*/
     
@@ -378,7 +379,7 @@ padding: 2vh 0  10vh 0;
 
 /* FOOTER   */
 
-#footer{
+footer{
     display: flex;
     flex-direction: column-reverse;
 
@@ -389,20 +390,13 @@ padding: 2vh 0  10vh 0;
 
 #footer-place{
     flex-direction: column;
+    justify-content: flex-start;
     padding: 8vh 0 8vh 10vw;
     background: #FFF;
 }
-    #place-by-ospa{
-        text-align: center;
-    }
-        #place-by-ospa > p{
-                margin: 20px 0 30px 0;
-                font-size: 12px;
-            }
-            #place-by-ospa > a{
-                display: none;
-                
-            }
+    #place-by-ospa{ text-align: left; }
+
+            #place-by-ospa > a{ display: none; }
 
     #sobre-comunidade-contato-copyright{width: auto;}
 
@@ -422,11 +416,10 @@ padding: 2vh 0  10vh 0;
                     bottom: -185px;
                     left: 35vw;
                 }
-                #copyright-cnpj > span:first-child{ left: 1vw; }
 
-    #newsletter{
-    font-size: 15px;
-    }
+            #copyright-cnpj > span:first-child{ left: 1vw; }
+
+    #newsletter{ font-size: 15px; }
         
     
     
@@ -435,50 +428,36 @@ padding: 2vh 0  10vh 0;
     
     
     #footer-ospa{
-        background-color: #222;
-        display: flex;
-        justify-content: space-between;
-        color: white;
-        padding: 5vh 10vw;
-    
+        padding: 15vh 10vw;
+        flex-direction: column;
     }
-    #footer-grupo-ospa{
-        display: flex;
-        align-items: center;
-        justify-items: center;
+    #logo-grupo-ospa{
+        margin-bottom: 15vh;  
     }
     #footer-ospa-all-institutos{
-        display: flex;
-        justify-content: space-between;
-        width: 60vw;
+        width: 80vw;
+        flex-direction: column;
     }
         .footer-ospa-each-institutos{
-            display: flex;
             justify-content: space-between;
-            flex-direction: column;
-            align-items: center;
-            height: 150px;
+            flex-direction: row;
+            align-items: flex-start;
+            height: 100px;
+            width: 80vw;
+            
         }
-            .footer-ospa-each-institutos > div{
+            .logos-intitutos-footer{
                 height: 30px;
-                
+                margin-bottom: 10px;
             }
-            .footer-ospa-each-institutos > p{
-                font-size: 12px;
-                color: #ADADAD;
-                text-align: center;
-                
-            }
-            .footer-ospa-each-institutos > a{
-                color: #fff;
-                border: 1px solid #fff;
-                border-radius: 20px;
-                padding: 5px 45px;
-                font-size: 14px;
-                font-weight: 600;
-            }
-        #footer-instituto-place > a{
-            background-color: #fff;
-            color: black;
-        }
+           
+        
+
+
+
+
+
+
+
+
 }

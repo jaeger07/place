@@ -557,7 +557,7 @@ nav{
     padding: 5vh 10vw;
 
 }
-#footer-grupo-ospa{
+#logo-grupo-ospa{
     display: flex;
     align-items: center;
     justify-items: center;
@@ -571,17 +571,18 @@ nav{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        align-items: center;
         height: 150px;
     }
-        .footer-ospa-each-institutos > div{
-            height: 30px;
-            
+        .logos-intitutos-footer{
+            height: 30px;  
         }
-        .footer-ospa-each-institutos > p{
+        .footer-ospa-each-institutos > div > p{
             font-size: 12px;
+            height: 56px;
+            display: flex;
+            align-items: center;
             color: #ADADAD;
-            text-align: center;
+            text-align: start;
             
         }
         .footer-ospa-each-institutos > a{
