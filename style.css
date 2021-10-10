@@ -425,13 +425,13 @@ nav{
         border: 1px solid white;
         border-radius: 15px;
         width: 20vw;
-        height: 70vh;
+        height: 80vh;
         margin: 0 20px;
         padding: 15px;
         text-align: center;
     }
         .class-plano-generico > p{
-            font-size: 10px;        
+            font-size: 12px;        
         }
         .beneficios-dos-planos{
             display: flex;
@@ -447,9 +447,12 @@ nav{
         .beneficio-inativo-plano{
             color: #ADADAD;
         }
+            .beneficio-ativo-plano > img{
+                margin: 0 10px;
+            }
             .beneficio-inativo-plano > img{
                 width: 0;
-                margin: 0 10px;
+                margin: 0 15px;
             }
         .beneficios-dos-planos > div > p{
             display: inline-block;
