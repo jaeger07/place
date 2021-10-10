@@ -45,7 +45,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10vw;
+    padding: 4vh 10vw;
 }
     #logo{
         font-size: 2em;
@@ -70,7 +70,7 @@ nav{
     height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
 
 }
     #divTexto{
@@ -81,7 +81,8 @@ nav{
     #divBtnCidade{
         display: flex;
         margin-left: 7vw;
-        margin-top: 30px;
+        margin-top: 8vh;
+        margin-bottom: 10vh;
         box-shadow: 0px 0px 8px gray;
         border-radius: 30px;
         width: 30vw;
@@ -114,8 +115,8 @@ nav{
     #powered{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin: auto 10vw;
-        vertical-align: center;
     }
 
 /*   PAP = PROPOSITO - ALGORITIMO - PRODUTO   */
@@ -342,7 +343,7 @@ nav{
     #escolha-notebook{
         background: center 58% url('./imagens/07_escolha/mac.svg') no-repeat;
         background-size: 700px;
-        height: 90vh;
+        height: 70vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -353,16 +354,16 @@ nav{
         }
     
     #modelo-vigente{
-        margin: 0 25vw;
+        margin: 0 10vw;
     }
         #imagem-modelo-vigente{
-            padding: 22vh 40vw;
-            background: url('./imagens/07_escolha/modelo-vigente.svg') no-repeat ;
-            background-size: 50vw;
+            padding: 210px 40vw;
+            background: 49% center url('./imagens/07_escolha/modelo-vigente.svg') no-repeat ;
+            background-size: 70%;
         }
         #btn-modelo-vigente{
             display: block;
-            margin: 50px auto;
+            margin: 0 auto 50px auto;
             background: black;
             color: #fff;
             padding: 10px 50px;
@@ -438,26 +439,21 @@ nav{
 
 /*      NOTICIAS       */
 #noticias{
-    margin: 0 10vw;
+    margin: 0 5vw;
 }
     #noticias-titulo{
         text-align: center;
         font-size: 32px;
         margin: 40px auto;
     }
-    #div-noticias{
-        display: flex;
-        justify-content: space-between;
+    #media-desktop{
+        display: block;
+        width: 90vw;
     }
-        .each-noticia > img{
-            display: block;
-            margin: 30px auto;
-        }
-        .each-noticia > p{
-            font-size: 12px;
-            font-weight: 400;
-            text-align: center;
-        }
+    #media-mobile{
+        display: none;
+    }
+     
 
 
 /*      TIME        */
@@ -479,15 +475,15 @@ nav{
 .membro-time{
     margin-bottom: 40px ;
     width: 18%;
+    text-align: center;
 }
 .membro-time > h1{
     font-size: 15px;
     font-weight: 500;
-    text-align: center;
 }
 .membro-time > p {
-    font-size: 10px;
-    text-align: center;
+    font-size: 12px;
+    color: #646464;
 }
     .membro-img{
         display: block;
@@ -499,6 +495,9 @@ nav{
         width: 84px;
         border: 4px solid white;
     }
+        .membro-time > .email-time{
+            color: #ADADAD;
+        }
 
 /*      FOOTER - OSPA    */
 
@@ -521,16 +520,21 @@ nav{
     width: 60vw;
 }
     .footer-ospa-each-institutos{
-
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
     }
         .footer-ospa-each-institutos > div{
             height: 30px;
+            
         }
         .footer-ospa-each-institutos > p{
             font-size: 12px;
             color: #ADADAD;
-            margin: 10px 0 25px 0;
-            height: 55px;
+            text-align: center;
+            
         }
         .footer-ospa-each-institutos > a{
             color: #fff;
@@ -557,7 +561,7 @@ nav{
     padding: 8vh 10vw;
 }
         #place-by-ospa{
-
+            text-align: center;
         }
             #place-by-ospa > p{
                 margin: 20px 0 30px 0;
@@ -586,7 +590,12 @@ nav{
         display: flex;
         flex-direction: column;
         font-size: 12px;
+        min-width: 100px;
+        
     }
+        .sobre-comunidade-contato > h4{
+            margin-bottom: 5px;
+        }
         .sobre-comunidade-contato > a , .sobre-comunidade-contato > div > a{
             color: #646464;
         }
@@ -598,7 +607,7 @@ nav{
         font-size: 12px;
     }
 #newsletter{
-
+    font-size: 16px;
 }
     #newsletter > p{
         color: #646464;

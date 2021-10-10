@@ -104,10 +104,42 @@
         top: auto;
         bottom: 10px;
         left: 1vw;
-        right: 10vw;
-        text-align: center;
         width: 95vw;
     }
+    /* Estudo Viabilidade*/
+    
+#div1{
+    height: 70vh;
+
+}
+    
+    #divBtnCidade{
+        margin-left: 2vw;
+        width: 93vw;
+    }
+        #input-cidade{
+            width: 90vw;
+        }
+            #input-cidade::placeholder {
+                font-weight: 500;
+            }
+        #btn-cidade{
+            background: 30% center url('./imagens/01_viabilidade/btnCidade.svg') no-repeat;
+            background-size: 25px;
+            background-color: #fff;
+            border: none;
+            box-shadow: none;
+            border-radius:  0 30px 30px 0;
+            padding: 20px 40px;
+        }
+            #btn-cidade:hover{
+                background-size: 27px ;
+            }
+
+    #powered > img{
+        width: 25vw;
+    }
+
 
     /*   PAP = PROPOSITO - ALGORITIMO - PRODUTO   */
 
@@ -228,7 +260,19 @@
             display: none;
         }
 
-        
+/*      ESCOLHA     */
+
+        #modelo-vigente{
+            margin: 0vw;
+        }
+            #imagem-modelo-vigente{
+                padding: 40vh 50vw;
+                background: center center url('./imagens/mobile/mobile-modelo-vigente.svg') no-repeat ;
+                background-size: 100%;
+            }
+            #btn-modelo-vigente{
+                display: none;
+            }
 /*      APROVAÇÃO       */
 #aprovacao{
     margin: 0;
@@ -284,4 +328,42 @@ padding: 2vh 0  10vh 0;
             display: none;             /* esconder barra de scroll no Chrome e Safari*/
         }
 
+
+ /*      NOTICIAS       */
+
+#media-desktop{
+    display: none;
+}
+#media-mobile{
+    display: block;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+ 
+ 
+
+/*      TIME        */
+
+
+#time{
+    margin: 20vh 10vw;
+    display: flex;
+    flex-direction: column;
+}
+#time-titulo{
+    text-align: center;
+    font-size: 32px;
+    margin: 40px auto;
+    
+}
+.time-linha{
+    display: inline-table;
+}
+.membro-time{
+    display: inline-block;
+    width: 35vw;
+}
+
+    
 }
