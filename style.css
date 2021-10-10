@@ -399,52 +399,87 @@ nav{
     }
         
 /*      PLANOS          */
+
+
 #plano{
     padding: 10vh 4vw;
 
 }
-    #plano-titulo{
+    #section-titulo-plano{
         text-align: center;
         font-size: 32px;
         margin: 50px;
     }
-#all-planos{
-    display: flex;
-}
-#planos-f-p{
-    display: flex;
-    justify-content: space-between;
-    
-}
-    .planos-free-plus{
+    #div-all-planos{
+        display: flex;
+    }
+        #div-3-planos-free-premium{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+    .class-plano-generico{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
         border: 1px solid white;
         border-radius: 15px;
         width: 20vw;
+        height: 70vh;
         margin: 0 20px;
         padding: 15px;
         text-align: center;
     }
-        .planos-free-plus > p{
-            font-size: 12px;        
+        .class-plano-generico > p{
+            font-size: 10px;        
+        }
+        .beneficios-dos-planos{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: 35vh;
+            font-size: 10px;
+        }
+        .beneficio-ativo-plano{
+            
+        }
+        .beneficio-inativo-plano{
+            color: #ADADAD;
+        }
+            .beneficio-inativo-plano > img{
+                width: 0;
+                margin: 0 10px;
+            }
+        .beneficios-dos-planos > div > p{
+            display: inline-block;
         }
         .linha-planos{
             margin: 15px auto;
             border-top: 1px solid black;
             width: 70px;
         }
-        #plano-estudo-unitario{
-            background: #ececec;
+        .btn-plano{
+            background: #77ACA8;
+            padding: 5px 40px;
+            font-size: 12px;
         }
-        #plano-premium{
-            background: #646464;
-            color: #fff;
-        }
+    #plano-estudo-unitario{
+        color: #222;
+        background: #ececec;
+        border: none;
+    }
+    #plano-premium{
+        background: #646464;
+        color: #fff;
+        border: none;
+    }
+    #plano-premium-plus{
+        background: #222;
+        color: #fff;
+        border: none;
+    }
 
-        #plano-premium-plus{
-            background: #222;
-            color: #fff;
-
-        }
 
 
 /*      NOTICIAS       */
@@ -503,7 +538,7 @@ nav{
     }
     .img-cargo-superior{
         width: 84px;
-        border: 4px solid white;
+        border: 3px solid #fff;
     }
         .membro-time > .email-time{
             color: #ADADAD;
@@ -637,7 +672,7 @@ nav{
         font-size: 12px;
     }
     #newsletter-email > button{
-        background: center center url(./imagens/13_footerPlace/seta.svg) no-repeat;
+        background: center center url(./imagens/14-footer-place/seta.svg) no-repeat;
         background-size: 35%;
         width: 60px;
        /* border-radius: 0 20px 20px 0; */
