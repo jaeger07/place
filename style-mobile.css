@@ -377,15 +377,14 @@ padding: 2vh 0  10vh 0;
 /*      FOOTER PLACE        */
 
 #footer-place{
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 8vh 10vw;
     background: #FFF;
 }
-        #place-by-ospa{
-            text-align: center;
-        }
+    #place-by-ospa{
+        text-align: center;
+    }
         #place-by-ospa > p{
                 margin: 20px 0 30px 0;
                 font-size: 12px;
@@ -395,38 +394,30 @@ padding: 2vh 0  10vh 0;
                 
             }
 
-            #sobre-comunidade-contato-copyright{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                width: auto;
-            }
-            #sobre-comunidade-contato{
-                    display: inline-block;
+    #sobre-comunidade-contato-copyright{width: auto;}
+
+            #sobre-comunidade-contato{ display: inline-block; }
+
+                .sobre-comunidade-contato{ margin-bottom: 5vh; }
+                
+                #sobre-comunidade-contato > .scc-menor-mobile{
+                        display: inline-flex;
+                        width: 35vw ;
+                    }
+
+            #copyright-cnpj{ position: relative; }
+
+                #copyright-cnpj > span{ 
+                    position: absolute;
+                    bottom: -185px;
+                    left: 40vw;
                 }
-            #sobre-comunidade-contato > .scc-menor-mobile{
-                    display: inline-flex;
-                    width: 35vw ;
-                }
-                .sobre-comunidade-contato{
-                    margin: 5vh 0;
-                }
-            #copyright-cnpj{ 
-                display: flex;
-                justify-content: space-between;
-                font-size: 12px;
-            }
+                #copyright-cnpj > span:first-child{ left: 2vw; }
+
     #newsletter{
-    font-size: 16px;
+    font-size: 15px;
     }
         
-        #newsletter-email > input{
-            width: 75vw;
-        }
-        #newsletter-email > button{
-            background-size: 35%;
-            min-width: 60px;
-        }
     
     
     

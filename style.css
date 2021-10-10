@@ -652,6 +652,8 @@ nav{
                 align-items: center;
             }
     #copyright-cnpj{
+        display: flex;
+        justify-content: space-around;
         font-size: 12px;
     }
 #newsletter{
@@ -668,6 +670,7 @@ nav{
     #newsletter-email > input{
         background-color: #77ACA8;
         font-size: 12px;
+        width: 75%;
       /*  border-radius: 20px 0 0 20px; */
     }
     #newsletter-email > input::placeholder{
@@ -677,7 +680,7 @@ nav{
     #newsletter-email > button{
         background: center center url(./imagens/14-footer-place/seta.svg) no-repeat;
         background-size: 35%;
-        width: 60px;
+        min-width: 60px;
        /* border-radius: 0 20px 20px 0; */
         background-color: black;
         box-shadow: none;
