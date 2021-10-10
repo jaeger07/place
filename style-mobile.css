@@ -295,7 +295,7 @@
 padding: 2vh 0  10vh 0;
 }
     
-#all-planos{
+#div-all-planos{
     display: flex;
     justify-content: space-between;
     width: 100vw;
@@ -310,7 +310,7 @@ padding: 2vh 0  10vh 0;
     scrollbar-width: none;    /* esconder barra de scroll no Firefox*/
     
 }
-.planos-free-plus{
+.class-plano-generico{
     flex: none;
     width: 60vw;
     margin: 0 3vw;
@@ -320,10 +320,10 @@ padding: 2vh 0  10vh 0;
     pointer-events: none;
     
 }
-#planos-f-p{
+#div-3-planos-free-premium{
     width: auto;
 }
-        #all-planos::-webkit-scrollbar{
+        #div-all-planos::-webkit-scrollbar{
             display: none;             /* esconder barra de scroll no Chrome e Safari*/
         }
 
