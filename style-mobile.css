@@ -94,7 +94,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
 
     #acessarPlataforma{
         position: fixed;
@@ -111,14 +111,16 @@
 }
     
     #divBtnCidade{
-        margin-left: 2vw;
-        width: 93vw;
+        margin-left: 3vw;
+        width: 95vw;
     }
         #input-cidade{
-            width: 90vw;
+            width: 75vw;
+            padding: 12px 10px 12px 25px;
         }
             #input-cidade::placeholder {
                 font-weight: 500;
+                
             }
         #btn-cidade{
             background: 30% center url('./imagens/01_viabilidade/btnCidade.svg') no-repeat;
@@ -127,7 +129,7 @@
             border: none;
             box-shadow: none;
             border-radius:  0 30px 30px 0;
-            padding: 20px 40px;
+            padding: 20px 10vw;
         }
             #btn-cidade:hover{
                 background-size: 27px ;
