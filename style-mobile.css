@@ -346,7 +346,7 @@ padding: 2vh 0  10vh 0;
 
 
 #time{
-    margin: 20vh 10vw;
+    margin: 20vh 5vw;
     display: flex;
     flex-direction: column;
 }
@@ -361,8 +361,9 @@ padding: 2vh 0  10vh 0;
     
 }
 .membro-time{
-    display: inline-block;
-    width: 40vw;
+    display: inline-flex;
+    flex-direction: column;
+    width: 45vw;
 }
 
 /* FOOTER   */
@@ -378,8 +379,7 @@ padding: 2vh 0  10vh 0;
 
 #footer-place{
     flex-direction: column;
-    justify-content: space-between;
-    padding: 8vh 10vw;
+    padding: 8vh 0 8vh 10vw;
     background: #FFF;
 }
     #place-by-ospa{
@@ -410,9 +410,9 @@ padding: 2vh 0  10vh 0;
                 #copyright-cnpj > span{ 
                     position: absolute;
                     bottom: -185px;
-                    left: 40vw;
+                    left: 35vw;
                 }
-                #copyright-cnpj > span:first-child{ left: 2vw; }
+                #copyright-cnpj > span:first-child{ left: 1vw; }
 
     #newsletter{
     font-size: 15px;
