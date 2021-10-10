@@ -264,14 +264,24 @@
         #modelo-vigente{
             margin: 0vw;
         }
-            #imagem-modelo-vigente{
-                padding: 40vh 50vw;
+            #imagem-modelo-vigente{ /* apartir de uma tela de  480 px, corta a imagem*/
+                padding: 60vw 50vw;
                 background: center center url('./imagens/mobile/mobile-modelo-vigente.svg') no-repeat ;
                 background-size: 100%;
             }
             #btn-modelo-vigente{
                 display: none;
             }
+
+            /*      MAPA        */
+
+#mapa{
+    background: 70% center  url('./imagens/08_mapa/mapa.png') no-repeat;
+    background-size: cover;
+    height: 80vw;
+    margin: 10vh 0;
+
+}
 /*      APROVAÇÃO       */
 #aprovacao{
     margin: 0;
