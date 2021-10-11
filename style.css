@@ -56,8 +56,13 @@ nav{
         list-style: none;
     }
         .itemMenu{
-            padding: 20px;
+            padding: 10px 0;
+            margin: 10px 20px;
+            border-radius: 0;
         }
+            .itemMenu:hover{
+                border-bottom: 3px solid black;
+            }
     #acessarPlataforma{
         background-color: black;
         color: #fff;
