@@ -341,16 +341,17 @@ nav{
         font-weight: normal;
     }
     #escolha-notebook{
-        background: center 58% url('./imagens/07_escolha/mac.svg') no-repeat;
-        background-size: 700px;
+        background: 49% 57% url('./imagens/07_escolha/mac.svg') no-repeat;
+        background-size: 100vh;
+        
         height: 70vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
         #escolha-video{
-            width: 534px;
-            height: 335px;  
+            width: 76vh;
+            height: 50vh;
         }
     
     #modelo-vigente{
@@ -402,7 +403,7 @@ nav{
 
 
 #plano{
-    padding: 10vh 4vw;
+    padding: 10vh 0;
 
 }
     #section-titulo-plano{
@@ -412,12 +413,23 @@ nav{
     }
     #div-all-planos{
         display: flex;
+        width: 100vw;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+
+        -ms-overflow-style: none; 
+        scrollbar-width: none;
     }
         #div-3-planos-free-premium{
             display: flex;
             justify-content: space-between;
-            
         }
+            #div-all-planos::-webkit-scrollbar{
+                display: none;             /* esconder barra de scroll no Chrome e Safari*/
+            }
+            
     .class-plano-generico{
         display: flex;
         justify-content: space-evenly;
@@ -425,10 +437,14 @@ nav{
         border: 1px solid white;
         border-radius: 15px;
         width: 20vw;
+        min-width: 250px;
         height: 80vh;
         margin: 0 20px;
         padding: 15px;
         text-align: center;
+
+        scroll-snap-align: center ;
+        pointer-events: none;
     }
         .class-plano-generico > p{
             font-size: 12px;        

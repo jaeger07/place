@@ -55,6 +55,11 @@
     
 }
 
+@media screen and (min-width: 1150px) {
+    #div-all-planos{
+        justify-content: space-evenly;
+    }
+}
 
 
 @media screen and (max-width: 999px) {
@@ -108,7 +113,6 @@
     
 #div1{
     height: 70vh;
-
 }
     
     #divBtnCidade{
@@ -120,8 +124,7 @@
             padding: 12px 10px 12px 25px;
         }
             #input-cidade::placeholder {
-                font-weight: 500;
-                
+                font-weight: 500;  
             }
         #btn-cidade{
             background: 30% center url('./imagens/01_viabilidade/btnCidade.svg') no-repeat;
@@ -261,20 +264,27 @@
         }
 
 /*      ESCOLHA     */
+#escolha-notebook{
+    background: center 54% url('./imagens/07_escolha/mac.svg') no-repeat;
+    background-size: 80vw;
+}
+    #escolha-video{
+        width: 61vw;
+        height: 40vw;  
+    }
 
-        #modelo-vigente{
-            margin: 0vw;
+    #modelo-vigente{ margin: 0; }
+
+        #imagem-modelo-vigente{ /* apartir de uma tela de  480 px, corta a imagem*/
+            padding: 60vw 50vw;
+            background: center center url('./imagens/mobile/mobile-modelo-vigente.svg') no-repeat ;
+            background-size: 100%;
         }
-            #imagem-modelo-vigente{ /* apartir de uma tela de  480 px, corta a imagem*/
-                padding: 60vw 50vw;
-                background: center center url('./imagens/mobile/mobile-modelo-vigente.svg') no-repeat ;
-                background-size: 100%;
-            }
-            #btn-modelo-vigente{
-                display: none;
-            }
+        #btn-modelo-vigente{
+            display: none;
+        }
 
-            /*      MAPA        */
+ /*      MAPA        */
 
 #mapa{
     background: 70% center  url('./imagens/08_mapa/mapa.png') no-repeat;
@@ -283,7 +293,11 @@
     margin: 10vh 0;
 
 }
+
+
 /*      APROVAÇÃO       */
+
+
 #aprovacao{
     margin: 0;
 }
@@ -308,35 +322,19 @@ padding: 2vh 0  10vh 0;
     
 #div-all-planos{
     display: flex;
-    justify-content: space-between;
-    width: 100vw;
+    justify-content: space-between; 
     padding: 0 10vw;
-
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-
-    -ms-overflow-style: none; /* esconder barra de scroll no IE 10*/
-    scrollbar-width: none;    /* esconder barra de scroll no Firefox*/
-    
 }
 .class-plano-generico{
     flex: none;
     width: 60vw;
     margin: 0 3vw;
-    padding: 10px;
-
-    scroll-snap-align: center ;
-    pointer-events: none;
-    
+    padding: 10px; 
 }
 #div-3-planos-free-premium{
     width: auto;
 }
-        #div-all-planos::-webkit-scrollbar{
-            display: none;             /* esconder barra de scroll no Chrome e Safari*/
-        }
+       
 
 
  /*      NOTICIAS       */
