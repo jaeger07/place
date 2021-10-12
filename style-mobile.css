@@ -340,8 +340,10 @@
         font-weight: 600;
     }
     #aprovado-por{
-        margin: 12vh 0 0 0;
-        flex-direction: column;
+        display: flexbox;
+        flex-wrap: wrap;
+        
+        margin: 12vh 10vw 0 10vw;
     }
     #aprovado-por > img{
         margin-bottom: 6vh ;
@@ -389,7 +391,7 @@ padding: 2vh 0  10vh 0;
 
 
 #time{
-    margin: 20vh 5vw;
+    margin: 10vh 5vw;
     display: flex;
     flex-direction: column;
 }
