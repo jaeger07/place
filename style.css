@@ -345,7 +345,6 @@ nav{
                 
             }
             .uteis > div{
-                height: 244px;
                 max-width: 260px;
                 display: flex;
                 flex-direction: column;
@@ -385,6 +384,7 @@ nav{
             width: 28vw;
             border-radius: 30px 0 0 30px;
         }
+            #util4 > p{width: 190px;}
 
 /*      ESCOLHA         */
 
@@ -502,7 +502,6 @@ nav{
         text-align: center;
         min-width: 290px;
         scroll-snap-align: center ;
-        pointer-events: none;
     }
         .class-plano-generico > p{
             font-size: 12px;      
@@ -537,27 +536,37 @@ nav{
             #plano-premium > .linha-planos{ border-color: white;}
             #plano-premium-plus > .linha-planos{ border-color: white;}
 
-        .btn-plano{
-            background: #77ACA8;
-            padding: 7px 30px;
-            font-size: 14px;
-            cursor: pointer;
+            #plano-free{
+                border: 1px solid white;
+            }
+            #plano-estudo-unitario{
+                color: #222;
+                background: #ececec;
+            }
+            #plano-premium{
+                background: #646464;
+                color: #fff;
+            }
+            #plano-premium-plus{
+                background: #222;
+                color: #fff;
+            }
+    .btn-plano{
+        background: #77ACA8;
+        padding: 7px 20px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .btn-plano-free{
+        background: black;
+        color: #fff;
+    }
+        .btn-plano:hover{
+            background: #fff;
+            color: black;
+            border: 1px solid #222;
+            padding: 6px 25px;
         }
-    #plano-free{
-        border: 1px solid white;
-    }
-    #plano-estudo-unitario{
-        color: #222;
-        background: #ececec;
-    }
-    #plano-premium{
-        background: #646464;
-        color: #fff;
-    }
-    #plano-premium-plus{
-        background: #222;
-        color: #fff;
-    }
     .btn-plano-plus{
         background: #fff;
         color: black;
@@ -566,11 +575,8 @@ nav{
             background: black;
             color: #fff;
             border: 2px solid #fff;
+            padding: 5px 25px;
         }
-    .btn-plano-free{
-        background: black;
-        color: #fff;
-    }
     #linha-divisoria-planos{
         height: 50vh;
         border-left: 2px solid #222;
