@@ -269,14 +269,14 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        margin: 10vh 5vw 20vh 5vw;
+        margin: 10vh 4vw 20vh 4vw;
         
     }
         .uteis{
             display: inline-table;
             margin-left: 2vw;
             padding: 0;
-            width: 159px;
+            width: 42vw;
             border: none;
             pointer-events: none;
         }
@@ -285,7 +285,7 @@
                 display: inline-block;
             }
                 #util1 , #util4{
-                    width: 160px;
+                    width: 42vw;
                     padding-left: 0;
                 }
                 
