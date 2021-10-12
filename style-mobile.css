@@ -63,7 +63,10 @@
 
 
 @media screen and (max-width: 999px) {
-
+    header{
+        background: 65% 0% url(./imagens/mobile/secao1-background.svg) no-repeat;     
+        background-size: 1050px;
+    }
     #menu{
         padding: 20px 3vw;
     }
@@ -110,14 +113,19 @@
         border: 2px solid #FFF;
     }
     /* Estudo Viabilidade*/
-    
+ 
 #div1{
-    height: 70vh;
+    height: 80vh;
+}
+#divTexto{
+    margin-left: 5vw;
+    font-size: 14px;
 }
     
     #divBtnCidade{
         margin-left: 3vw;
         width: 95vw;
+        margin: 5vh auto;
     }
         #input-cidade{
             width: 75vw;
@@ -285,9 +293,13 @@
         }
 
 /*      ESCOLHA     */
+#escolha-titulo{
+    font-size: 20px;
+}
 #escolha-notebook{
     background: center 54% url('./imagens/07_escolha/mac.svg') no-repeat;
     background-size: 80vw;
+    height: 40vh;
 }
     #escolha-video{
         width: 61vw;
