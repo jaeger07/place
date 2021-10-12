@@ -38,8 +38,8 @@ body{
 
 header{
     height: 100vh;
-    background: 100% 60% url(./imagens/01_viabilidade/secao1-background.svg) no-repeat;
-    background-size: 1100px;
+    background: 80% 40% url(./imagens/01_viabilidade/secao1-background.svg) no-repeat;
+    background-size: 90vw;
 }
 nav{
     width: 100%; 

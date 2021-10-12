@@ -65,10 +65,10 @@
 @media screen and (max-width: 999px) {
     header{
         background: 65% 0% url(./imagens/mobile/secao1-background.svg) no-repeat;     
-        background-size: 1050px;
+        background-size: 130vh;
     }
     #menu{
-        padding: 20px 3vw;
+        padding: 20px 5vw;
     }
 
     #acessarPlataforma{
