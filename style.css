@@ -37,6 +37,8 @@ body{
 
 header{
     height: 100vh;
+    background: 100% 60% url(./imagens/01_viabilidade/secao1-background.svg) no-repeat;
+    background-size: 1100px;
 }
 nav{
     width: 100%; 
@@ -56,18 +58,26 @@ nav{
         list-style: none;
     }
         .itemMenu{
-            padding: 10px 0;
-            margin: 10px 20px;
+            padding: 10px;
+            margin: 10px;
             border-radius: 0;
+            font-size: 16px;
+            transition: 0.8px;
         }
             .itemMenu:hover{
                 border-bottom: 3px solid black;
+                font-size: 17px;
+                margin: 8px;
             }
     #acessarPlataforma{
         background-color: black;
         color: #fff;
         border-radius: 30px;
         padding: 10px 50px;
+    }
+    #acessarPlataforma:hover{
+        background: #fff;
+        color: black;
     }
 
 
@@ -79,8 +89,8 @@ nav{
 
 }
     #divTexto{
-        margin-left: 10vw;
-        font-size: 14px;
+        margin-left: 12vw;
+        font-size: 16px;
     }
     
     #divBtnCidade{
@@ -90,14 +100,14 @@ nav{
         margin-bottom: 10vh;
         box-shadow: 0px 0px 8px gray;
         border-radius: 30px;
-        width: 30vw;
+        width: 35vw;
 
     }
         #input-cidade{
             background: #fff;
             border-radius: 30px 0 0 30px; 
             padding: 12px 50px;
-            width: 28vw;
+            width: 32vw;
             font-size: 16px;
         }
             #input-cidade::placeholder {
@@ -123,6 +133,7 @@ nav{
         align-items: center;
         margin: auto 10vw;
     }
+        #powered > img{ max-height: 20px;}
 
 /*   PAP = PROPOSITO - ALGORITIMO - PRODUTO   */
 
@@ -190,7 +201,7 @@ nav{
     display: flex;  
     justify-content: space-between;
     align-items: stretch;
-    height: 65vh;
+    height: 75vh;
     } 
         .legislacao-via{
             display: flex;
@@ -198,7 +209,7 @@ nav{
             width: 30vw;
         } 
             .legislacao-via > h1 { /* titulos legislação e viabilidade*/
-                font-size: 18px;
+                font-size: 20px;
                 margin-bottom: 30px;
             }
             .lei-via{     /* div sem o titulo*/
@@ -206,12 +217,17 @@ nav{
                 flex-direction: column;
                 justify-content: space-between;
                 height: 92%;
+                width: 32vw;
             }
             .lei-linhas-left{
                 display: flex;
                 justify-content: space-between;
-
             }
+                 #lei-down-left{ padding-right: 20px;}
+                 #lei-down-left > .lei-via-itens > .lei-via-img{ padding: 10px 0; }
+                 .lei-via-img:nth-child(4){padding: 20px 0;}
+                 
+
             .via-linhas-right{
                 display: flex;
                 justify-content: space-between;
@@ -220,22 +236,23 @@ nav{
                 .lei-via-itens{
                     display: flex;
                     flex-direction: column;
-                    min-width: 130px;
-
+                    min-width: 128px;
                 }
                     .lei-via-img{
                         width: 80px;
                         height: 80px;
-                        
+                        margin-bottom: 10px;
                     }
                     .lei-via-p{
-                        font-size: 12px;
-                        height: 92px;
+                        font-size: 14px;
                     }
             .lei-via-btn{
                 padding: 5px 45px;
-                margin: 10px 0;
+                margin: 10px 10px;
                 border: 1px solid #fff;
+            }
+            .lei-via-btn:hover{
+                background: #fff;
             }
 
     #mais{
@@ -252,7 +269,7 @@ nav{
 /*      FUNCIONALIDADES     */
 
 #funcionalidades{
-    padding-top: 60px;
+    padding-top: 100px;
 
 }
     #func-Titulo{
@@ -260,7 +277,7 @@ nav{
         height: 10vh;
     }
     #divFunc{
-        height: 90vh;
+        height: 70vh;
     }
     #menuFunc{
         display: flex;
@@ -276,6 +293,12 @@ nav{
             padding: 45px 0;   
             border-radius: 30px 30px 0 0;          
         }
+            .itensFunc:nth-child(4){    /* Resolver o alinhamento itens com 2 linhas */
+                padding: 33px 0;
+            }
+            .itensFunc:nth-child(7){    /* Resolver o alinhamento itens com 2 linhas */
+                padding: 33px 0;
+            }
 
             .itensFunc:hover{
                 background: #D7E2E1;
@@ -298,6 +321,7 @@ nav{
     #util-titulo{
         text-align: center;
         font-weight: normal;
+        font-size: 30px;
     }
     #utilDiv{
         display: flex;
@@ -305,11 +329,27 @@ nav{
         margin: 80px 0;
     }
         .uteis{
-            padding: 4vh 2vw;
-            width: 17vw; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4vh 0;
+            width: 18vw; 
             border: 2px solid #e8e8e8;
             border-radius: 30px;
+            
         }
+            .uteis:hover > .util-btn{
+                visibility: visible;
+                
+            }
+            .uteis > div{
+                height: 244px;
+                max-width: 260px;
+                display: flex;
+                flex-direction: column;
+                
+            }
             .uteis-img{
                 height: 80px;
                 width:  80px;
@@ -317,23 +357,32 @@ nav{
 
             }
             .uteis-p{
-                
+                max-width: 260px;
+                font-family: Aeonik-Regular;
+                font-size: 18px;
+                font-weight: 400;
             }
-                #util1{
-                    width: 28vw ;
-                    border-radius: 0 30px 30px 0;
-                    padding-left: 10vw;
-                }
-                #util4{
-                    width: 28vw;
-                    border-radius: 30px 0 0 30px;
-                }
-        #util-btn{
-            display: block;
-            margin: 30px auto;
-            background: black;
-            color: #fff;
-            padding: 10px 50px;
+            .uteis-p > strong{
+                text-decoration: underline;
+            }
+            .util-btn{
+                visibility: hidden;
+                display: block;
+                margin: 25px auto 0 auto;
+                background: black;
+                color: #fff;
+                padding: 10px 50px;
+                font-weight: 500;
+                transition: ease-in-out 0.4s;
+            }
+        #util1{
+            width: 28vw ;
+            border-radius: 0 30px 30px 0;
+            padding-left: 10vw;
+        }
+        #util4{
+            width: 28vw;
+            border-radius: 30px 0 0 30px;
         }
 
 /*      ESCOLHA         */
@@ -344,6 +393,7 @@ nav{
     #escolha-titulo{
         text-align: center;
         font-weight: normal;
+        font-size: 30px;
     }
     #escolha-notebook{
         background: 49% 57% url('./imagens/07_escolha/mac.svg') no-repeat;
@@ -393,6 +443,7 @@ nav{
     #aprovacao-titulo{
         text-align: center;
         font-weight: 600;
+        font-size: 35px;
     }
     #aprovado-por{
         display: flex;
@@ -413,11 +464,13 @@ nav{
 }
     #section-titulo-plano{
         text-align: center;
-        font-size: 32px;
+        font-size: 35px;
         margin: 50px;
+
     }
     #div-all-planos{
         display: flex;
+        align-items: center;
         width: 100vw;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
@@ -439,20 +492,19 @@ nav{
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
-        border: 1px solid white;
         border-radius: 15px;
         width: 20vw;
         min-width: 250px;
-        height: 80vh;
-        margin: 0 20px;
-        padding: 15px;
+        height: 85vh;
+        margin: 0 15px;
+        padding: 30px 15px;
         text-align: center;
-
+        min-width: 290px;
         scroll-snap-align: center ;
         pointer-events: none;
     }
         .class-plano-generico > p{
-            font-size: 12px;        
+            font-size: 12px;      
         }
         .beneficios-dos-planos{
             display: flex;
@@ -460,10 +512,8 @@ nav{
             justify-content: space-between;
             align-items: flex-start;
             height: 35vh;
-            font-size: 10px;
-        }
-        .beneficio-ativo-plano{
-            
+            min-width: 258px;
+            font-size: 12px;
         }
         .beneficio-inativo-plano{
             color: #ADADAD;
@@ -472,8 +522,8 @@ nav{
                 margin: 0 10px;
             }
             .beneficio-inativo-plano > img{
-                width: 0;
-                margin: 0 15px;
+                visibility: hidden;
+                margin: 0 10px;
             }
         .beneficios-dos-planos > div > p{
             display: inline-block;
@@ -481,27 +531,48 @@ nav{
         .linha-planos{
             margin: 15px auto;
             border-top: 1px solid black;
-            width: 70px;
+            width: 120px;
         }
+            #plano-premium > .linha-planos{ border-color: white;}
+            #plano-premium-plus > .linha-planos{ border-color: white;}
+
         .btn-plano{
             background: #77ACA8;
-            padding: 5px 40px;
-            font-size: 12px;
+            padding: 7px 30px;
+            font-size: 14px;
+            cursor: pointer;
         }
+    #plano-free{
+        border: 1px solid white;
+    }
     #plano-estudo-unitario{
         color: #222;
         background: #ececec;
-        border: none;
     }
     #plano-premium{
         background: #646464;
         color: #fff;
-        border: none;
     }
     #plano-premium-plus{
         background: #222;
         color: #fff;
-        border: none;
+    }
+    .btn-plano-plus{
+        background: #fff;
+        color: black;
+    }
+        .btn-plano-plus:hover{
+            background: black;
+            color: #fff;
+            border: 2px solid #fff;
+        }
+    .btn-plano-free{
+        background: black;
+        color: #fff;
+    }
+    #linha-divisoria-planos{
+        height: 50vh;
+        border-left: 2px solid #222;
     }
 
 
@@ -512,7 +583,7 @@ nav{
 }
     #noticias-titulo{
         text-align: center;
-        font-size: 32px;
+        font-size: 35px;
         margin: 40px auto;
     }
     #media-desktop{
@@ -533,7 +604,7 @@ nav{
 }
 #time-titulo{
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
     margin: 40px auto;
     
 }
@@ -557,12 +628,12 @@ nav{
     .membro-img{
         display: block;
         margin: 10px auto;
-        width: 80px;
+        width: 120px;
         border-radius: 50%;
     }
     .img-cargo-superior{
-        width: 84px;
-        border: 3px solid #fff;
+        width: 120px;
+        border: 4px solid #fff;
     }
         .membro-time > .email-time{
             color: #ADADAD;
@@ -635,11 +706,12 @@ nav{
         }
             #place-by-ospa > p{
                 margin: 20px 0 30px 0;
-                font-size: 12px;
+                font-size: 16px;
+                width: 200px;
             }
-            #place-by-ospa > a{
+            #btn-by-ospa-footer{
                 color: #fff;
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: 500;
                 background-color: black;
                 padding: 10px 30px;
@@ -664,20 +736,28 @@ nav{
         
     }
         .sobre-comunidade-contato > h4{
-            margin-bottom: 5px;
+            margin-bottom: 10px;
         }
         .sobre-comunidade-contato > a , .sobre-comunidade-contato > div > a{
             color: #646464;
+        }
+        .sobre-comunidade-contato > a:hover , .sobre-comunidade-contato > div > a:hover{
+        color: #222;
+           text-decoration: underline;
         }
             .footer-soon{
                 display: flex;
                 align-items: center;
             }
-    #copyright-cnpj{
-        display: flex;
-        justify-content: space-around;
+    #copyright-cnpj > p{
+        display: inline-block;
         font-size: 12px;
     }
+    #copyright-cnpj > p:first-child{
+        margin-right: 8vw;
+        
+    }
+    
 #newsletter{
     font-size: 16px;
 }
@@ -691,19 +771,22 @@ nav{
     }
     #newsletter-email > input{
         background-color: #77ACA8;
-        font-size: 12px;
+        font-size: 14px;
         width: 75%;
-      /*  border-radius: 20px 0 0 20px; */
     }
     #newsletter-email > input::placeholder{
         color: black;
-        font-size: 12px;
+        font-size: 14px;
     }
     #newsletter-email > button{
         background: center center url(./imagens/14-footer-place/seta.svg) no-repeat;
         background-size: 35%;
         min-width: 60px;
-       /* border-radius: 0 20px 20px 0; */
         background-color: black;
         box-shadow: none;
+    }
+    #btn-retorno-topo{
+        position: fixed;
+        bottom: 10px;
+        left: 95vw;
     }

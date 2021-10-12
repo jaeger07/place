@@ -107,7 +107,7 @@
         bottom: 10px;
         left: 1vw;
         width: 95vw;
-        border: 1px solid #FFF;
+        border: 2px solid #FFF;
     }
     /* Estudo Viabilidade*/
     
@@ -152,7 +152,7 @@
     #mobile-PAP{
         display: flex;
         flex-direction: column;
-        margin: 5vh 5vw;
+        margin: 2vh 5vw 15vh 5vw;
     }
 
 /*      DADOS        */
@@ -191,7 +191,7 @@
         } 
     #mobile-algoritmo{
         display: flex;
-        padding: 20px 0;
+        padding: 50px 0;
         border-top: 1px solid white;
         border-bottom: 1px solid white;
     }
@@ -200,11 +200,15 @@
         }
 
 /*      FUNCIONALIDADES     */
+#funcionalidades{
+    padding-top: 50px;
+}
 #func-Titulo{
     font-size: 22px;
+    
 }
     #divFunc{
-        height: 70vh;
+        height: 60vh;
         display: flex;
         justify-content: flex-start;
 
@@ -212,24 +216,41 @@
     #mobile-img-soon{
         display: flex;
         flex-direction: column;
-        width: 10vw;
+        justify-content: space-between;
+        width: 30px;
     }
+        #img-func-disponivel{
+            height: 250px;
+        }
+        #img-func-soon{
+            height: 120px;
+            margin-bottom: 10px;
+        }
+
     #menuFunc{
         flex-direction: column;
-        padding: 0 ;
+        padding: 20px 0;
+        
         height: auto;
         
     }
         .itensFunc{
-            width: 25vw;
-            padding: 20px 0;   
+            width: 100px;
+            padding: 5px 0;   
             border-radius: 0;
             font-size: 12px;          
         }
+            .itensFunc:nth-child(4){    /* Resolver o alinhamento itens com 2 linhas */
+                padding: 8px 0;
+            }
+            .itensFunc:nth-child(7){    /* Resolver o alinhamento itens com 2 linhas */
+                padding: 10px 0;
+                margin-top: 50px;
+            }
         #painelFunc{
             height: 100%;
-            width: 60vw;
-            
+            width: 100%;
+            border-radius: 20px 0 0 20px;
         }
         /*      Utilidades       */
 #utilidade{
@@ -374,13 +395,14 @@ padding: 2vh 0  10vh 0;
     flex-direction: column;
     width: 45vw;
 }
+        .membro-img{ width: 80px; }
+        .img-cargo-superior{ width: 84px; }
 
 /* FOOTER   */
 
 footer{
     display: flex;
     flex-direction: column-reverse;
-
 }
 
 
@@ -409,15 +431,17 @@ footer{
 
             #copyright-cnpj{ position: relative; }
 
-                #copyright-cnpj > span{ 
+                #copyright-cnpj > p{ 
                     position: absolute;
                     bottom: -185px;
                     left: 35vw;
                 }
 
-            #copyright-cnpj > span:first-child{ left: 1vw; }
+            #copyright-cnpj > p:first-child{ left: 1vw; }
 
     #newsletter{ font-size: 15px; }
+
+    
         
     
     
@@ -430,7 +454,9 @@ footer{
         flex-direction: column;
     }
     #logo-grupo-ospa{
-        margin-bottom: 15vh;  
+        margin-bottom: 15vh;
+        display: flex;  
+        justify-content: space-between;
     }
     #footer-ospa-all-institutos{
         width: 80vw;
@@ -449,7 +475,10 @@ footer{
                 margin-bottom: 10px;
             }
            
-        
+            #btn-retorno-topo{
+                position: static;
+                
+            }
 
 
 
