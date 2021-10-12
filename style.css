@@ -300,7 +300,9 @@ nav{
             .itensFunc:nth-child(7){    /* Resolver o alinhamento itens com 2 linhas */
                 padding: 33px 0;
             }
-
+            .itensFunc-soon{
+                color: #646464; 
+             }
             .itensFunc:hover{
                 background: #D7E2E1;
             }
