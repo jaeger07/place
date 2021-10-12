@@ -29,6 +29,7 @@
     }
     body,html{
         overflow-x: hidden;
+        position: relative;
     }
 body{
     background: linear-gradient(45deg, #d0d8d7,#abc1c0,#d0d8d7) ;
