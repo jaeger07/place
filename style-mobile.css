@@ -69,6 +69,7 @@
     }
     #menu{
         padding: 20px 5vw;
+        position: relative;
     }
 
     #acessarPlataforma{
@@ -77,18 +78,20 @@
     }
     
     .nav-list{
-    position: absolute;
+    position: fixed;
     top:0px;
     right: 0;
-    width: 40vw;
-    max-width: 200px;
-    height: 60vw;
-    max-height: 400px;
-    background: #fff;
-    border: 2px solid #fff;   
+
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+
+    width: 70vw;
+    height: 88vh;
+    padding-top: 15vh;
+
+    background: #fff; 
+    /* border-radius: 30px 0 0px 50px;*/ 
+
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     }
@@ -97,9 +100,26 @@
     }
     .mobile-menu {
     display: block;
-    
-    
+    position: fixed;
+    top: 20px;
+    right: 4vw
+     
     }
+    .itemMenu{
+        display: block;
+        padding: 0;
+        margin: 5px;
+
+        font-size: 20px;
+        color: black;
+
+    }
+    .itemMenu-mobile{
+        display: block;
+        margin-top: 25px;
+    }
+
+
 }
 
 @media screen and (max-width: 650px) {
@@ -113,6 +133,7 @@
         border: 1px solid #FFF;
         
     }
+
     /* Estudo Viabilidade*/
  
 #div1{

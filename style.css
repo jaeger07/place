@@ -62,11 +62,18 @@ nav{
             margin: 10px;
             border-radius: 0;
             font-size: 16px;
-            transition: 0.8px;
+            font-weight: 400;
+            border-bottom: 3px solid transparent;
+            transition: ease-in-out;
+            color: #5c5a5a;
         }
             .itemMenu:hover{
-                border-bottom: 3px solid black;
-                
+                color: black;
+                font-weight: 600;
+                border-color:black;
+            }
+            .itemMenu-mobile{
+                display: none;
             }
     #acessarPlataforma{
         background-color: black;
