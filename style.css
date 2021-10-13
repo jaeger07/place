@@ -645,22 +645,28 @@ nav{
 
 
 
-/*      NOTICIAS       */
+/*      MIDIA       */
 #noticias{
-    margin: 0 5vw;
+    margin: 0 10vw;
 }
     #noticias-titulo{
         text-align: center;
-        font-size: 35px;
+        font-size: 32px;
         margin: 40px auto;
     }
-    #media-desktop{
-        display: block;
-        width: 90vw;
+    #div-noticias{
+        display: flex;
+        justify-content: space-between;
     }
-    #media-mobile{
-        display: none;
-    }
+        .each-noticia > img{
+            display: block;
+            margin: 30px auto;
+        }
+        .each-noticia > p{
+            font-size: 12px;
+            font-weight: 400;
+            text-align: center;
+        }
      
 
 

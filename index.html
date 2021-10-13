@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-mobile.css">
+    <link rel="stylesheet" href="animation.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,13 +66,13 @@
     
 
     <div id="PAP">
-        <div id="PAP-proposito">
-            <img src="./imagens/02_PAP/proposito1.svg" class="imgPAP">
+        <div id="PAP-proposito"data-anime="left">
+            <img src="./imagens/02_PAP/proposito1.svg" class="imgPAP" >
             <h1 class="tituloPAP">Propósito</h1>
             <p class="pPAP">Simplificamos o <br>desenvolvimento <br>das cidades <br>através de dados <br>e design.</p>
         </div>
 
-            <div class="setas">
+            <div class="setas" data-anime="left">
                 <img src="./imagens/02_PAP/seta.png" id="setaP">
             </div>
     
@@ -81,11 +83,11 @@
         </div>
 
             <div class="setas">
-                <img src="imagens/02_PAP/setaG.png" id="setaG">
+                <img src="imagens/02_PAP/setaG.png" id="setaG" data-anime="right">
             </div>
     
         <div id="PAP-produto">
-            <img src="./imagens/02_PAP/produto3.svg" class="imgPAP">
+            <img src="./imagens/02_PAP/produto3.svg" class="imgPAP" data-anime="right">
             <h1 class="tituloPAP">Produto</h1>
             <p class="pPAP"><strong>Estudos de <br>viabilidade <br>financeira e <br>urbanística </strong><br>em tempo real.</p>  
             <a href="https://www.ospa.place/map" target="_blank" class="btnPAP">Começar</a>
@@ -121,7 +123,7 @@
         <h1 id="algoritmo-titulo">Como o <strong>Algoritmo</strong> funciona:</h1>
 
         <div id="algoritmo-lei-via">
-            <div class="legislacao-via">
+            <div class="legislacao-via" data-anime="left">
 
             <h1>Legislação</h1>
 
@@ -230,7 +232,7 @@
         <h1 id="util-titulo"> Como o <strong>Place</strong> <br/>pode ser útil pra mim?</h1>
 
         <div id="utilDiv">
-            <div id="util1" class="uteis">
+            <div id="util1" class="uteis" data-anime="left">
                 <div>
                     <img src="./imagens/06_utilidade/1.svg" class="uteis-img">
                     <p class="uteis-p"><strong>Incorporadores,<br>construtores,<br>fundos imobiliários<br>e investidores,</strong><br>com foco na viabilidade<br>do empreendimento;</p>
@@ -266,11 +268,11 @@
 
     <section id="escolha">
         <h1 id="escolha-titulo">Por que escolher o <strong>Place</strong> ?</h1>
-        <div id="escolha-notebook">
+        <div id="escolha-notebook" data-anime="left">
             <iframe id="escolha-video"  src="https://www.youtube.com/embed/AefdetjaLU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <div id="modelo-vigente">
+        <div id="modelo-vigente" data-anime="left">
             <div id="imagem-modelo-vigente"></div>
             <a href="https://www.ospa.place/map" id="btn-modelo-vigente">Testar&nbsp;Viabilidade</a>
         </div>
@@ -312,7 +314,7 @@
         <div id="div-all-planos">
             <div id="div-3-planos-free-premium">
 
-                <div class="class-plano-generico" id="plano-free">
+                <div class="class-plano-generico" id="plano-free" data-anime="left">
                     <h3>Free</h3>
                     <p>Neste formato você tem acesso as funcionalidades básicas da plataforma.</p>
                     <div class="linha-planos"></div>
@@ -542,7 +544,7 @@
                     <h3>R$______</h3>
                     <h5>51 ou mais estudos por mês</h5>
 
-                    <a class="btn-plano btn-plano-plus" href="place@ospa.com.br">Customizar plano</a>
+                    <a class="btn-plano btn-plano-plus" href="mailto:place@ospa.com.br?subject=Hello">Customizar plano</a>
                     </div>
                 </div>
             </div>
@@ -552,8 +554,22 @@
     <section id="noticias">
 
         <h1 id="noticias-titulo">Mídia</h1>
-        <img id="media-desktop" src="./imagens/11-noticias/midia.svg" >
-        <img id="media-mobile" src="./imagens/mobile/mobile-midia.svg" >
+
+
+        <div id="div-noticias">
+            <div class="each-noticia">
+                <img src="./imagens/11-noticias/1.svg">
+                <p>“O PLACE calcula o valor do terreno justamente com foco<br>no desenvolvimento imobiliário. Por meio da ferramenta,<br>basta inserir o endereço do terreno que é apresentado<br>um valor de avaliação dentro de patamar mínimo e<br>máximo. É uma espécie de Waze do Plano Diretor, que<br>busca “transformar o terreno em um negócio imobiliário”</p>
+            </div>
+            <div class="each-noticia">
+                <img src="./imagens/11-noticias/2.svg">
+                <p>“Startup gaúcha lança em SP<br>plataforma que mostra se vale<br>construir em um terreno”</p>
+            </div>
+            <div class="each-noticia">
+                <img src="./imagens/11-noticias/3.svg">
+                <p>“Para uma análise mais completa dos terrenos, o grupo já está<br>criando o estudo de viabilidade volumétrica, possibilitando a<br>visualização do envelope arquitetônico possível em cada lugar;<br>unindo, assim, três mundos: da arquitetura, da legislação e do<br>financeiro. Além disso, o grupo também tem como perspectiva em<br>curto prazo entregar mais dados relevantes, como TIR e VPL.<br>Aproveite que o acesso está sendo gratuito e navegue pela<br>plataforma para conhecer.”</p>
+            </div>
+
     </section>
 
     <section id="time">
@@ -720,6 +736,7 @@
 </footer>
    
     <script src="mobile-navbar.js"></script>
+    <script src="scroll-animation.js"></script>
 
 </body>
 </html>
