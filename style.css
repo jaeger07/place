@@ -33,7 +33,6 @@
     }
 body{
     background: linear-gradient(45deg, #d0d8d7,#abc1c0,#d0d8d7) ;
-    
 }
 
 header{
@@ -399,7 +398,7 @@ nav{
         font-size: 30px;
     }
     #escolha-notebook{
-        background: 49% 57% url('./imagens/07_escolha/mac.svg') no-repeat;
+        background: center center url('./imagens/07_escolha/mac.svg') no-repeat;
         background-size: 100vh;
         
         height: 70vh;
@@ -431,12 +430,19 @@ nav{
 
 /*      MAPA        */
 
-#mapa{
+#section-mapa{
+    height: 80vh;
+    
+    color: white;
     background: center center  url('./imagens/08_mapa/mapa.png') no-repeat;
     background-size: 100%;
-    height: 80vh;
-
 }
+    #sugerir-cidade{
+        
+    }
+    #cidades-disponiveis{
+
+    }
 
 
 /*      APROVAÇÃO       */
@@ -674,8 +680,12 @@ nav{
         flex-direction: column;
         height: 150px;
     }
-        .logos-intitutos-footer{
-            height: 30px;  
+        .logos-institutos-footer{
+            height: 30px; 
+            margin-bottom: 5px; 
+        }
+        .footer-ospa-each-institutos > div {
+            margin-left: 5px ;
         }
         .footer-ospa-each-institutos > div > p{
             font-size: 12px;
@@ -684,7 +694,9 @@ nav{
             align-items: center;
             color: #ADADAD;
             text-align: start;
-            
+        }
+        #ospa-design-p{
+            width: 120px;
         }
         .footer-ospa-each-institutos > a{
             color: #fff;
@@ -694,9 +706,6 @@ nav{
             font-size: 14px;
             font-weight: 600;
         }
-    #footer-instituto-place{
-
-    }
     #footer-instituto-place > a{
         background-color: #fff;
         color: black;
@@ -711,6 +720,7 @@ nav{
 }
         #place-by-ospa{
             text-align: center;
+            margin-right: 10px;
         }
             #place-by-ospa > p{
                 margin: 20px 0 30px 0;
@@ -731,6 +741,7 @@ nav{
     flex-direction: column;
     justify-content: space-around;
     width: 30vw;
+    min-width: 445px;
 }
     #sobre-comunidade-contato{
         display: flex;
@@ -762,7 +773,7 @@ nav{
         font-size: 12px;
     }
     #copyright-cnpj > p:first-child{
-        margin-right: 8vw;
+        margin-right: 7.5vw;
         
     }
     
@@ -773,6 +784,7 @@ nav{
         color: #646464;
         font-size: 12px;
         padding: 10px 0;
+        min-width: 280px;
     }
     #newsletter-email{
         display: flex;

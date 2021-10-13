@@ -110,7 +110,8 @@
         bottom: 10px;
         left: 1vw;
         width: 98vw;
-        border: 2px solid #FFF;
+        border: 1px solid #FFF;
+        
     }
     /* Estudo Viabilidade*/
  
@@ -298,7 +299,7 @@
     font-size: 20px;
 }
 #escolha-notebook{
-    background: center 54% url('./imagens/07_escolha/mac.svg') no-repeat;
+    background: center center url('./imagens/07_escolha/mac.svg') no-repeat;
     background-size: 80vw;
     height: 40vh;
 }
@@ -391,7 +392,7 @@ padding: 2vh 0  10vh 0;
 
 
 #time{
-    margin: 10vh 5vw;
+    margin: 10vh 5vw ;
     display: flex;
     flex-direction: column;
 }
@@ -426,7 +427,7 @@ footer{
 #footer-place{
     flex-direction: column;
     justify-content: flex-start;
-    padding: 8vh 0 8vh 10vw;
+    padding: 8vh 0 14vh 10vw;
     background: #FFF;
 }
     #place-by-ospa{ text-align: left; }
@@ -448,7 +449,7 @@ footer{
 
                 #copyright-cnpj > p{ 
                     position: absolute;
-                    bottom: -185px;
+                    bottom: -200px;
                     left: 35vw;
                 }
 
@@ -465,8 +466,11 @@ footer{
     
     
     #footer-ospa{
-        padding: 15vh 10vw;
+        padding: 10vh 5vw 15vh 5vw;
         flex-direction: column;
+    }
+    #btn-retorno-topo{
+        position: static;
     }
     #logo-grupo-ospa{
         margin-bottom: 15vh;
@@ -474,27 +478,44 @@ footer{
         justify-content: space-between;
     }
     #footer-ospa-all-institutos{
-        width: 80vw;
+        width: 90vw;
         flex-direction: column;
     }
         .footer-ospa-each-institutos{
             justify-content: space-between;
             flex-direction: row;
-            align-items: flex-start;
+            align-items:flex-end;
             height: 100px;
-            width: 80vw;
+            width: 90vw;
             
         }
-            .logos-intitutos-footer{
-                height: 30px;
+            .logos-institutos-footer{
+                height: 20px;
+            }
+            .logos-institutos-footer > img{
+                max-width: 140px;
                 margin-bottom: 10px;
             }
-           
-            #btn-retorno-topo{
-                position: static;
-                
+            .footer-ospa-each-institutos { margin-top: 15px; }
+            .footer-ospa-each-institutos > div { margin-left: 0; }
+            
+            .footer-ospa-each-institutos > div > p{
+                margin: 10px 0;
             }
-
+            .footer-ospa-each-institutos > a{
+                padding: 5px 35px;
+                margin-bottom: 20px;
+                width: 130px;
+                font-size: 12px;
+                font-weight: 600;
+            }
+                #ospa-design-p{
+                    width: 100px;
+                }
+            #footer-instituto-place > a{
+                visibility: hidden;
+                padding: 5px 36px;
+            }
 
 
 
