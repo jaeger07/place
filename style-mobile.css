@@ -340,8 +340,8 @@
 
 #section-mapa{
     background: center center  url('./imagens/mobile/mapa.svg') no-repeat;
-    background-size: contain;
-    height: 600px;
+    background-size: cover;
+    height: calc(100vw*6vw/2vw);
     padding: 0 10vw ;
 
     display: flex;
@@ -353,7 +353,7 @@
 }
 #cidades-disponiveis{
     height: 130px;
-    
+    width: auto;
 }
 #cidades-disponiveis > h5{
     width:110px;

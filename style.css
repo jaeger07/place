@@ -455,23 +455,22 @@ nav{
         height: 130px;
         width: 250px;
     }
-    .btn-mapa-generico{
-        padding: 8px 45px;
-        
-    }
-        #btn-mapa-sugerir{
-            color: #77ACA8;
-            border: 1px solid #77ACA8;
-            font-size: 18px;
-            width: 252px;
+        .btn-mapa-generico{
+            padding: 8px 45px;
+            
         }
+            #btn-mapa-sugerir{
+                color: #77ACA8;
+                border: 1px solid #77ACA8;
+                font-size: 18px;
+                width: 250px;
+            }
     #cidades-disponiveis{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 248px;
-        width: 250px;
-        
+        width: 250px;  
     }
         #cidades-disponiveis > h5{
             width: 224px;
