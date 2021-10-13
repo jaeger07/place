@@ -66,8 +66,7 @@ nav{
         }
             .itemMenu:hover{
                 border-bottom: 3px solid black;
-                font-size: 17px;
-                margin: 8px;
+                
             }
     #acessarPlataforma{
         background-color: black;
@@ -431,18 +430,58 @@ nav{
 /*      MAPA        */
 
 #section-mapa{
-    height: 80vh;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+    height: 100vh;
+    padding: 0 9vw ;
     color: white;
     background: center center  url('./imagens/08_mapa/mapa.png') no-repeat;
-    background-size: 100%;
+    background-size: 100vw;
 }
     #sugerir-cidade{
         
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 130px;
     }
-    #cidades-disponiveis{
+        .cidades-disponiveis-p{
 
+        }
+    .btn-mapa-generico{
+        padding: 8px 45px;
+        
     }
+        #btn-mapa-sugerir{
+            color: #77ACA8;
+            border: 1px solid #77ACA8;
+            font-size: 18px;
+            width: 252px;
+        }
+    #cidades-disponiveis{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 248px;
+        
+    }
+        #cidades-disponiveis > h5{
+            width: 224px;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 38px;
+        }
+        .cidades-disponiveis-p{
+            font-size: 16px;
+            color: #ADADAD;
+        }
+        #btn-mapa-disponiveis{
+            background: #fff;
+            border: 1px solid #fff;
+        }
 
 
 /*      APROVAÇÃO       */
