@@ -404,7 +404,7 @@ nav{
         font-size: 30px;
     }
     #escolha-notebook{
-        background: center center url('./imagens/07_escolha/mac.svg') no-repeat;
+        background: center 60% url('./imagens/07_escolha/mac.svg') no-repeat;
         background-size: 100vh;
         
         height: 70vh;
@@ -413,12 +413,17 @@ nav{
         align-items: center;
     }
         #escolha-video{
-            width: 76vh;
+            border-radius: 10px;
+            width: 77vh;
             height: 50vh;
         }
     
     #modelo-vigente{
         margin: 0 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
         #imagem-modelo-vigente{
             padding: 210px 40vw;
@@ -426,8 +431,8 @@ nav{
             background-size: 70%;
         }
         #btn-modelo-vigente{
-            display: block;
-            margin: 0 auto 50px auto;
+            
+            margin-bottom: 50px;
             background: black;
             color: #fff;
             padding: 10px 50px;
@@ -451,10 +456,13 @@ nav{
     #sugerir-cidade{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        height: 130px;
-        width: 250px;
+        justify-content: space-between;
+        height: 120px;
+        width: 270px;
     }
+        .sugerir-cidade-p {
+            padding-left: 10px;  
+        }
         .btn-mapa-generico{
             padding: 8px 45px;
             
@@ -470,17 +478,19 @@ nav{
         flex-direction: column;
         justify-content: space-around;
         height: 248px;
-        width: 250px;  
+        width: 270px;  
     }
         #cidades-disponiveis > h5{
             width: 224px;
             font-size: 32px;
             font-weight: 500;
             line-height: 38px;
+            padding-left: 10px; 
         }
         .cidades-disponiveis-p{
             font-size: 16px;
             color: #ADADAD;
+            padding-left: 10px; 
         }
         #btn-mapa-disponiveis{
             background: #fff;

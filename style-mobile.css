@@ -316,9 +316,9 @@
     font-size: 20px;
 }
 #escolha-notebook{
-    background: center center url('./imagens/07_escolha/mac.svg') no-repeat;
+    background: center 55% url('./imagens/07_escolha/mac.svg') no-repeat;
     background-size: 80vw;
-    height: 40vh;
+    height: 80vw;
 }
     #escolha-video{
         width: 61vw;
@@ -339,45 +339,49 @@
  /*      MAPA        */
 
 #section-mapa{
-    background: center center  url('./imagens/mobile/mapa.svg') no-repeat;
+    background: 80% 35%  url('./imagens/mobile/mapa.svg') no-repeat;
     background-size: cover;
-    height: calc(100vw*6vw/2vw);
-    padding: 0 10vw ;
+    height: calc(100vw*3vw/2vw);
+    padding: 0 4vw ;
 
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
     justify-content: flex-start;
     text-align: right;
-
 }
 #cidades-disponiveis{
     height: 130px;
     width: auto;
+    justify-content: space-evenly;
+    margin-bottom: 2vh;
 }
-#cidades-disponiveis > h5{
-    width:110px;
-    font-size: 16px;
-    line-height: 22px;
-}
-.cidades-disponiveis-p{
-    font-size: 14px;
-    color: #ADADAD;
-}
-#btn-mapa-disponiveis{
-    display: none;
-}
+    #cidades-disponiveis > h5{
+        width:110px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .cidades-disponiveis-p{
+        font-size: 14px;
+        color: #ADADAD;
+    }
+    .btn-mapa-generico{
+        padding: 8px 25px;
+    }
+    #btn-mapa-disponiveis{
+        display: none;
+    }
 
 
 #sugerir-cidade{
+    justify-content: space-evenly;
     height: 130px;
+    width: auto;
+    margin-bottom: 5vh;
 }
-    .cidades-disponiveis-p{
-
+    .sugerir-cidade-p {
+      font-size: 14px;  
     }
-.btn-mapa-generico{
-    padding: 8px 25px;
-}
     #btn-mapa-sugerir{
         font-size: 14px;
         width: auto;
