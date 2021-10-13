@@ -69,7 +69,6 @@
     }
     #menu{
         padding: 20px 5vw;
-        position: relative;
     }
 
     #acessarPlataforma{
@@ -78,7 +77,7 @@
     }
     
     .nav-list{
-    position: fixed;
+    position: absolute;
     top:0px;
     right: 0;
 
@@ -100,9 +99,6 @@
     }
     .mobile-menu {
     display: block;
-    position: fixed;
-    top: 20px;
-    right: 4vw
      
     }
     .itemMenu{
@@ -342,13 +338,50 @@
 
  /*      MAPA        */
 
-#mapa{
-    background: 70% center  url('./imagens/08_mapa/mapa.png') no-repeat;
-    background-size: cover;
-    height: 80vw;
-    margin: 10vh 0;
+#section-mapa{
+    background: center center  url('./imagens/mobile/mapa.svg') no-repeat;
+    background-size: contain;
+    height: 600px;
+    padding: 0 10vw ;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: right;
 
 }
+#cidades-disponiveis{
+    height: 130px;
+    
+}
+#cidades-disponiveis > h5{
+    width:110px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.cidades-disponiveis-p{
+    font-size: 14px;
+    color: #ADADAD;
+}
+#btn-mapa-disponiveis{
+    display: none;
+}
+
+
+#sugerir-cidade{
+    height: 130px;
+}
+    .cidades-disponiveis-p{
+
+    }
+.btn-mapa-generico{
+    padding: 8px 25px;
+}
+    #btn-mapa-sugerir{
+        font-size: 14px;
+        width: auto;
+    }
 
 
 /*      APROVAÇÃO       */
@@ -483,7 +516,7 @@ footer{
     
     
     
-    /*      FOOTER - OSPA    */
+    /*      FOOTER - GRUPO OSPA    */
     
     
     #footer-ospa{
@@ -494,7 +527,7 @@ footer{
         position: static;
     }
     #logo-grupo-ospa{
-        margin-bottom: 15vh;
+        margin-bottom: 10vh;
         display: flex;  
         justify-content: space-between;
     }

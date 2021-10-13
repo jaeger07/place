@@ -449,15 +449,12 @@ nav{
     background-size: 100vw;
 }
     #sugerir-cidade{
-        
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 130px;
+        width: 250px;
     }
-        .cidades-disponiveis-p{
-
-        }
     .btn-mapa-generico{
         padding: 8px 45px;
         
@@ -473,6 +470,7 @@ nav{
         flex-direction: column;
         justify-content: space-around;
         height: 248px;
+        width: 250px;
         
     }
         #cidades-disponiveis > h5{
