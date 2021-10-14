@@ -114,7 +114,20 @@
         display: block;
         margin-top: 25px;
     }
+    
+/*      DADOS        */
 
+#dados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5vh 0 0 5vw;
+    background: black;
+}
+    .dadosItens {
+        width: 42vw;
+        margin: 30px 0;
+    }
 
     /*      APROVAÇÃO       */
 
