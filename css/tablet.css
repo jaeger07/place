@@ -73,6 +73,7 @@
         margin: 30px 0;
     }
 
+
     /*      APROVAÇÃO       */
 
     #all-aprovacoes{
@@ -129,7 +130,7 @@
         .img-cargo-superior{ width: 84px; }
 
 
-      
+}     
 
 @media screen and (max-width: 1200px) and (min-width:650px) {
 
@@ -151,23 +152,19 @@
         /*      FOOTER PLACE        */
     
 #footer-place{
-    display: flex;
+    justify-content:space-evenly;
     height: 500px;
     width: 100vw;
+    padding: 25vw 10vw 4vh 10vw;
+    position: relative;
 }
     #sobre-comunidade-contato-copyright{
         position: absolute;
-        bottom: 0;
-        right: 20vw;
+        bottom: 25vw;
+        right: 30vw;
         height: 200px;
     }
-        
-    #newsletter{
-        font-size: 16px;
-    }
    
-
-}
 
 
   
