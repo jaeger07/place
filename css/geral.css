@@ -151,7 +151,6 @@ nav{
             .imgPAP{
                 height: 30%;
                 width: 90%;
-                margin-top: 70px;
             }
             .tituloPAP{
                 font-size: 25px;
@@ -159,7 +158,7 @@ nav{
                 font-weight: 500;
             }
             .PAP-p{
-                height: 144px;
+                margin-bottom: 20px;
             }
             #btnPAP{
                 background: black;
