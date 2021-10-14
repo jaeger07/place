@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-mobile.css">
     <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="style-mobile.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -217,14 +217,14 @@
         </div>
 
         <div id="menuFunc">
-            <a href="#" class="itensFunc">Legislação</a>
-            <a href="#" class="itensFunc">Avaliação</a>
-            <a href="#" class="itensFunc">Viabilidade</a>
-            <a href="#" class="itensFunc">Dashboard <br/>de terrenos</a>
-            <a href="#" class="itensFunc">Camadas</a>
-            <a href="#" class="itensFunc">Filtros</a>
-            <a href="#" class="itensFunc itensFunc-soon">Envelope <br/>Plano Diretor</a>
-            <a href="#" class="itensFunc itensFunc-soon">Aluguel</a>
+            <button href="#" class="itensFunc func-disponivel">Legislação</button>
+            <button href="#" class="itensFunc func-disponivel">Avaliação</button>
+            <button href="#" class="itensFunc func-disponivel">Viabilidade</button>
+            <button href="#" class="itensFunc func-disponivel">Dashboard <br/>de terrenos</button>
+            <button href="#" class="itensFunc func-disponivel">Camadas</button>
+            <button href="#" class="itensFunc func-disponivel">Filtros</button>
+            <button href="#" class="itensFunc itensFunc-soon">Envelope <br/>Plano Diretor</button>
+            <button href="#" class="itensFunc itensFunc-soon">Aluguel</button>
         </div>
 
         <div id="painelFunc"></div>
@@ -303,11 +303,13 @@
         
     </section>
 
-        <section id="aprovacao">
+        <section id="section-aprovacao">
             <h1 id="aprovacao-titulo">Quem testou e aprovou!</h1>
-            <div id="aprovado-por">
+            <div id="all-aprovacoes">
                 <img src="./imagens/09_aprovou/Tribo.svg" data-anime="left">
-                <img src="./imagens/09_aprovou/K+3.svg" data-anime="down" style="width: 100px; height: 60px;">
+                <div class="each-empresa-aprovadora">
+                    <img src="./imagens/09_aprovou/K+3.svg" data-anime="down" style="width: 100px; height: 60px;">
+                </div>
                 <img src="./imagens/09_aprovou/Tenda.svg" data-anime="down">
                 <img src="./imagens/09_aprovou/Latitude.svg" data-anime="right" style="height: 70px; ">
             </div>
@@ -565,9 +567,9 @@
                 <img src="./imagens/11-noticias/1.svg">
                 <p id="texto-midia-imobi">“O PLACE calcula o valor do terreno justamente com foco no desenvolvimento imobiliário. Por meio da ferramenta, basta inserir o endereço do terreno que é apresentado um valor de avaliação dentro de patamar mínimo e máximo. É uma espécie de Waze do Plano Diretor, que busca “transformar o terreno em um negócio imobiliário”</p>
             </div>
-            <div class="each-noticia" data-anime="down">
+            <div class="each-noticia" id="midia-gauchazh" data-anime="down">
                 <img src="./imagens/11-noticias/2.svg">
-                <p id="texto-midia-gaucha">“Startup gaúcha lança em SP plataforma que mostra se vale construir em um terreno”</p>
+                <p >“Startup gaúcha lança em SP plataforma que mostra se vale construir em um terreno”</p>
             </div>
             <div class="each-noticia"data-anime="right">
                 <img src="./imagens/11-noticias/3.svg">

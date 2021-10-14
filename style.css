@@ -9,7 +9,6 @@
         border: none;
         padding: 10px;
         cursor: pointer;
-        box-shadow: 0px 0px 8px gray;
         border-radius: 20px;
     }
         button:hover{
@@ -306,16 +305,22 @@ nav{
             border-radius: 30px 30px 0 0;          
         }
             .itensFunc:nth-child(4){    /* Resolver o alinhamento itens com 2 linhas */
-                padding: 33px 0;
+                padding: 35px 0;
             }
             .itensFunc:nth-child(7){    /* Resolver o alinhamento itens com 2 linhas */
-                padding: 33px 0;
+                padding: 35px 0;
             }
+                .func-disponivel:hover{
+                    background: #D7E2E1;
+                }
             .itensFunc-soon{
-                color: #646464; 
+                color: #646464;
+                cursor: default;
+                background: center top url(./imagens/14-footer-place/soon.svg) no-repeat; 
              }
-            .itensFunc:hover{
-                background: #D7E2E1;
+             .itensFunc-soon:hover{
+                background: center top url(./imagens/14-footer-place/soon.svg) no-repeat; 
+                color: #646464;
             }
         #painelFunc{
             background: #D7E2E1;
@@ -505,7 +510,7 @@ nav{
 
 
 /*      APROVAÇÃO       */
-#aprovacao{
+#section-aprovacao{
     margin: 10vh 0;
 }
     #aprovacao-titulo{
@@ -513,15 +518,16 @@ nav{
         font-weight: 600;
         font-size: 35px;
     }
-    #aprovado-por{
+    #all-aprovacoes{
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin: 8vh 15vw;
     }
-    #aprovado-por > img{
+    #all-aprovacoes > img{
         height: 40px;
     }
+   
         
 /*      PLANOS          */
 
@@ -652,9 +658,7 @@ nav{
 
 
 /*      MIDIA       */
-#noticias{
-    margin: 0 5vw;
-}
+
     #noticias-titulo{
         text-align: center;
         font-size: 32px;
@@ -662,10 +666,13 @@ nav{
     }
     #div-noticias{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
         .each-noticia {
-            max-width: 556px;
+            width: 30vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .each-noticia > img{
             display: block;
@@ -676,12 +683,9 @@ nav{
             font-weight: 400;
             text-align: center;
         }
-        #texto-midia-imobi{
-            max-width: 467px;
-        }
-        #texto-midia-gaucha{
-            max-width: 253px;
-            margin: 0 30px;
+        #midia-gauchazh{
+            width: 20vw;
+            align-items: center;
         }
      
 
@@ -690,7 +694,7 @@ nav{
 
 
 #time{
-    margin: 20vh 10vw;
+    margin: 20vh 0;
 }
 #time-titulo{
     text-align: center;

@@ -116,18 +116,124 @@
     }
 
 
+    /*      APROVAÇÃO       */
+
+    #all-aprovacoes{
+        display: flexbox;
+        flex-wrap: wrap;  
+        margin: 12vh 10vw 0 10vw;
+    }
+    #all-aprovacoes > img{
+        width: 37vw;
+        margin-bottom: 20px;
+    }
+    .each-empresa-aprovadora{
+        width: 37vw;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+
+    }
+
+     /*      NOTICIAS       */
+ #noticias{ margin: 0; }
+
+ #div-noticias{
+     flex-direction: column;
+ }
+     .each-noticia {
+         width: 60vw;
+         margin: 20px auto;
+     }
+     #midia-gauchazh{ width: 40vw; }
+
+     /*      TIME        */
+
+
+#time{
+    margin: 10vh 7vw;
 }
+#time-titulo{
+    text-align: center;
+    font-size: 32px;
+    margin: 40px 0;
+    
+}
+.time-linha{
+    display: inline;
+    
+}
+.membro-time{
+    display: inline-flex;
+    flex-direction: column;
+    width: 20vw;
+}
+        .membro-img{ width: 80px; }
+        .img-cargo-superior{ width: 84px; }
+
+
+      
+
+@media screen and (max-width: 1200px) and (min-width:650px) {
+
+  
+/*      FOOTER - GRUPO OSPA    */
+#footer-ospa-all-institutos{
+    flex-wrap: wrap;
+    width: 50vw;
+}
+    .footer-ospa-each-institutos{
+        width: 45%;
+        margin: 20px 0;
+    }
+        .footer-ospa-each-institutos > a{
+            max-width: 200px ;
+            text-align: center;
+        }
+
+        /*      FOOTER PLACE        */
+    
+#footer-place{
+    display: flex;
+    height: 500px;
+    width: 100vw;
+}
+    #place-by-ospa{
+
+    }
+    #sobre-comunidade-contato-copyright{
+        position: absolute;
+        bottom: 0;
+        right: 20vw;
+        height: 200px;
+    }
+        
+    #newsletter{
+        font-size: 16px;
+    }
+   
+
+}
+
+
+
+    
+    
+    
+
+}
+
 
 @media screen and (max-width: 650px) {
 
     #acessarPlataforma{
-        position: fixed;
+        position:fixed;
+        visibility: visible;
         top: auto;
         bottom: 10px;
         left: 1vw;
-        width: 98vw;
+        width: 98%;
         border: 1px solid #FFF;
-        
     }
 
     /* Estudo Viabilidade*/
@@ -430,31 +536,21 @@ padding: 2vh 0  10vh 0;
     width: auto;
 }
        
+/* MIDIA
 
 
- /*      NOTICIAS       */
- #noticias{ margin: 0; }
 
-    #div-noticias{
-        flex-direction: column;
-    }
-        .each-noticia {
-            width: 328px;
-            max-width: 80vw;
-            margin: 0 auto;
-            text-align: center;
-        }
-        .each-noticia > p{
-            font-size: 14px;
+    está no @media screen 999px */
 
-        }
+
+
  
 
 /*      TIME        */
 
 
 #time{
-    margin: 10vh 4vw ;
+    margin: 10vh 0 ;
     display: flex;
     flex-direction: column;
 }

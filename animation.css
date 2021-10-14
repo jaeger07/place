@@ -2,7 +2,7 @@
 
 [data-anime]{
   opacity: 0;
-  transition: .6s;
+  transition: 1s;
 }
 
 [data-anime="left"]{
