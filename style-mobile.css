@@ -433,35 +433,39 @@ padding: 2vh 0  10vh 0;
 
 
  /*      NOTICIAS       */
+ #noticias{ margin: 0; }
 
-#media-desktop{
-    display: none;
-}
-#media-mobile{
-    display: block;
-    width: 70vw;
-    margin: 0 auto;
-}
+    #div-noticias{
+        flex-direction: column;
+    }
+        .each-noticia {
+            width: 328px;
+            max-width: 80vw;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .each-noticia > p{
+            font-size: 14px;
 
- 
+        }
  
 
 /*      TIME        */
 
 
 #time{
-    margin: 10vh 5vw ;
+    margin: 10vh 4vw ;
     display: flex;
     flex-direction: column;
 }
 #time-titulo{
     text-align: center;
     font-size: 32px;
-    margin: 40px auto;
+    margin: 40px 0;
     
 }
 .time-linha{
-    display: inline-table;
+    display: block;
     
 }
 .membro-time{

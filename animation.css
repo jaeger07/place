@@ -2,14 +2,20 @@
 
 [data-anime]{
   opacity: 0;
-  transition: .4s;
+  transition: .6s;
 }
 
 [data-anime="left"]{
-  transform: translate3d(-50px, 0, 0);
+  transform: translateX(-80px);
 }
 [data-anime="right"]{
-  transform: translate3d(50px, 0, 0);
+  transform: translateX(80px);
+}
+[data-anime="up"]{
+  transform: translateY(-80px);
+}
+[data-anime="down"]{
+  transform: translateY(80px);
 }
 [data-anime].animate {
   opacity: 1;

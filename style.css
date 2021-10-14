@@ -159,22 +159,28 @@ nav{
                 padding: 20px;
                 font-weight: 500;
             }
-       
-            .setas{
-                display: flex;
-                align-items: center;
+            .PAP-p{
+                height: 144px;
             }
-        .btnPAP{
-            background: black;
-            color: white;
-            border-radius: 20px;
-            margin: 20px;
-            padding: 10px 50px;
+            #btnPAP{
+                background: black;
+                color: white;
+                border-radius: 20px;
+                margin: 20px 0;
+                padding: 10px 50px;
+            }
+            #btnPAP:hover{
+                background: #fff;
+                color: black;
+            }
+        .setas{
+            display: flex;
+            align-items: center;
         }
 
-            #mobile-PAP{
-                display: none;
-            }
+        #mobile-PAP{
+            display: none;
+        }
 
 /*      DADOS        */
 
@@ -647,7 +653,7 @@ nav{
 
 /*      MIDIA       */
 #noticias{
-    margin: 0 10vw;
+    margin: 0 5vw;
 }
     #noticias-titulo{
         text-align: center;
@@ -656,16 +662,26 @@ nav{
     }
     #div-noticias{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
+        .each-noticia {
+            max-width: 556px;
+        }
         .each-noticia > img{
             display: block;
             margin: 30px auto;
         }
         .each-noticia > p{
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 400;
             text-align: center;
+        }
+        #texto-midia-imobi{
+            max-width: 467px;
+        }
+        #texto-midia-gaucha{
+            max-width: 253px;
+            margin: 0 30px;
         }
      
 
@@ -711,6 +727,11 @@ nav{
     }
         .membro-time > .email-time{
             color: #ADADAD;
+            font-size: 12px;
+        }
+        .membro-time > .email-time:hover{
+            color: #fff;
+            font-size: 13px;
         }
 
 /*      FOOTER - OSPA    */
