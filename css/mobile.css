@@ -1,240 +1,3 @@
-   /*   Menu Mobile    */
-
-
-   .mobile-menu {
-    display: none;
-    cursor: pointer;
-}
-.mobile-menu div {  /* LINHAS  DO HAMBURGUER*/
-    background: black;
-    transition: 0.3s ease-out;
-}
-    .line1{
-        width: 15px;
-        height: 3px;
-        margin: 7px 0 7px 20px;
-        
-    } 
-    .line2{
-        width: 30px;
-        height: 3px;
-        margin: 7px;
-    } 
-    .line3{
-        width: 15px;
-        height: 3px;
-        margin: 7px;
-    }
-
-.nav-list.active {
-    transform: translateX(0);
-}
-@keyframes navLinkFade {
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    }	
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}	
-.mobile-menu.active .line1 {    /*mais px = cima // mais px = direita*/
-    transform: rotate(-45deg) translate(-1.3px, 3.5px);	
-    width: 13px;
-    
-}
-.mobile-menu.active .line2 {
-    transform: rotate(45deg) translate(0px, 0px);
-    
-    width: 30px;	
-}
-.mobile-menu.active .line3 {   /*mais px = cima// mais px = direita*/
-    transform: rotate(-45deg) translate(4.6px, -1px);		
-    width: 13px;
-    
-}
-
-@media screen and (min-width: 1150px) {
-    #div-all-planos{
-        justify-content: space-evenly;
-    }
-}
-
-
-@media screen and (max-width: 999px) {
-    header{
-        background: 65% 0% url(./imagens/mobile/secao1-background.svg) no-repeat;     
-        background-size: 130vh;
-    }
-    #menu{
-        padding: 20px 5vw;
-    }
-
-    #acessarPlataforma{
-        text-align: center;
-        width: 250px;
-    }
-    
-    .nav-list{
-    position: absolute;
-    top:0px;
-    right: 0;
-
-    flex-direction: column;
-    align-items: center;
-
-    width: 70vw;
-    height: 88vh;
-    padding-top: 15vh;
-
-    background: #fff; 
-    /* border-radius: 30px 0 0px 50px;*/ 
-
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-    }
-    .nav-list li{
-    opacity: 0;
-    }
-    .mobile-menu {
-    display: block;
-     
-    }
-    .itemMenu{
-        display: block;
-        padding: 0;
-        margin: 5px;
-
-        font-size: 20px;
-        color: black;
-
-    }
-    .itemMenu-mobile{
-        display: block;
-        margin-top: 25px;
-    }
-    
-/*      DADOS        */
-
-#dados{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 5vh 0 0 5vw;
-    background: black;
-}
-    .dadosItens {
-        width: 42vw;
-        margin: 30px 0;
-    }
-
-    /*      APROVAÇÃO       */
-
-    #all-aprovacoes{
-        display: flexbox;
-        flex-wrap: wrap;  
-        margin: 12vh 10vw 0 10vw;
-    }
-    #all-aprovacoes > img{
-        width: 37vw;
-        margin-bottom: 20px;
-    }
-    .each-empresa-aprovadora{
-        width: 37vw;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-
-    }
-
-     /*      NOTICIAS       */
- #noticias{ margin: 0; }
-
- #div-noticias{
-     flex-direction: column;
- }
-     .each-noticia {
-         width: 60vw;
-         margin: 20px auto;
-     }
-     #midia-gauchazh{ width: 40vw; }
-
-     /*      TIME        */
-
-
-#time{
-    margin: 10vh 7vw;
-}
-#time-titulo{
-    text-align: center;
-    font-size: 32px;
-    margin: 40px 0;
-    
-}
-.time-linha{
-    display: inline;
-    
-}
-.membro-time{
-    display: inline-flex;
-    flex-direction: column;
-    width: 20vw;
-}
-        .membro-img{ width: 80px; }
-        .img-cargo-superior{ width: 84px; }
-
-
-      
-
-@media screen and (max-width: 1200px) and (min-width:650px) {
-
-  
-/*      FOOTER - GRUPO OSPA    */
-#footer-ospa-all-institutos{
-    flex-wrap: wrap;
-    width: 50vw;
-}
-    .footer-ospa-each-institutos{
-        width: 45%;
-        margin: 20px 0;
-    }
-        .footer-ospa-each-institutos > a{
-            max-width: 200px ;
-            text-align: center;
-        }
-
-        /*      FOOTER PLACE        */
-    
-#footer-place{
-    display: flex;
-    height: 500px;
-    width: 100vw;
-}
-    #place-by-ospa{
-
-    }
-    #sobre-comunidade-contato-copyright{
-        position: absolute;
-        bottom: 0;
-        right: 20vw;
-        height: 200px;
-    }
-        
-    #newsletter{
-        font-size: 16px;
-    }
-   
-
-}
-
-
-
-    
-    
-    
-
-}
 
 
 @media screen and (max-width: 650px) {
@@ -272,7 +35,7 @@
                 font-weight: 500;  
             }
         #btn-cidade{
-            background: 30% center url('./imagens/01_viabilidade/btnCidade.svg') no-repeat;
+            background: 30% center url('../imagens/01_viabilidade/btnCidade.svg') no-repeat;
             background-size: 25px;
             background-color: #fff;
             border: none;
@@ -435,7 +198,7 @@
     font-size: 20px;
 }
 #escolha-notebook{
-    background: center 55% url('./imagens/07_escolha/mac.svg') no-repeat;
+    background: center 55% url('../imagens/07_escolha/mac.svg') no-repeat;
     background-size: 80vw;
     height: 80vw;
 }
@@ -448,7 +211,7 @@
 
         #imagem-modelo-vigente{ /* apartir de uma tela de  480 px, corta a imagem*/
             padding: 60vw 50vw;
-            background: center center url('./imagens/mobile/mobile-modelo-vigente.svg') no-repeat ;
+            background: center center url('../imagens/mobile/mobile-modelo-vigente.svg') no-repeat ;
             background-size: 100%;
         }
         #btn-modelo-vigente{
@@ -458,7 +221,7 @@
  /*      MAPA        */
 
 #section-mapa{
-    background: 80% 35%  url('./imagens/mobile/mapa.svg') no-repeat;
+    background: 80% 35%  url('../imagens/mobile/mapa.svg') no-repeat;
     background-size: cover;
     height: calc(100vw*3vw/2vw);
     padding: 0 4vw ;

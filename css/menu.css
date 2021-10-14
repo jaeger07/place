@@ -1,0 +1,55 @@
+/*   Menu Mobile    */
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu div {  /* LINHAS  DO HAMBURGUER*/
+    background: black;
+    transition: 0.3s ease-out;
+}
+    .line1{
+        width: 15px;
+        height: 3px;
+        margin: 7px 0 7px 20px;
+        
+    } 
+    .line2{
+        width: 30px;
+        height: 3px;
+        margin: 7px;
+    } 
+    .line3{
+        width: 15px;
+        height: 3px;
+        margin: 7px;
+    }
+
+.nav-list.active {
+    transform: translateX(0);
+}
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }	
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}	
+.mobile-menu.active .line1 {    /*mais px = cima // mais px = direita*/
+    transform: rotate(-45deg) translate(-1.3px, 3.5px);	
+    width: 13px;
+    
+}
+.mobile-menu.active .line2 {
+    transform: rotate(45deg) translate(0px, 0px);
+    
+    width: 30px;	
+}
+.mobile-menu.active .line3 {   /*mais px = cima// mais px = direita*/
+    transform: rotate(-45deg) translate(4.6px, -1px);		
+    width: 13px;
+    
+}

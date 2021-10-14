@@ -1,0 +1,5 @@
+@media screen and (min-width: 1150px) {
+    #div-all-planos{
+        justify-content: space-evenly;
+    }
+}
