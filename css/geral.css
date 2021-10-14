@@ -565,15 +565,16 @@ nav{
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
-        border-radius: 15px;
         width: 20vw;
         min-width: 250px;
         height: 85vh;
-        margin: 0 15px;
+        margin: 8px 15px;
         padding: 30px 15px;
         text-align: center;
         min-width: 290px;
         scroll-snap-align: center ;
+        box-shadow: 0 0 8px #222;
+        border-radius: 15px;
     }
         .class-plano-generico > p{
             font-size: 12px;      
@@ -618,6 +619,7 @@ nav{
             #plano-premium{
                 background: #646464;
                 color: #fff;
+                box-shadow: 0 0 8px black;
             }
             #plano-premium-plus{
                 background: #222;
