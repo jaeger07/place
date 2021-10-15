@@ -280,7 +280,6 @@ nav{
 
 #funcionalidades{
     padding-top: 100px;
-
 }
     #func-Titulo{
         text-align: center;
@@ -321,11 +320,9 @@ nav{
                 background: center top url(../imagens/14-footer-place/soon.svg) no-repeat; 
                 color: #646464;
             }
-        #painelFunc{
-            background: #D7E2E1;
-            height: 50vh;
             
-        }
+        /* PAINEL FUNCIONALIDADE TEM ARQUIVO CSS PROPRIO */
+
         #mobile-img-soon{
             display: none;
         }

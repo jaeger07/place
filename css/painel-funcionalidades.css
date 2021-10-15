@@ -1,0 +1,27 @@
+#painelFunc{
+    background: #D7E2E1;
+    height: 600PX;
+    padding: 0 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    #div-texto-func{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 35vw;
+        height: 80%;
+    }
+        #func-social{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 40%;   
+        }
+
+    #div-gif-func{
+        width: 40vw;
+        height: 80%;
+        background: url(../imagens/);
+    }
