@@ -23,5 +23,6 @@
     #div-gif-func{
         width: 40vw;
         height: 80%;
-        background: url(../imagens/);
+        background: url(../imagens/05_funcionalidade/Gifs/poa.gif) no-repeat;
+        background-size: cover;
     }
