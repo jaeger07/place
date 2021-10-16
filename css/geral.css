@@ -384,7 +384,7 @@ nav{
                 color: #fff;
                 padding: 10px 50px;
                 font-weight: 500;
-                transition: ease-in-out 0.1s;
+                transition: 0.05s;
             }
         #util1{
             width: 28vw ;
