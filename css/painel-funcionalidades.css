@@ -12,7 +12,11 @@
         justify-content: space-between;
         width: 35vw;
         height: 80%;
+        padding-right: 10vw;
     }
+        #func-painel-p{
+            font-size: 1.2vw;
+        }
         #func-social{
             display: flex;
             flex-direction: column;
