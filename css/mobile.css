@@ -366,7 +366,7 @@ footer{
 }
     #place-by-ospa{ text-align: left; }
 
-            #place-by-ospa > a{ display: none; }
+        .btn-by-ospa-footer{ display: none; }
 
     #sobre-comunidade-contato-copyright{width: auto;}
 
