@@ -73,8 +73,50 @@
         margin: 30px 0;
     }
 
+/*   UTILIDADE   */
+#util-titulo{
+    text-align: center;
+    font-size: 22px;
+}
+#utilDiv{
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10vh 0;
+    
+}
+    .uteis{
+        display: inline-table;
+        width: 42vw;
+        border: none;
+        pointer-events: none;
+    }
+        .uteis-p{
+            font-size: 16px;
+        }
+            #util1 , #util4{
+                width: 42vw;
+            }
+            #util1  , #util3 {
+                display: flex;
+                align-items: flex-end;
+            }
+                #util3>div {
+                    width: 200px;
+                }
+            
+    .util-btn{
+        display: none;
+    }
 
-    /*      APROVAÇÃO       */
+
+
+/*  ESCOLHA    */
+
+/* MAPA */
+
+/*      APROVAÇÃO       */
 
     #all-aprovacoes{
         display: flexbox;
@@ -118,16 +160,17 @@
     
 }
 .time-linha{
-    display: inline;
+    display: inline-table;
+    margin: 0;
     
 }
 .membro-time{
     display: inline-flex;
     flex-direction: column;
-    width: 20vw;
+    width: 30%;
 }
-        .membro-img{ width: 80px; }
-        .img-cargo-superior{ width: 84px; }
+        .membro-img{ width: 90px; }
+        .img-cargo-superior{ width: 94px; }
 
 
 }     
@@ -152,18 +195,12 @@
         /*      FOOTER PLACE        */
     
 #footer-place{
-    justify-content:space-evenly;
-    height: 500px;
+    flex-direction: column;
     width: 100vw;
-    padding: 25vw 10vw 4vh 10vw;
-    position: relative;
+    height: 80vh;
+    padding: 10vh 10vw 10vh 10vw;
 }
-    #sobre-comunidade-contato-copyright{
-        position: absolute;
-        bottom: 25vw;
-        right: 30vw;
-        height: 200px;
-    }
+    
    
 
 
