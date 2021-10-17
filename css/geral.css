@@ -463,14 +463,29 @@ nav{
     color: white;
     background: center center  url('../imagens/08_mapa/mapa.png') no-repeat;
     background-size: 100vw;
+    position: relative;
 }
+    #mapa-onde-estamos{
+        position: absolute;
+        left: 10vw;
+        bottom: 30vh;
+        font-size: 58px;
+    }
     #sugerir-cidade{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 120px;
-        width: 270px;
+        align-items: flex-start;
+        height: 200px;
+        
     }
+        #mapa-bola-verde{
+                border: 15px solid #77ACA8;
+                border-radius: 50%;
+                width: 15px;
+                margin: 0px 10px; 
+                box-shadow: 0 0 12px #77ACA8;
+        }
         .sugerir-cidade-p {
             padding-left: 10px;  
         }
@@ -481,16 +496,24 @@ nav{
             #btn-mapa-sugerir{
                 color: #77ACA8;
                 border: 1px solid #77ACA8;
-                font-size: 18px;
+                font-size: 16px;
                 width: 250px;
+                text-align: center;
             }
     #cidades-disponiveis{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 248px;
-        width: 270px;  
+        align-items: flex-start;
+        height: 348px; 
     }
+        #mapa-bola-branca{
+            border: 15px solid #fff;
+            border-radius: 50%;
+            width: 15px;
+            margin: 15px 10px; 
+            box-shadow: 0 0 12px #fff;
+        }
         #cidades-disponiveis > h5{
             width: 224px;
             font-size: 32px;
@@ -501,12 +524,15 @@ nav{
         .cidades-disponiveis-p{
             font-size: 16px;
             color: #ADADAD;
-            padding-left: 10px; 
+            margin: 10px; 
         }
-        #btn-mapa-disponiveis{
-            background: #fff;
-            border: 1px solid #fff;
-        }
+            #btn-mapa-disponiveis{
+                background: #fff;
+                border: 1px solid #fff;
+                padding: 10px 45px;
+                font-size: 18px;
+                width: 250px;
+            }
 
 
 /*      APROVAÇÃO       */
@@ -811,10 +837,6 @@ nav{
     justify-content: space-between;
     padding: 8vh 10vw;
 }
-        #place-by-ospa{
-            text-align: center;
-            margin-right: 10px;
-        }
             #place-by-ospa > p{
                 margin: 20px 0 30px 0;
                 font-size: 16px;
@@ -831,7 +853,7 @@ nav{
 #sobre-comunidade-contato-copyright{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 30vw;
     min-width: 445px;
 }
@@ -842,7 +864,7 @@ nav{
     .sobre-comunidade-contato{
         display: flex;
         flex-direction: column;
-        font-size: 12px;
+        font-size: 14px;
         min-width: 100px;
         
     }
@@ -865,16 +887,20 @@ nav{
         font-size: 12px;
     }
     #copyright-cnpj > p:first-child{
-        margin-right: 7.5vw;
+        margin-right: 8vw;
         
     }
     
 #newsletter{
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
     #newsletter > p{
         color: #646464;
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px 0;
         min-width: 280px;
     }
