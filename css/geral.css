@@ -104,7 +104,7 @@ nav{
         font-size: 24px;
     }
     
-    #BtnCidade{
+    .BtnCidade{
         margin-left: 9vw;
         margin-top: 8vh;
         margin-bottom: 10vh;
@@ -329,10 +329,10 @@ nav{
         }
             #util1 > div{
                 text-align: start;
-                width: 200px;
+                width: 240px;
             }
             #util1 > .util-btn{
-                
+                margin-right: 2vw;
             }
 
         #util4{
@@ -354,6 +354,7 @@ nav{
             background: black;
             color: #fff;
             padding: 10px 50px;
+            margin-top: 20px;
             font-weight: 500;
             transition: 0.05s;
         }
@@ -508,7 +509,7 @@ nav{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin: 8vh 15vw;
+        margin: 15vh 15vw 10vh 15vw ;
     }
     #all-aprovacoes > img{
         height: 40px;
@@ -519,7 +520,7 @@ nav{
 
 
 #plano{
-    padding: 10vh 0;
+    padding: 5vh 0 10vh 0;
 
 }
     #section-titulo-plano{
@@ -755,6 +756,7 @@ nav{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+        align-items: flex-start;
         height: 150px;
     }
         .logos-institutos-footer{
@@ -765,7 +767,7 @@ nav{
             margin-left: 5px ;
         }
         .footer-ospa-each-institutos > div > p{
-            font-size: 12px;
+            font-size: 14px;
             height: 56px;
             display: flex;
             align-items: center;
