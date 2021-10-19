@@ -133,11 +133,12 @@ nav{
     #PAP{
         display: flex;
         justify-content: space-evenly;
-        padding: 50px 10vw;
+        align-items: center;
+        margin: 10vh 10vw 15vh 10vw;
         text-align: center;
         }
             .imgPAP{
-                height: 30%;
+                height: 25%;
                 width: 90%;
             }
             .tituloPAP{
@@ -146,13 +147,12 @@ nav{
                 font-weight: 500;
             }
             .PAP-p{
-                margin-bottom: 20px;
+                margin-bottom: 40px;
             }
             #btnPAP{
                 background: black;
                 color: white;
                 border-radius: 20px;
-                margin-top: 80px;
                 padding: 10px 50px;
             }
             #btnPAP:hover{
@@ -888,5 +888,5 @@ nav{
     #btn-retorno-topo{
         position: fixed;
         bottom: 10px;
-        left: 95vw;
+        right: 2vw;
     }

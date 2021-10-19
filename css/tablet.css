@@ -208,13 +208,13 @@
     }
     #all-aprovacoes > img{
         width: 37vw;
-        margin-bottom: 20px;
+        margin-bottom: 80px;
     }
     .each-empresa-aprovadora{
         width: 37vw;
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
+        margin-bottom: 90px;
 
     }
 
