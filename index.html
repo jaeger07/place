@@ -224,12 +224,12 @@
 
         <div id="menuFunc">
             <div id="div-menu-func-disp">
-                <button class="itensFunc func-disponivel">Legislação</button>
-                <button class="itensFunc func-disponivel">Avaliação</button>
-                <button class="itensFunc func-disponivel">Viabilidade</button>
-                <button class="itensFunc func-disponivel">Dashboard <br/>de terrenos</button>
-                <button class="itensFunc func-disponivel">Camadas</button>
-                <button class="itensFunc func-disponivel">Filtros</button>
+                <button name="legislacao" class="itensFunc func-disponivel" onclick="handleFuncMenu(this)">Legislação</button>
+                <button name="avaliacao" class="itensFunc func-disponivel" onclick="handleFuncMenu(this)">Avaliação</button>
+                <button name="viabilidade" class="itensFunc func-disponivel" onclick="handleFuncMenu(this)">Viabilidade</button>
+                <button name="dashboard" class="itensFunc func-disponivel" onclick="handleFuncMenu(this)">Dashboard <br/>de terrenos</button>
+                <button name="camadas" class="itensFunc func-disponivel" onclick="handleFuncMenu(this)">Camadas</button>
+                <button name="filtros" class="itensFunc func-disponivel activeFunc" onclick="handleFuncMenu(this)">Filtros</button>
             </div>
             <div id="div-menu-func-soon"> 
                 <button class="itensFunc itensFunc-soon">Envelope <br/>Plano Diretor</button>
@@ -239,18 +239,19 @@
 
         <div id="painelFunc">
             <div id="div-texto-func">
-                <h1 id="func-painel-titulo">Filtros</h1>
-                <p id="func-painel-p">This is a paragraph with more information about something important.
-                    This something has many uses and is made of 100% recycled material.
-                </p>
+                <div id="func-tit-p">
+                    <h1 id="func-painel-titulo">Filtros</h1>
+                    <p id="func-painel-p">Combine e personalize camadas de dados para visualizar apenas os lotes que se adequam ao seu perfil de incorporação.
+                    </p>
+                </div>
                 <div id="func-social">
-                    <h1> +10<br>Opções</h1>
+                    <h1 id="func-painel-destaques">+10<br>Opções</h1>
                     <div id="func-social-like">
                         <div >
-                        <p>O que achou?</p><img class="func-img-like" src="./imagens/05_funcionalidade/like.svg">
-                            <p class="add-text-like"><strong>você e + &nbsp;</strong></p> <p>5 mil gostaram!</p>
+                        <p>O que achou?</p><img class="func-img-like" onclick="like()" src="./imagens/05_funcionalidade/like.svg">
+                            <p class="add-text-like"></p> <p>5 mil gostaram!</p>
                         </div>
-                        <a href="" class="btn-func-social btn-black-hover">Comece grátis</a>
+                        <a href="https://www.ospa.place/map" class="btn-func-social btn-black-hover">Comece grátis</a>
                     </div>
                 </div>
             </div>
@@ -776,6 +777,7 @@
    
     <script src="./JavaScript/mobile-navbar.js"></script>
     <script src="./JavaScript/scroll-animation.js"></script>
+    <script src="./JavaScript/func-menu.js"></script>
 
 </body>
 </html>
