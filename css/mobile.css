@@ -82,82 +82,44 @@
 
     /*      ALGORITMO           */
 
-#algoritmo{
-    margin: 10vh 0 0 0;
-
-}
-    #algoritmo-titulo{
-        width: 300px;
-        font-size: 22px;
-        margin-left: 10vw;
+    #mobile-img-soon{
+        width: 0;
     }
-        #algoritmo-lei-via{
-        display: none; 
-        } 
-    #mobile-algoritmo{
-        display: flex;
-        padding: 50px 0;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
-    }
-        #mobile-algoritmo > img{
-            width: 100vw;
-        }
 
-/*      FUNCIONALIDADES     */
-#funcionalidades{
-    padding-top: 50px;
-}
-#func-Titulo{
-    font-size: 22px;
+#menuFunc{
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0;
+    height: auto;
+    width: 25vw;
     
 }
-    #divFunc{
-        height: 400px;
-        display: flex;
-        justify-content: flex-start;
-
+    #div-menu-func-disp{ 
+        width: 25vw; 
     }
-    #mobile-img-soon{
-        display: flex;
+    #div-menu-func-soon{ 
+        width: 25vw; 
+    }
+    .itensFunc{
+        padding: 20px 10px; 
+        font-size: 12px; 
+        font-weight: 500; 
+    }
+    #painelFunc{
         flex-direction: column;
-        justify-content: space-between;
-        width: 30px;
+        height: 100%;
+        width: 75vw;
+        padding: 2vw 4vw;
+        border-radius: 20px 0 0 20px;
     }
-        #img-func-disponivel{
-            height: 250px;
-        }
-        #img-func-soon{
-            height: 120px;
-            margin-bottom: 10px;
-        }
 
-    #menuFunc{
-        flex-direction: column;
-        padding: 0;
-        
-        height: auto;
-        
-    }
-        .itensFunc{
-            width: 100px;
-            padding: 6px 0;   
-            border-radius: 0;
-            font-size: 12px;          
-        }
-            .itensFunc:nth-child(4){    /* Resolver o alinhamento itens com 2 linhas */
-                padding: 8px 0;
-            }
-            .itensFunc:nth-child(7){    /* Resolver o alinhamento itens com 2 linhas */
-                padding: 10px 0;
-                margin-top: 60px;
-            }
-           
-        #painelFunc{
-            height: 100%;
-            width: 100%;
-            border-radius: 20px 0 0 20px;
-        }
+
+/*      FUNCIONALIDADES     */
+
+
+
+
+
         /*      Utilidades       */
 
     #util-titulo{

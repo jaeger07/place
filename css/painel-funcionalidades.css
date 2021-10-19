@@ -13,9 +13,9 @@
         height: 110px;
         
     }
-        #div-menu-func-disp{ width: 60vw; margin: 0; padding: 0; display: flex;
+        #div-menu-func-disp{ width: 60vw; display: flex;
             align-items: center;}
-        #div-menu-func-soon{ width: 20vw; margin: 0; padding: 0; display: flex;
+        #div-menu-func-soon{ width: 20vw; display: flex;
             align-items: center;}
         .itensFunc{
             width: 9.7vw;
@@ -60,7 +60,7 @@
         padding-right: 5vw;
     }
         #func-painel-p{
-            font-size: 1.2vw;
+            font-size: 28px;
         }
         #func-social{
             display: flex;

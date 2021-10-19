@@ -3,3 +3,50 @@
         justify-content: space-evenly;
     }
 }
+
+@media screen and (min-width:1000px) and (max-width:1500px) {
+
+    #algoritmo{
+    margin: 10vh 3vw 0 5vw;
+
+}
+    #algoritmo-titulo{
+        margin-bottom:40px;
+        font-weight: normal;
+    }
+
+    #algoritmo-lei-via{
+    display: flex;  
+    justify-content: space-between;
+    align-items: stretch;
+    height: 520px;
+    } 
+        .legislacao-via{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+        } 
+        .lei-via{  
+            width: 420px;
+        }
+        .lei-via-right{  
+            width: 420px;
+        }
+        #lei-down-left{ padding-right: 2px;}
+        .lei-via-img:nth-child(4){padding: 0;}
+
+        .lei-via-p{
+            max-width: 150px;
+        }
+        
+        #mais{
+            margin: 0 20px;
+        } 
+            #mais > img{
+                width: 90px;
+            }
+        
+        
+        
+        
+}

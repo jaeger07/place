@@ -229,12 +229,12 @@ nav{
             .via-linhas-right{
                 display: flex;
                 justify-content: space-between;
-                padding-right: 5vw ;
+                max-width: 500px;
             }
                 .lei-via-itens{
                     display: flex;
                     flex-direction: column;
-                    min-width: 128px;
+                    
                 }
                     .lei-via-img{
                         width: 80px;
@@ -558,7 +558,7 @@ nav{
         min-width: 250px;
         height: 85vh;
         margin: 8px 15px;
-        padding: 30px 15px;
+        padding: 30px 40px;
         text-align: center;
         min-width: 290px;
         scroll-snap-align: center ;
