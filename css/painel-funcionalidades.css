@@ -1,3 +1,48 @@
+
+#funcionalidades{
+    padding-top: 100px;
+}
+    #func-Titulo{
+        text-align: center;
+        height: 10vh;
+    }
+    #menuFunc{
+        display: flex;
+        align-items: center;
+        padding: 0 10vw;
+        height: 110px;
+        
+    }
+        #div-menu-func-disp{ width: 60vw; margin: 0; padding: 0; display: flex;
+            align-items: center;}
+        #div-menu-func-soon{ width: 20vw; margin: 0; padding: 0; display: flex;
+            align-items: center;}
+        .itensFunc{
+            width: 9.7vw;
+            font-size: 18px;
+            text-align: center;
+            margin: 0;
+            padding: 48px 0;   
+            border-radius: 30px 30px 0 0;          
+        }
+            .itensFunc:nth-child(4){    /* Resolver o alinhamento itens com 2 linhas */
+                padding: 35px 0;
+            }
+            .itensFunc:nth-child(7){    /* Resolver o alinhamento itens com 2 linhas */
+                padding: 35px 0;
+            }
+                .func-disponivel:hover{
+                    background: #D7E2E1;
+                }
+            .itensFunc-soon{
+                color: #646464;
+                cursor: default;
+                background: center top url(../imagens/14-footer-place/soon.svg) no-repeat; 
+             }
+             .itensFunc-soon:hover{
+                background: center top url(../imagens/14-footer-place/soon.svg) no-repeat; 
+                color: #646464;
+            }
 #painelFunc{
     background: #D7E2E1;
     height: 600PX;
@@ -10,9 +55,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 35vw;
+        width: 32vw;
         height: 80%;
-        padding-right: 10vw;
+        padding-right: 5vw;
     }
         #func-painel-p{
             font-size: 1.2vw;
@@ -21,11 +66,15 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            height: 40%;   
+            height: 40%; 
         }
+            #func-social-like{
+                display: flex;
+                justify-content: space-between;
+            }
 
     #div-gif-func{
-        width: 40vw;
+        width: 48vw;
         height: 80%;
         background: url(../imagens/05_funcionalidade/Gifs/poa.gif) no-repeat;
         background-size: cover;

@@ -267,46 +267,6 @@ nav{
 
 /*      FUNCIONALIDADES     */
 
-#funcionalidades{
-    padding-top: 100px;
-}
-    #func-Titulo{
-        text-align: center;
-        height: 10vh;
-    }
-    #menuFunc{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 10vw;
-        height: 110px;
-        
-    }
-        .itensFunc{
-            width: 12.5%;
-            font-size: 18px;
-            text-align: center;
-            padding: 45px 0;   
-            border-radius: 30px 30px 0 0;          
-        }
-            .itensFunc:nth-child(4){    /* Resolver o alinhamento itens com 2 linhas */
-                padding: 35px 0;
-            }
-            .itensFunc:nth-child(7){    /* Resolver o alinhamento itens com 2 linhas */
-                padding: 35px 0;
-            }
-                .func-disponivel:hover{
-                    background: #D7E2E1;
-                }
-            .itensFunc-soon{
-                color: #646464;
-                cursor: default;
-                background: center top url(../imagens/14-footer-place/soon.svg) no-repeat; 
-             }
-             .itensFunc-soon:hover{
-                background: center top url(../imagens/14-footer-place/soon.svg) no-repeat; 
-                color: #646464;
-            }
             
         /* PAINEL FUNCIONALIDADE TEM ARQUIVO CSS PROPRIO */
 
@@ -592,6 +552,7 @@ nav{
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
+        align-items: center;
         width: 20vw;
         min-width: 250px;
         height: 85vh;
@@ -653,29 +614,32 @@ nav{
             }
     .btn-plano{
         background: #77ACA8;
-        padding: 7px 20px;
+        border: 1px solid #77ACA8;
+        border-radius: 30px;
+        padding: 12px 50px;
+        width: 90%;
         font-size: 14px;
         cursor: pointer;
     }
     .btn-plano-free{
         background: black;
         color: #fff;
+        border: 1px solid black;
     }
         .btn-plano:hover{
             background: #fff;
             color: black;
             border: 1px solid #222;
-            padding: 6px 25px;
         }
     .btn-plano-plus{
         background: #fff;
         color: black;
+        border: 1px solid #fff;
     }
         .btn-plano-plus:hover{
             background: black;
             color: #fff;
-            border: 2px solid #fff;
-            padding: 5px 25px;
+            border: 1px solid #fff;
         }
     #linha-divisoria-planos{
         height: 50vh;

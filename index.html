@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
     <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/painel-funcionalidades.css">
     <link rel="stylesheet" href="./css/desktop.css">
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/painel-funcionalidades.css">
-    <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/animation.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -223,14 +223,18 @@
         </div>
 
         <div id="menuFunc">
-            <button href="#" class="itensFunc func-disponivel">Legislação</button>
-            <button href="#" class="itensFunc func-disponivel">Avaliação</button>
-            <button href="#" class="itensFunc func-disponivel">Viabilidade</button>
-            <button href="#" class="itensFunc func-disponivel">Dashboard <br/>de terrenos</button>
-            <button href="#" class="itensFunc func-disponivel">Camadas</button>
-            <button href="#" class="itensFunc func-disponivel">Filtros</button>
-            <button href="#" class="itensFunc itensFunc-soon">Envelope <br/>Plano Diretor</button>
-            <button href="#" class="itensFunc itensFunc-soon">Aluguel</button>
+            <div id="div-menu-func-disp">
+                <button href="#" class="itensFunc func-disponivel">Legislação</button>
+                <button href="#" class="itensFunc func-disponivel">Avaliação</button>
+                <button href="#" class="itensFunc func-disponivel">Viabilidade</button>
+                <button href="#" class="itensFunc func-disponivel">Dashboard <br/>de terrenos</button>
+                <button href="#" class="itensFunc func-disponivel">Camadas</button>
+                <button href="#" class="itensFunc func-disponivel">Filtros</button>
+            </div>
+            <div id="div-menu-func-soon"> 
+                <button href="#" class="itensFunc itensFunc-soon">Envelope <br/>Plano Diretor</button>
+                <button href="#" class="itensFunc itensFunc-soon">Aluguel</button>
+            </div>
         </div>
 
         <div id="painelFunc">
@@ -241,7 +245,10 @@
                 </p>
                 <div id="func-social">
                     <h2> +10 Opções</h2>
-                    <p>like</p>
+                    <div id="func-social-like">
+                        <p>like</p>
+                        <a href="">Comece grátis</a>
+                    </div>
                 </div>
             </div>
             <div id="div-gif-func">
@@ -394,7 +401,7 @@
                         </div>
                     </div>
                     <div class="linha-planos"></div>
-                    <h3 class="preço-plano">R$0</h3>
+                    <h1 class="preço-plano">R$0</h1>
                     <h2></h2>
 
                     <a class="btn-plano btn-plano-free" href="https://www.ospa.place/map">Começar grátis</a>
@@ -451,7 +458,7 @@
                             </div>
                         </div>
                         <div class="linha-planos"></div>
-                    <h3 class="preço-plano">R$97</h3>
+                    <h1 class="preço-plano">R$97</h1>
                     <h5>por estudo</h5>
 
                     <a class="btn-plano" href="https://www.ospa.place/map">Experimentar</a>
@@ -509,7 +516,7 @@
                             </div>
                         </div>
                         <div class="linha-planos"></div>
-                    <h3 class="preço-plano">R$1.497</h3>
+                    <h1 class="preço-plano">R$1.497</h1>
                     <h5> 50 estudos por mês</h5>
 
                     <a class="btn-plano" href="https://www.ospa.place/map">Experimentar</a>
@@ -570,7 +577,7 @@
                         </div>
                     </div>
                         <div class="linha-planos"></div>
-                    <h3>R$______</h3>
+                    <h1>R$______</h1>
                     <h5>51 ou mais estudos por mês</h5>
 
                     <a class="btn-plano btn-plano-plus" href="mailto:place@ospa.com.br?subject=Hello">Customizar plano</a>

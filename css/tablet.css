@@ -73,6 +73,89 @@
         margin: 30px 0;
     }
 
+
+    /*      FUNCIONALIDADES     */
+#funcionalidades{
+    padding-top: 50px;
+}
+#func-Titulo{
+    font-size: 22px;
+    
+}
+    #divFunc{
+        height: 700px;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    #mobile-img-soon{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        padding-bottom: 5% ;
+    }
+        #img-func-disponivel{
+            height: 50%;
+        }
+        #img-func-soon{
+            height: 30%;
+            margin-bottom: 10px;
+        }
+
+    #menuFunc{
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+        width: 20vw;
+        
+    }
+        .itensFunc{
+            width: 100%;
+            padding: 10px 40px;   
+            border-radius: 20px 0 0 20px;
+            font-size: 16px;          
+        }
+            .itensFunc:nth-child(4){    /* Resolver o alinhamento itens com 2 linhas */
+                padding: 8px 0;
+            }
+            .itensFunc:nth-child(7){    /* Resolver o alinhamento itens com 2 linhas */
+                padding: 10px 0;
+                margin-top: 15vh;
+            }
+           
+    #painelFunc{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0 2vw;
+    }
+            #div-texto-func{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 80%;
+                height: 60%;
+                padding-right: 2vw;
+            }
+                #func-painel-p{
+                    font-size: 2vw;
+                }
+                #func-social{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 20%;   
+                }
+        
+            #div-gif-func{
+                width: 90%;
+                height: 40%;
+                margin: 30px 0;
+            }
+    
+    
+
 /*   UTILIDADE   */
 #util-titulo{
     text-align: center;
