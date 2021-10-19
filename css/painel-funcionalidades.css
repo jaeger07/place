@@ -46,7 +46,7 @@
 #painelFunc{
     background: #D7E2E1;
     height: 700px;
-    padding: 0 11vw;
+    padding: 0 10vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,24 +57,38 @@
         justify-content: space-between;
         width: 32vw;
         height: 80%;
-        padding-right: 5vw;
     }
         #func-painel-p{
             font-size: 28px;
+            padding-right: 5vw;
         }
         #func-social{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             height: 40%; 
+            font-size: 14px;
+            
         }
             #func-social-like{
                 display: flex;
                 justify-content: space-between;
+                align-items: baseline;
+
             }
+                #func-social-like > div{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    width: 320px;
+                }
+                .func-img-like{
+                 margin: 0 10px;   
+                 cursor: pointer;
+                }
 
     #div-gif-func{
-        width: 48vw;
+        width: 45vw;
         height: 80%;
         background: url(../imagens/05_funcionalidade/Gifs/poa.gif) no-repeat;
         background-size: cover;
@@ -84,7 +98,8 @@
         padding: 15px 35px;
         border-radius: 30px;
         background: #77ACAB;
-        font-size: 18px;
-        width: 245px;
+        font-size: 20px;
+        font-weight: 500;
+        width: 285px;
         text-align: center;
     }
