@@ -45,7 +45,7 @@
             }
 #painelFunc{
     background: #D7E2E1;
-    height: 600PX;
+    height: 700px;
     padding: 0 11vw;
     display: flex;
     align-items: center;
@@ -78,4 +78,13 @@
         height: 80%;
         background: url(../imagens/05_funcionalidade/Gifs/poa.gif) no-repeat;
         background-size: cover;
+    }
+
+    .btn-func-social{
+        padding: 15px 35px;
+        border-radius: 30px;
+        background: #77ACAB;
+        font-size: 18px;
+        width: 245px;
+        text-align: center;
     }

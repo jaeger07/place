@@ -395,12 +395,13 @@ nav{
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        
     }
         #imagem-modelo-vigente{
-            padding: 210px 40vw;
+            height: 80vh;
+            width: 70vw;
             background: 49% center url('../imagens/07_escolha/modelo-vigente.svg') no-repeat ;
-            background-size: 70%;
+            background-size: 100%;
         }
         #btn-modelo-vigente{
             
@@ -423,7 +424,7 @@ nav{
     padding: 0 9vw ;
     color: white;
     background: center center  url('../imagens/08_mapa/mapa.png') no-repeat;
-    background-size: 100vw;
+    background-size: cover;
     position: relative;
 }
     #mapa-onde-estamos{
