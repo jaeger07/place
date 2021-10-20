@@ -1,10 +1,15 @@
 
 #funcionalidades{
-    padding-top: 100px;
+    padding-top: 40px;
+    margin-top: 150px;
+    border-top: 1px solid #fff;
+    background: #b3c7c7; 
 }
     #func-Titulo{
         text-align: center;
         height: 10vh;
+        margin: 60px 0;
+        font-size: 38px;
     }
     #menuFunc{
         display: flex;
@@ -18,31 +23,22 @@
         #div-menu-func-soon{ width: 20vw; display: flex;
             align-items: center;}
         .itensFunc{
-            width: 9.7vw;
+            width: 9.8vw;
             font-size: 18px;
             text-align: center;
             margin: 0;
             padding: 48px 0;   
             border-radius: 30px 30px 0 0;          
         }
-            .itensFunc:nth-child(4){    /* Resolver o alinhamento itens com 2 linhas */
+            .itensFunc:nth-child(5){    /* Resolver o alinhamento itens com 2 linhas */
+                padding: 34px 0;
+            }
+            .itensFunc-soon:first-child{    /* Resolver o alinhamento itens com 2 linhas */
                 padding: 35px 0;
             }
-            .itensFunc:nth-child(7){    /* Resolver o alinhamento itens com 2 linhas */
-                padding: 35px 0;
-            }
-                .activeFunc{
+            #div-menu-func-disp > .activeFunc{
                     background: #D7E2E1;
                 }
-            .itensFunc-soon{
-                color: #646464;
-                cursor: default;
-                background: center top url(../imagens/14-footer-place/soon.svg) no-repeat; 
-             }
-             .itensFunc-soon:hover{
-                background: center top url(../imagens/14-footer-place/soon.svg) no-repeat; 
-                color: #646464;
-            }
 #painelFunc{
     background: #D7E2E1;
     height: 700px;
@@ -62,7 +58,6 @@
             height: 60%;
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
         }
             #func-painel-p{
                 font-size: 22px;
@@ -72,7 +67,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            height: 35%; 
+            height: 30%; 
             font-size: 14px;
             
         }
@@ -110,15 +105,36 @@
         text-align: center;
     }
 
-    @media screen and (min-width:1200){
+    @media screen and (min-width:1200px){
         #menuFunc{
             padding: 0;
+            height: 70px;
+            background: #D7E2E1;
         }
-        .itensFunc:nth-child(1){    /* Resolver o alinhamento itens com 2 linhas */
-            width: 20vw;
+        .itensFunc{
+            width: 10vw;
+            padding: 48px 0;   
+            border-radius: 30px 30px 0 0;  
+            background: #b3c7c7;        
         }
-        .itensFunc:nth-child(8){    /* Resolver o alinhamento itens com 2 linhas */
-            padding: 20vw;
+        .margin-func{
+            width: 10vw;
+            height: 120px;
+            background: #b3c7c7; 
         }
-        
+        #div-menu-func-disp{ width: 70vw; display: flex;
+            align-items: center;}
+        #div-menu-func-soon{ width: 30vw; display: flex;
+            align-items: center;}
+
+            .itensFunc-soon:hover{
+                pointer-events: none;
+            }
+            .itensFunc-soon{
+                background: center top url(../imagens/14-footer-place/soon.svg) no-repeat; 
+                background-color: #b3c7c7; 
+                color: #646464;
+                cursor: default;
+             }
+
     }

@@ -446,7 +446,7 @@ nav{
                 border-radius: 50%;
                 width: 15px;
                 margin: 0px 10px; 
-                box-shadow: 0 0 12px #77ACA8;
+                box-shadow: 0 0 15px #abc1c0;
         }
         .sugerir-cidade-p {
             padding-left: 10px;  
@@ -596,6 +596,7 @@ nav{
             border-top: 1px solid black;
             width: 120px;
         }
+        .preco-plano{font-size: 32px;}
             #plano-premium > .linha-planos{ border-color: white;}
             #plano-premium-plus > .linha-planos{ border-color: white;}
 
@@ -758,7 +759,7 @@ nav{
         justify-content: space-between;
         flex-direction: column;
         align-items: flex-start;
-        height: 150px;
+        height: 170px;
     }
         .logos-institutos-footer{
             height: 30px; 

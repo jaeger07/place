@@ -224,16 +224,18 @@
 
         <div id="menuFunc">
             <div id="div-menu-func-disp">
-                <button name="legislacao" class="itensFunc func-disponivel" onclick="handleFuncMenu(this)">Legislação</button>
-                <button name="avaliacao" class="itensFunc func-disponivel" onclick="handleFuncMenu(this)">Avaliação</button>
-                <button name="viabilidade" class="itensFunc func-disponivel" onclick="handleFuncMenu(this)">Viabilidade</button>
-                <button name="dashboard" class="itensFunc func-disponivel" onclick="handleFuncMenu(this)">Dashboard <br/>de terrenos</button>
-                <button name="camadas" class="itensFunc func-disponivel" onclick="handleFuncMenu(this)">Camadas</button>
-                <button name="filtros" class="itensFunc func-disponivel activeFunc" onclick="handleFuncMenu(this)">Filtros</button>
+                <div class="margin-func margin-func-left"></div>
+                <button name="legislacao" class="itensFunc func-disponivel func-legislacao" onclick="handleFuncMenu(this)">Legislação</button>
+                <button name="avaliacao" class="itensFunc func-disponivel func-avaliacao" onclick="handleFuncMenu(this)">Avaliação</button>
+                <button name="viabilidade" class="itensFunc func-disponivel func-viabilidade" onclick="handleFuncMenu(this)">Viabilidade</button>
+                <button name="dashboard" class="itensFunc func-disponivel func-dashboard" onclick="handleFuncMenu(this)">Dashboard <br/>de terrenos</button>
+                <button name="camadas" class="itensFunc func-disponivel func-camadas" onclick="handleFuncMenu(this)">Camadas</button>
+                <button name="filtros" class="itensFunc func-disponivel activeFunc func-filtros" onclick="handleFuncMenu(this)">Filtros</button>
             </div>
             <div id="div-menu-func-soon"> 
-                <button class="itensFunc itensFunc-soon">Envelope <br/>Plano Diretor</button>
+                <button class="itensFunc itensFunc-soon func-plano-diretor">Envelope <br/>Plano Diretor</button>
                 <button class="itensFunc itensFunc-soon">Aluguel</button>
+                <div class="margin-func margin-func-right"></div>
             </div>
         </div>
 
@@ -318,7 +320,7 @@
         <h1 id="mapa-onde-estamos">Onde<br>estamos</h1>
         
         <div id="sugerir-cidade">
-            <div id="mapa-bola-verde"></div>
+            <img src="./imagens/08_mapa/bola-verde.svg" id="mapa-bola-verde"/>
             <div>
                 <h4 class="sugerir-cidade-p">Cidades sugeridas</h4>
                 <p class="sugerir-cidade-p">pela comunidade</p>
@@ -326,7 +328,7 @@
             <a href="https://forms.gle/NGkTFm6ij1F2FxFc8" target="_blank" id="btn-mapa-sugerir" class="btn-mapa-generico">Sugerir&nbsp;cidades</a>
         </div>
         <div id="cidades-disponiveis">
-            <div id="mapa-bola-branca"></div>
+            <img src="./imagens/08_mapa/bola-branca.svg" id="mapa-bola-branca"/>
             <h5>Cidades disponíveis</h5>
             <div>
                 <p class="cidades-disponiveis-p">São Paulo, SP</p>
@@ -405,7 +407,7 @@
                         </div>
                     </div>
                     <div class="linha-planos"></div>
-                    <h1 class="preço-plano">R$0</h1>
+                    <h1 class="preco-plano">R$0</h1>
                     <h2></h2>
 
                     <a class="btn-plano btn-plano-free" target="_blank" href="https://www.ospa.place/map">Começar grátis</a>
@@ -462,7 +464,7 @@
                             </div>
                         </div>
                         <div class="linha-planos"></div>
-                    <h1 class="preço-plano">R$97</h1>
+                    <h1 class="preco-plano">R$97</h1>
                     <h5>por estudo</h5>
 
                     <a class="btn-plano" target="_blank" href="https://www.ospa.place/map">Experimentar</a>
@@ -520,7 +522,7 @@
                             </div>
                         </div>
                         <div class="linha-planos"></div>
-                    <h1 class="preço-plano">R$1.497</h1>
+                    <h1 class="preco-plano">R$1.497</h1>
                     <h5> 50 estudos por mês</h5>
 
                     <a class="btn-plano" target="_blank" href="https://www.ospa.place/map">Experimentar</a>
@@ -581,7 +583,7 @@
                         </div>
                     </div>
                         <div class="linha-planos"></div>
-                    <h1>R$______</h1>
+                    <h1 class="preco-plano">R$______</h1>
                     <h5>51 ou mais estudos por mês</h5>
 
                     <a class="btn-plano btn-plano-plus" href="mailto:place@ospa.com.br?subject=Hello">Customizar plano</a>
