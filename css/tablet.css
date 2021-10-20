@@ -158,6 +158,13 @@
             .itensFunc:nth-child(7){    /* Resolver o alinhamento itens com 2 linhas */
                 padding: 10px 0;
             }
+
+            .radius-item-left{
+                border-radius: 0 0 30px 0;
+             }
+             .radius-item-right{
+                border-radius: 0 30px 0 0;
+             }
            
     #painelFunc{
         flex-direction: column;

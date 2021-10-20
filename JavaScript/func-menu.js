@@ -3,7 +3,6 @@
     let itensMenu = document.querySelector('.activeFunc');
     itensMenu.classList.remove('activeFunc');
      e.classList.add('activeFunc');
-     console.log(e.name);
 
     let titulo = document.querySelector('#func-painel-titulo');
     let texto = document.querySelector('#func-painel-p');
