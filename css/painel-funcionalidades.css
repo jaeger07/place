@@ -59,6 +59,7 @@
             display: flex;
             flex-direction: column;
         }
+            #func-painel-titulo{ margin-bottom: 30px;}
             #func-painel-p{
                 font-size: 22px;
                 padding-right: 5vw;
@@ -67,7 +68,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            height: 30%; 
+            height: 35%; 
             font-size: 14px;
             
         }
