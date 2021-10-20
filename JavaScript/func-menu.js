@@ -21,14 +21,22 @@
    
 
 
-   marginLeft.style.borderRadius = " 30px 30px 0 0"
-   legis.style.borderRadius = " 30px 30px 0 0"
-   avalia.style.borderRadius = " 30px 30px 0 0"
-   via.style.borderRadius = " 30px 30px 0 0"
-   dash.style.borderRadius = " 30px 30px 0 0"
-   camadas.style.borderRadius = " 30px 30px 0 0"
-   filtros.style.borderRadius = " 30px 30px 0 0"
-   plano.style.borderRadius = " 30px 30px 0 0"
+   marginLeft.classList.remove('radius-item-left');
+   marginLeft.classList.remove('radius-item-right');
+   legis.classList.remove('radius-item-left');
+   legis.classList.remove('radius-item-right');
+   avalia.classList.remove('radius-item-left');
+   avalia.classList.remove('radius-item-right');
+   via.classList.remove('radius-item-left');
+   via.classList.remove('radius-item-right');
+   dash.classList.remove('radius-item-left');
+   dash.classList.remove('radius-item-right');
+   camadas.classList.remove('radius-item-left');
+   camadas.classList.remove('radius-item-right');
+   filtros.classList.remove('radius-item-left');
+   filtros.classList.remove('radius-item-right');
+   plano.classList.remove('radius-item-left');
+   plano.classList.remove('radius-item-right');
 
    
      if(e.name == 'legislacao'){
@@ -39,8 +47,8 @@
         gif.style.backgroundSize = 'cover';
      }
          while(e.name == "legislacao") {
-            marginLeft.style.borderRadius = " 0 0 30px 0"
-            avalia.style.borderRadius = " 0 0 0 30px"
+            marginLeft.classList.add('radius-item-left');
+            avalia.classList.add('radius-item-right');
             break;
          }
      if(e.name == 'avaliacao'){
@@ -51,8 +59,8 @@
         gif.style.backgroundSize = 'cover'
      }
          while(e.name == 'avaliacao'){
-            legis.style.borderRadius = " 0 0 30px 0"
-            via.style.borderRadius = " 0 0 0 30px"
+            legis.classList.add('radius-item-left');
+            via.classList.add('radius-item-right');
             break;
          }
      if(e.name == 'viabilidade'){
@@ -63,8 +71,8 @@
         gif.style.backgroundSize = 'cover'
      }
          while(e.name == 'viabilidade'){
-            avalia.style.borderRadius = " 0 0 30px 0"
-            dash.style.borderRadius = " 0 0 0 30px"
+            avalia.classList.add('radius-item-left');
+            dash.classList.add('radius-item-right');
             break;
          }
      if(e.name == 'dashboard'){
@@ -75,8 +83,8 @@
         gif.style.backgroundSize = 'cover'
      }
          while(e.name == 'dashboard'){
-            via.style.borderRadius = " 0 0 30px 0"
-            camadas.style.borderRadius = " 0 0 0 30px"
+            via.classList.add('radius-item-left');
+            camadas.classList.add('radius-item-right');
             break;
          }
      if(e.name == 'camadas'){
@@ -87,8 +95,8 @@
         gif.style.backgroundSize = 'cover'
      }
          while(e.name == 'camadas'){
-            dash.style.borderRadius = " 0 0 30px 0"
-            filtros.style.borderRadius = " 0 0 0 30px"
+            dash.classList.add('radius-item-left');
+            filtros.classList.add('radius-item-right');
             break;
          }
      if(e.name == 'filtros'){
@@ -99,8 +107,8 @@
         gif.style.backgroundSize = 'cover'
      }
          while(e.name == 'filtros'){
-            camadas.style.borderRadius = " 0 0 30px 0"
-            plano.style.borderRadius = " 0 0 0 30px"
+            camadas.classList.add('radius-item-left');
+            plano.classList.add('radius-item-right');
             break;
          }
      

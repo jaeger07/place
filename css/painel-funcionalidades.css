@@ -34,7 +34,7 @@
                 padding: 34px 0;
             }
             .itensFunc-soon:first-child{    /* Resolver o alinhamento itens com 2 linhas */
-                padding: 35px 0;
+                padding: 34px 0;
             }
             #div-menu-func-disp > .activeFunc{
                     background: #D7E2E1;
@@ -120,7 +120,7 @@
         }
         .margin-func{
             width: 10vw;
-            height: 120px;
+            height: 122px;
             background: #b3c7c7; 
         }
         #div-menu-func-disp{ width: 70vw; display: flex;
@@ -138,4 +138,11 @@
                 cursor: default;
              }
 
+
+             .radius-item-left{
+                border-radius: 0 0 30px 0;
+             }
+             .radius-item-right{
+                border-radius: 0 0 0 30px;
+             }
     }
