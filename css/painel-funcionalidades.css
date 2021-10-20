@@ -39,6 +39,7 @@
             #div-menu-func-disp > .activeFunc{
                     background: #D7E2E1;
                 }
+                .itensFunc-soon{color: #646464;}
 #painelFunc{
     background: #D7E2E1;
     height: 700px;
