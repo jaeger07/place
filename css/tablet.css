@@ -100,9 +100,10 @@
     /*      FUNCIONALIDADES     */
 #funcionalidades{
     padding-top: 50px;
+    margin-top: 0;
 }
 #func-Titulo{
-    font-size: 22px;
+    font-size: 32px;
     
 }
     #divFunc{
@@ -127,37 +128,44 @@
 
     #menuFunc{
         flex-direction: column;
-        justify-content: space-between;
-        padding-top: 15px;
-        height: auto;
+        height: 100%;
         width: 20vw;
+        background: #D7E2E1;
         
     }
     #div-menu-func-disp{ 
         width: 20vw; 
         flex-direction: column;
-        justify-content: space-around;
-        height: 60%;
+        height: 70%;
     }
     #div-menu-func-soon{ 
         width: 20vw; 
         flex-direction: column; 
-        justify-content: space-evenly;
-        height: 25%;
+        height: 30%;
     }
         .itensFunc{
-            width: 100%;
-            padding: 20px 40px;   
+            width: 100%;  
+            height: 18%;
             border-radius: 0;
-            font-size: 16px;  
-
+            padding: 0;
+            font-size: 16px; 
+            background: #b3c7c7;   
         }
-            .itensFunc:nth-child(4){    /* Resolver o alinhamento itens com 2 linhas */
-                padding: 8px 0;
+        .func-disponivel{
+        font-weight: 500; 
+        }
+            .itensFunc-soon{
+                height: 40%;
+                padding: 0;
             }
-            .itensFunc:nth-child(7){    /* Resolver o alinhamento itens com 2 linhas */
-                padding: 10px 0;
+            .itensFunc-soon:first-child{
+                padding: 68px 0;
             }
+        .margin-func-left{
+            width: 20vw;
+            height: 50px;
+            background: #b3c7c7; 
+        }
 
             .radius-item-left{
                 border-radius: 0 0 30px 0;
@@ -169,7 +177,7 @@
     #painelFunc{
         flex-direction: column;
         height: 100%;
-        width: 100%;
+        width: 75%;
         padding: 2vw 4vw;
         border-radius: 20px 0 0 20px;
     }
@@ -182,7 +190,7 @@
                 padding-right: 2vw;
             }
                 #func-painel-p{
-                    font-size: 2vw;
+                    font-size: 18px;
                 }
                 #func-social{
                     display: flex;
@@ -190,11 +198,20 @@
                     justify-content: space-between;
                     height: 20%;   
                 }
+                #func-painel-destaques{
+                    font-size: 16px;
+                }
         
             #div-gif-func{
-                width: 100%;
+                width: 90%;
                 height: 45%;
                 margin: 2vw 0;
+            }
+            .btn-func-social{
+                padding: 15px 0;
+                font-size: 16px;
+                width: 245px;
+                text-align: center;
             }
     
     

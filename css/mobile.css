@@ -21,27 +21,9 @@
     margin-left: 5vw;
     font-size: 14px;
 }
-    
-    #divBtnCidade{
-        margin-left: 3vw;
-        width: 95vw;
-        margin: 5vh auto;
-    }
-        #input-cidade{
-            width: 75vw;
-            padding: 12px 10px 12px 25px;
-        }
-            #input-cidade::placeholder {
-                font-weight: 500;  
-            }
-        #btn-cidade{
-            background: 30% center url('../imagens/01_viabilidade/btnCidade.svg') no-repeat;
-            background-size: 25px;
-            background-color: #fff;
-            border: none;
-            box-shadow: none;
-            border-radius:  0 30px 30px 0;
-            padding: 20px 10vw;
+        .btnCidade{
+            margin-left: 5vw;
+            width: 70vw;
         }
 
     #powered > img{
@@ -84,37 +66,76 @@
     
     /*      FUNCIONALIDADES     */
 
-
+    #funcionalidades{
+        height: 1000px;
+    }
     #mobile-img-soon{
         width: 0;
     }
 
 #menuFunc{
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 15px 0;
-    height: auto;
-    width: 25vw;
-    
+    width: 30vw;
+}
+.margin-func-left{
+    width: 30vw;
 }
     #div-menu-func-disp{ 
-        width: 25vw; 
+        width: 30vw; 
     }
     #div-menu-func-soon{ 
-        width: 25vw; 
+        width: 30vw; 
     }
-    .itensFunc{
-        padding: 20px 10px; 
+    .itensFunc{ 
         font-size: 12px; 
-        font-weight: 500; 
     }
-    #painelFunc{
-        flex-direction: column;
-        height: 100%;
-        width: 75vw;
-        padding: 2vw 4vw;
-        border-radius: 20px 0 0 20px;
-    }
+#painelFunc{
+    width: 70vw;
+    padding: 4vh 3vw 4vh 6vw;
+    height: 800px;
+}
+    #div-texto-func{ 
+        width: 62vw;
+        height: 60%;
+        padding: 0;
+     }
+        #func-painel-titulo{ 
+            margin-bottom: 20px;
+        }
+            #func-painel-p{
+                font-size: 14px;
+                padding: 0;
+            }
+            #func-social{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 35%;   
+            }
+            #func-social-like{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #func-social-like > div{
+                display: inline-table;
+                width: 60vw;
+            }
+            #func-painel-destaques{
+                font-size: 14px;
+            }
+
+        #div-gif-func{
+            width: 90%;
+            height: 35%;
+            margin: 2vw 0;
+        }
+        .btn-func-social{
+            padding: 15px 0;
+            font-size: 16px;
+            width: 245px;
+            text-align: center;
+        }
+
 
 
 
@@ -126,7 +147,7 @@
         font-size: 22px;
     }
     #utilDiv{
-        display: flexbox;
+        display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
@@ -134,20 +155,24 @@
         
     }
         .uteis{
-            display: inline-table;
-            margin-left: 2vw;
             padding: 0;
-            width: 42vw;
+            width: 41vw;
+            
             border: none;
             pointer-events: none;
         }
+        .uteis > div{ width: 41vw; max-width: 35vw; }
+        #util1 > div{ width: 41vw;}
+        #util4 > div{ width: 41vw;}
+
             .uteis-p{
-                font-size: 12px;
+                font-size: 14px;
+                width: 180px;
                 display: inline-block;
             }
                 #util1 , #util4{
                     width: 42vw;
-                    padding-left: 0;
+                    padding-right: 0;
                 }
                 
         .util-btn{
