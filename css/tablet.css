@@ -259,6 +259,20 @@
 
 /* MAPA */
 
+#section-mapa{
+    background: url('../imagens/mobile/mapa.svg') no-repeat;
+    background-position-x: -20%;
+    background-size: 100%;
+    background-color: black;
+}
+
+#mapa-onde-estamos{
+    position: initial;
+    font-size: 42px;
+    width: 250px;
+
+}
+
 /*      APROVAÇÃO       */
 
     #all-aprovacoes{

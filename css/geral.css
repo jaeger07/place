@@ -445,7 +445,7 @@ nav{
                 border: 15px solid #77ACA8;
                 border-radius: 50%;
                 width: 15px;
-                margin: 0px 10px; 
+                margin-left:10px; 
                 box-shadow: 0 0 15px #abc1c0;
         }
         .sugerir-cidade-p {
@@ -473,7 +473,7 @@ nav{
             border: 15px solid #fff;
             border-radius: 50%;
             width: 15px;
-            margin: 15px 10px; 
+            margin: 15px 0px 15px 10px; 
             box-shadow: 0 0 12px #fff;
         }
         #cidades-disponiveis > h5{
@@ -481,7 +481,6 @@ nav{
             font-size: 32px;
             font-weight: 500;
             line-height: 38px;
-            padding-left: 10px; 
         }
         .cidades-disponiveis-p{
             font-size: 16px;

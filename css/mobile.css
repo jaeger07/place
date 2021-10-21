@@ -211,27 +211,37 @@
     background-size: cover;
     height: calc(100vw*3vw/2vw);
     padding: 0 4vw ;
-
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
-    justify-content: flex-start;
     text-align: right;
 }
+#sugerir-cidade{
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 140px;
+    width: 30vw;
+    margin-bottom: 5vh;
+}
+    .sugerir-cidade-p {
+      font-size: 16px;  
+    }
+    #btn-mapa-sugerir{
+        font-size: 14px;
+        width: auto;
+    }
 #cidades-disponiveis{
-    height: 130px;
-    width: auto;
+    height: 140px;
     justify-content: space-evenly;
+    align-items: flex-end;
     margin-bottom: 2vh;
 }
     #cidades-disponiveis > h5{
-        width:110px;
-        font-size: 16px;
+        width:initial;
+        font-size: 18px;
         line-height: 22px;
     }
     .cidades-disponiveis-p{
         font-size: 14px;
         color: #ADADAD;
+        margin: 5px 0;
     }
     .btn-mapa-generico{
         padding: 8px 25px;
@@ -241,19 +251,6 @@
     }
 
 
-#sugerir-cidade{
-    justify-content: space-evenly;
-    height: 130px;
-    width: auto;
-    margin-bottom: 5vh;
-}
-    .sugerir-cidade-p {
-      font-size: 14px;  
-    }
-    #btn-mapa-sugerir{
-        font-size: 14px;
-        width: auto;
-    }
 
 
 /*      APROVAÇÃO       */
