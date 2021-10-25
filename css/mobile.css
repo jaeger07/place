@@ -4,7 +4,6 @@
 
     #acessarPlataforma{
         position:fixed;
-        visibility: visible;
         top: auto;
         bottom: 10px;
         left: 1vw;
@@ -212,6 +211,7 @@
     height: calc(100vw*3vw/2vw);
     padding: 0 4vw ;
     text-align: right;
+    position: initial;
 }
 #sugerir-cidade{
     justify-content: space-between;
@@ -226,6 +226,7 @@
     #btn-mapa-sugerir{
         font-size: 14px;
         width: auto;
+        background: black;
     }
 #cidades-disponiveis{
     height: 140px;

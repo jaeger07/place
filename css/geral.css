@@ -31,7 +31,7 @@
         border-radius: 20px;
         padding: 10px 20px;
     }
-    body,html{
+    body, html{
         overflow-x: hidden;
         position: relative;
     }
@@ -420,10 +420,10 @@ nav{
     align-items: flex-end;
     justify-content: space-evenly;
 
-    height: 100vh;
+    height: 120vh;
     padding: 0 9vw ;
     color: white;
-    background: center center  url('../imagens/08_mapa/mapa.png') no-repeat;
+    background: 100% 50%  url('../imagens/08_mapa/mapa.png') no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -449,6 +449,7 @@ nav{
                 box-shadow: 0 0 15px #abc1c0;
         }
         .sugerir-cidade-p {
+            font-size: 22px;
             padding-left: 10px;  
         }
         .btn-mapa-generico{
@@ -458,7 +459,8 @@ nav{
             #btn-mapa-sugerir{
                 color: #77ACA8;
                 border: 1px solid #77ACA8;
-                font-size: 16px;
+                font-size: 18px;
+                padding: 10px 45px;
                 width: 250px;
                 text-align: center;
             }
@@ -618,9 +620,9 @@ nav{
         background: #77ACA8;
         border: 1px solid #77ACA8;
         border-radius: 30px;
-        padding: 12px 50px;
+        padding: 15px 50px;
         width: 90%;
-        font-size: 14px;
+        font-size: 16px;
         cursor: pointer;
     }
     .btn-plano-free{
