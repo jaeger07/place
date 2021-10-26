@@ -31,15 +31,21 @@
 
 
     /*   PAP = PROPOSITO - ALGORITIMO - PRODUTO   */
-
     #PAP{
-        display: none;
+        padding: 0;
+        margin: 0 7vw;
     }
-    #mobile-PAP{
-        display: flex;
-        flex-direction: column;
-        margin: 2vh 5vw 15vh 5vw;
+    .PAP-cards{
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
     }
+    .PAP-cards > div {
+        width: 180px;
+    }
+   #btnPAP{
+       display: none;
+   }
 
 /*      DADOS        */
 
@@ -108,19 +114,19 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                height: 35%;   
-            }
-            #func-social-like{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            #func-social-like > div{
-                display: inline-table;
-                width: 60vw;
+                height: 30%;   
             }
             #func-painel-destaques{
-                font-size: 14px;
+                font-size: 16px;
+            }
+            #func-social-like > div{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                font-size: 12px;
+            }
+            .btn-func-social{
+                display: none;
             }
 
         #div-gif-func{
@@ -128,12 +134,7 @@
             height: 35%;
             margin: 2vw 0;
         }
-        .btn-func-social{
-            padding: 15px 0;
-            font-size: 16px;
-            width: 245px;
-            text-align: center;
-        }
+        
 
 
 
