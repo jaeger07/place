@@ -31,7 +31,7 @@
         border-radius: 20px;
         padding: 10px 20px;
     }
-    body, html{
+    body{
         overflow-x: hidden;
         position: relative;
     }
@@ -344,9 +344,6 @@ nav{
             #util4 > div{
                 align-items: flex-start;
                 width: 240px;
-            }
-            #util4 > .util-btn{
-
             }
 
         .util-btn{
