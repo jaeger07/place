@@ -299,9 +299,14 @@
             <iframe id="escolha-video"  src="https://www.youtube.com/embed/AefdetjaLU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <div id="modelo-vigente"  data-anime="right">
-            <div id="imagem-modelo-vigente"></div>
-            <a href="https://www.ospa.place/map" target="_blank" id="btn-modelo-vigente">Testar&nbsp;Viabilidade</a>
+        <div id="modelo-vigente">
+            <div  data-anime="left">
+                <img src="./imagens/07_escolha/modelo__vigente.svg">
+            </div>
+            <div id="div-place-escolha"  data-anime="right">
+                <img src="./imagens/07_escolha/place.svg">
+                <a href="https://www.ospa.place/map" target="_blank" class="btn-modelo-vigente btn-black-hover">Começar&nbsp;viabilidade</a>
+            </div>
         </div>
         
     </section>
@@ -311,7 +316,7 @@
         <h1 id="mapa-onde-estamos">Onde<br>estamos</h1>
         
         <div id="sugerir-cidade">
-            <img src="./imagens/08_mapa/bola-verde.svg" id="mapa-bola-verde"/>
+            <img id="mapa-bola-verde"/>
             <div>
                 <h4 class="sugerir-cidade-p">Cidades sugeridas</h4>
                 <p class="sugerir-cidade-p">pela comunidade</p>
@@ -319,7 +324,7 @@
             <a href="https://forms.gle/NGkTFm6ij1F2FxFc8" target="_blank" id="btn-mapa-sugerir" class="btn-mapa-generico">Sugerir&nbsp;cidades</a>
         </div>
         <div id="cidades-disponiveis">
-            <img src="./imagens/08_mapa/bola-branca.svg" id="mapa-bola-branca"/>
+            <img id="mapa-bola-branca"/>
             <h5>Cidades disponíveis</h5>
             <div>
                 <p class="cidades-disponiveis-p">São Paulo, SP</p>
@@ -332,23 +337,23 @@
 
         <section id="section-aprovacao">
             <h1 id="aprovacao-titulo">Quem testou e aprovou!</h1>
-            <div id="all-aprovacoes">
-                <img src="./imagens/09_aprovou/Tribo.svg" data-anime="left">
-                <div class="each-empresa-aprovadora">
-                    <img src="./imagens/09_aprovou/K+3.svg" data-anime="down" style="width: 100px; height: 60px;">
+                <div class="linhas-aprovou">
+                    <img class="aprovou-each-img" src="./imagens/09_aprovou/Tribo.svg" data-anime="left">
+                    <img class="aprovou-each-img" src="./imagens/09_aprovou/K+3.svg" data-anime="up" >
+                    <img class="aprovou-each-img" src="./imagens/09_aprovou/Tenda.svg" data-anime="right">
                 </div>
-                <img src="./imagens/09_aprovou/Tenda.svg" data-anime="up">
-                <img src="./imagens/09_aprovou/Latitude.svg" data-anime="right" style="height: 70px; ">
-            </div>
+                <div class="linhas-aprovou">
+                    <img class="aprovou-each-img" src="./imagens/09_aprovou/Latitude.svg" data-anime="down">
+                    <img class="aprovou-each-img" src="./imagens/09_aprovou/aprovou-5.svg" data-anime="down">
+                </div>
         </section>
 
     <section id="plano">
         <h1 id="section-titulo-plano">Planos</h1>
         <div id="div-all-planos">
-            <div id="div-3-planos-free-premium">
 
                 <div class="class-plano-generico" id="plano-free">
-                    <h3>Free</h3>
+                    <h2>Free</h2>
                     <p>Neste formato você tem acesso as funcionalidades básicas da plataforma.</p>
                     <div class="linha-planos"></div>
                     <div class="beneficios-dos-planos">
@@ -402,69 +407,11 @@
                     <h2></h2>
 
                     <a class="btn-plano btn-plano-free" target="_blank" href="https://www.ospa.place/map">Começar grátis</a>
-
-                    </div>
-                <div id="plano-estudo-unitario" class="class-plano-generico" >
-                    <h3>Estudo Unitário</h3>
-                    <p>Neste formato você tem acesso às funcionalidades básicas da plataforma e a viabilidade completa de 1 estudo por vez.</p>
-                        <div class="linha-planos"></div>
-                        <div class="beneficios-dos-planos">
-                            <div class="beneficio-ativo-plano">
-                                <img src="./imagens/10-planos/V-preto-beneficios-planos.svg">
-                                <p>Dados do terreno</p>
-                            </div>
-                            <div class="beneficio-ativo-plano">
-                                <img src="./imagens/10-planos/V-preto-beneficios-planos.svg">
-                                <p>Zoneamento</p>
-                            </div>
-                            <div class="beneficio-ativo-plano">
-                                <img src="./imagens/10-planos/V-preto-beneficios-planos.svg">
-                                <p>Envelope legal</p>
-                            </div>
-                            <div class="beneficio-ativo-plano">
-                                <img src="./imagens/10-planos/V-preto-beneficios-planos.svg">
-                                <p>Avaliação do terreno</p>
-                            </div>
-                            <div class="beneficio-ativo-plano">
-                                <img src="./imagens/10-planos/V-preto-beneficios-planos.svg">
-                                <p>Viabilidade financeira e urbanística</p>
-                            </div>
-                            <div class="beneficio-ativo-plano">
-                                <img src="./imagens/10-planos/V-preto-beneficios-planos.svg">
-                                <p>Viabilidade para aluguel</p>
-                            </div>
-                            <div class="beneficio-inativo-plano">
-                                <img src="./imagens/10-planos/V-preto-beneficios-planos.svg">
-                                <p>Análise de lançamentos imobiliários</p>
-                            </div>
-                            <div class="beneficio-inativo-plano">
-                                <img src="./imagens/10-planos/V-preto-beneficios-planos.svg">
-                                <p>Filtros de terrenos</p>
-                            </div>
-                            <div class="beneficio-inativo-plano">
-                                <img src="./imagens/10-planos/V-preto-beneficios-planos.svg">
-                                <p>Visualização de Camadas Premium</p>
-                            </div>
-                            <div class="beneficio-inativo-plano">
-                                <img src="./imagens/10-planos/V-preto-beneficios-planos.svg">
-                                <p>Painel do Desenvolvedor</p>
-                            </div>
-                            <div class="beneficio-inativo-plano">
-                                <img src="./imagens/10-planos/V-preto-beneficios-planos.svg">
-                                <p>Importar dados geolocalizados</p>
-                            </div>
-                        </div>
-                        <div class="linha-planos"></div>
-                    <h1 class="preco-plano">R$97</h1>
-                    <h5>por estudo</h5>
-
-                    <a class="btn-plano" target="_blank" href="https://www.ospa.place/map">Experimentar</a>
-                    </div>
-
+                </div>
 
                 <div id="plano-premium" class="class-plano-generico" >
-                    <h3>Premium</h3>
-                    <p>Neste formato você tem acesso a todas as funcionalidades premium e a todos os dados para até 50 estudos por mês por cidade.</p>
+                    <h2>Premium</h2>
+                    <p>Neste formato você tem acesso a todas as funcionalidades premium e a todos os dados para <strong>estudos ilimitados por mês. </strong></p>
                         <div class="linha-planos"></div>
                         <div class="beneficios-dos-planos">
                             <div class="beneficio-ativo-plano">
@@ -513,74 +460,12 @@
                             </div>
                         </div>
                         <div class="linha-planos"></div>
-                    <h1 class="preco-plano">R$1.497</h1>
-                    <h5> 50 estudos por mês</h5>
+                    <h1 class="preco-plano">R$997,00</h1>
+                    <h5> estudos ilimitados por mês</h5>
 
                     <a class="btn-plano" target="_blank" href="https://www.ospa.place/map">Experimentar</a>
                     </div>
                 </div>
-
-                <div id="linha-divisoria-planos"></div>
-                
-            <div >
-                <div id="plano-premium-plus" class="class-plano-generico">
-                    <h3>Premium Plus</h3>
-                    <p>Neste formato você tem acesso a todas as funcionalidades premium e a todos os dados para + de 50 estudos por mês por cidade.</p>
-                        <div class="linha-planos"></div>
-                    <div class="beneficios-dos-planos">
-                        <div class="beneficio-ativo-plano">
-                            <img src="./imagens/10-planos/V-beneficios-planos.svg">
-                            <p>Dados do terreno</p>
-                        </div>
-                        <div class="beneficio-ativo-plano">
-                            <img src="./imagens/10-planos/V-beneficios-planos.svg">
-                            <p>Zoneamento</p>
-                        </div>
-                        <div class="beneficio-ativo-plano">
-                            <img src="./imagens/10-planos/V-beneficios-planos.svg">
-                            <p>Envelope legal</p>
-                        </div>
-                        <div class="beneficio-ativo-plano">
-                            <img src="./imagens/10-planos/V-beneficios-planos.svg">
-                            <p>Avaliação do terreno</p>
-                        </div>
-                        <div class="beneficio-ativo-plano">
-                            <img src="./imagens/10-planos/V-beneficios-planos.svg">
-                            <p>Viabilidade financeira e urbanística</p>
-                        </div>
-                        <div class="beneficio-ativo-plano">
-                            <img src="./imagens/10-planos/V-beneficios-planos.svg">
-                            <p>Viabilidade para aluguel</p>
-                        </div>
-                        <div class="beneficio-ativo-plano">
-                            <img src="./imagens/10-planos/V-beneficios-planos.svg">
-                            <p>Análise de lançamentos imobiliários</p>
-                        </div>
-                        <div class="beneficio-ativo-plano">
-                            <img src="./imagens/10-planos/V-beneficios-planos.svg">
-                            <p>Filtros de terrenos</p>
-                        </div>
-                        <div class="beneficio-ativo-plano">
-                            <img src="./imagens/10-planos/V-beneficios-planos.svg">
-                            <p>Visualização de Camadas Premium</p>
-                        </div>
-                        <div class="beneficio-ativo-plano">
-                            <img src="./imagens/10-planos/V-beneficios-planos.svg">
-                            <p>Painel do Desenvolvedor</p>
-                        </div>
-                        <div class="beneficio-ativo-plano">
-                            <img src="./imagens/10-planos/V-beneficios-planos.svg">
-                            <p>Importar dados geolocalizados</p>
-                        </div>
-                    </div>
-                        <div class="linha-planos"></div>
-                    <h1 class="preco-plano">R$______</h1>
-                    <h5>51 ou mais estudos por mês</h5>
-
-                    <a class="btn-plano btn-plano-plus" href="mailto:place@ospa.com.br?subject=Hello">Customizar plano</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 

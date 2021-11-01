@@ -201,7 +201,7 @@
             background: center center url('../imagens/mobile/mobile-modelo-vigente.svg') no-repeat ;
             background-size: 100%;
         }
-        #btn-modelo-vigente{
+        .btn-modelo-vigente{
             display: none;
         }
 

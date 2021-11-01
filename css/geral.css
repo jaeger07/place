@@ -17,6 +17,27 @@
         cursor: pointer;
         border-radius: 20px;
     }
+        .btn-white{
+            background-color: #fff;
+            color: black;
+            border-radius: 30px;
+            padding: 10px 45px;
+            width: 180px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+        }
+            .btn-preto{
+                background: black;
+                color: #fff;
+                border: 1px solid #fff;
+                border-radius: 30px;
+                padding: 10px 45px;
+                width: 180px;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 500;
+            }
             .btn-black-hover:hover{
                 background: #fff;
                 color: black;
@@ -388,21 +409,19 @@ nav{
         }
     
     #modelo-vigente{
-        margin: 0 10vw;
+        margin: 5vh 10vw;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: space-evenly;
         
     }
-        #imagem-modelo-vigente{
-            height: 80vh;
-            width: 70vw;
-            background: 49% center url('../imagens/07_escolha/modelo-vigente.svg') no-repeat ;
-            background-size: 100%;
+        #div-place-escolha{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
         }
-        #btn-modelo-vigente{
-            
-            margin-bottom: 50px;
+        .btn-modelo-vigente{
+            margin-top: 30px;
             background: black;
             color: #fff;
             padding: 10px 50px;
@@ -420,7 +439,7 @@ nav{
     height: 120vh;
     padding: 0 9vw ;
     color: white;
-    background: 100% 50%  url('../imagens/08_mapa/mapa.png') no-repeat;
+    background: 100% 50%  url('../imagens/08_mapa/mapa-gif-desktop.gif') no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -497,21 +516,21 @@ nav{
 
 /*      APROVAÇÃO       */
 #section-aprovacao{
-    margin: 10vh 0;
+    margin: 10vh 9vw;
 }
     #aprovacao-titulo{
         text-align: center;
         font-weight: 600;
         font-size: 35px;
     }
-    #all-aprovacoes{
+    .linhas-aprovou{
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin: 15vh 15vw 10vh 15vw ;
     }
-    #all-aprovacoes > img{
-        height: 40px;
+    .aprovou-each-img{
+        max-height: 80px;
     }
    
         
@@ -530,6 +549,7 @@ nav{
     }
     #div-all-planos{
         display: flex;
+        justify-content: center;
         align-items: center;
         width: 100vw;
         overflow-x: auto;
@@ -540,10 +560,6 @@ nav{
         -ms-overflow-style: none; 
         scrollbar-width: none;
     }
-        #div-3-planos-free-premium{
-            display: flex;
-            justify-content: space-between;
-        }
             #div-all-planos::-webkit-scrollbar{
                 display: none;             /* esconder barra de scroll no Chrome e Safari*/
             }
@@ -553,10 +569,10 @@ nav{
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        width: 20vw;
+        width: 22vw;
         min-width: 250px;
         height: 85vh;
-        margin: 8px 15px;
+        margin: 8px 25px;
         padding: 30px 40px;
         text-align: center;
         min-width: 290px;
@@ -565,7 +581,7 @@ nav{
         box-shadow: 0 0 2px #646464;
     }
         .class-plano-generico > p{
-            font-size: 12px;      
+            font-size: 16px;      
         }
         .beneficios-dos-planos{
             display: flex;
@@ -574,7 +590,7 @@ nav{
             align-items: flex-start;
             height: 35vh;
             min-width: 258px;
-            font-size: 12px;
+            font-size: 14px;
         }
         .beneficio-inativo-plano{
             color: #ADADAD;
@@ -596,21 +612,13 @@ nav{
         }
         .preco-plano{font-size: 32px;}
             #plano-premium > .linha-planos{ border-color: white;}
-            #plano-premium-plus > .linha-planos{ border-color: white;}
 
             #plano-free{
                 border: 1px solid white;
-            }
-            #plano-estudo-unitario{
-                color: #222;
                 background: #ececec;
             }
             #plano-premium{
-                background: #646464;
-                color: #fff;
-            }
-            #plano-premium-plus{
-                background: #222;
+                background: #5c5a5a;
                 color: #fff;
             }
     .btn-plano{
@@ -632,20 +640,6 @@ nav{
             color: black;
             border: 1px solid #222;
         }
-    .btn-plano-plus{
-        background: #fff;
-        color: black;
-        border: 1px solid #fff;
-    }
-        .btn-plano-plus:hover{
-            background: black;
-            color: #fff;
-            border: 1px solid #fff;
-        }
-    #linha-divisoria-planos{
-        height: 50vh;
-        border-left: 1.5px solid #222;
-    }
 
 
 
@@ -778,27 +772,7 @@ nav{
             width: 120px;
         }
         
-        .btn-white{
-        background-color: #fff;
-        color: black;
-        border-radius: 30px;
-        padding: 10px 45px;
-        width: 180px;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 500;
-    }
-        .btn-preto{
-            background: black;
-            color: #fff;
-            border: 1px solid #fff;
-            border-radius: 30px;
-            padding: 10px 45px;
-            width: 180px;
-            text-align: center;
-            font-size: 16px;
-            font-weight: 500;
-        }
+       
 
 /*      FOOTER PLACE        */
     
