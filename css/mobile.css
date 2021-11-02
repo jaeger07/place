@@ -52,7 +52,7 @@
 
 #dados{
     flex-direction: column;
-    padding: 2vh 0;
+    padding: 5vh 0;
     background: #fff;
 }
     .dadosItens{
@@ -152,7 +152,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        margin: 10vh 4vw 20vh 4vw;
+        margin: 10vh 3vw 20vh 4vw;
         
     }
         .uteis{
@@ -162,17 +162,18 @@
             border: none;
             pointer-events: none;
         }
-        .uteis > div{ width: 41vw; max-width: 35vw; }
+        .uteis > div{ width: 41vw;}
         #util1 > div{ width: 41vw;}
+        #util3 > div{ width: 41vw;}
         #util4 > div{ width: 41vw;}
 
             .uteis-p{
                 font-size: 14px;
-                width: 180px;
-                display: inline-block;
+                width: 41vw;
+                display: block;
             }
                 #util1 , #util4{
-                    width: 42vw;
+                    width: 41vw;
                     padding-right: 0;
                 }
                 
@@ -194,13 +195,14 @@
         height: 40vw;  
     }
 
-    #modelo-vigente{ margin: 0; }
-
-        #imagem-modelo-vigente{ /* apartir de uma tela de  480 px, corta a imagem*/
-            padding: 60vw 50vw;
+        #modelo-vigente{ /* apartir de uma tela de  480 px, corta a imagem*/
+            padding: 70vw 50vw;
+            margin: 0; 
             background: center center url('../imagens/mobile/mobile-modelo-vigente.svg') no-repeat ;
-            background-size: 100%;
+            background-size: 100vw;
         }
+        #div-escolha-vigente{display: none;}
+        #div-place-escolha{display: none;}
         .btn-modelo-vigente{
             display: none;
         }
@@ -416,7 +418,7 @@ footer{
                 max-width: 140px;
                 margin-bottom: 10px;
             }
-            .footer-ospa-each-institutos { margin-top: 15px; }
+            .footer-ospa-each-institutos { margin-top: 25px; }
             .footer-ospa-each-institutos > div { margin-left: 0; }
             
             .footer-ospa-each-institutos > div > p{
@@ -436,8 +438,14 @@ footer{
                 visibility: hidden;
                 padding: 5px 36px;
             }
-
-
+            .linha-place-footer{
+                border-top: none;
+                margin-bottom: 0px;
+            }
+            .linha-place-footer-invisivel{
+                border-top: none;
+                margin-bottom: 0px;
+            }
 
 
 
