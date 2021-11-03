@@ -99,15 +99,16 @@ nav{
             .itemMenu-mobile{
                 display: none;
             }
-    #acessarPlataforma{
+    .acessarPlataforma{
         background-color: black;
         color: #fff;
         border-radius: 30px;
         padding: 15px 60px;
         width: 300px;
         font-size: 18px;
+        text-align: center;
     }
-    #acessarPlataforma:hover{
+    .acessarPlataforma:hover{
         background: #fff;
         color: black;
     }
