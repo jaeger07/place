@@ -1,4 +1,5 @@
-.menu-scroll{
+nav{transition: 1s;}
+nav.sticky{
     position: fixed;
     height: 70px;
     background-color: #fff;

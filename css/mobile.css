@@ -78,7 +78,9 @@
     #mobile-img-soon{
         width: 0;
     }
-
+#divFunc{
+    height: 500px;
+}
 #menuFunc{
     width: 30vw;
 }
@@ -97,7 +99,7 @@
 #painelFunc{
     width: 70vw;
     padding: 4vh 3vw 4vh 6vw;
-    height: 800px;
+    height: 600px;
 }
     #div-texto-func{ 
         width: 62vw;
