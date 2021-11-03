@@ -157,12 +157,13 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        margin: 10vh 3vw 20vh 4vw;
+        margin: 10vh 3vw 15vh 4vw;
         
     }
         .uteis{
             padding: 0;
             width: 41vw;
+            margin-top: 50px;
             
             border: none;
             pointer-events: none;
@@ -264,46 +265,38 @@
 
 
 /*      APROVAÇÃO       */
-
-
-#aprovacao{
-    margin: 0;
+#aprovacao-titulo{
+    margin-bottom: 70px;
 }
-    #aprovacao-titulo{
-        text-align: center;
-        font-weight: 600;
+
+.linhas-aprovou{
+    margin: 0 ;
+    min-width: 80vw;
+    flex-direction: column;
+}
+    .aprovou-each-img{
+        max-height: 40px;
+        margin-top: 40px;
     }
-    #aprovado-por{
-        display: flexbox;
-        flex-wrap: wrap;
-        
-        margin: 12vh 10vw 0 10vw;
-    }
-    #aprovado-por > img{
-        margin-bottom: 6vh ;
-        width: 30vw;
-    }
+    .linhas-aprovou > .aprovou-img-menor{max-height: 60px;}
+    .linhas-aprovou > .aprovou-img-menor{max-height: 60px;}
+    .linhas-aprovou > .aprovou-img-menor{max-height: 60px;}
     
 /*  Planos   */
-
 #plano{
-padding: 2vh 0  10vh 0;
+    padding: 0;
 }
-    
-#div-all-planos{
-    display: flex;
-    justify-content: space-between; 
-    padding: 0 10vw;
-}
+  #div-all-planos{
+        justify-content: flex-start;
+    }
 .class-plano-generico{
-    flex: none;
-    width: 60vw;
-    margin: 0 3vw;
-    padding: 10px; 
+    min-width: 350px;
+    padding: 30px 20px;
 }
-#div-3-planos-free-premium{
-    width: auto;
-}
+    .class-plano-generico > p{
+        font-size: 14px;      
+    }
+
        
 /* MIDIA
 
