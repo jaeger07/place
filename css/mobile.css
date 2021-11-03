@@ -79,7 +79,7 @@
         width: 0;
     }
 #divFunc{
-    height: 500px;
+    height: 580px;
 }
 #menuFunc{
     width: 30vw;
@@ -96,8 +96,11 @@
     .itensFunc{ 
         font-size: 12px; 
     }
+    .itensFunc:nth-child(5) {
+        padding: 0;
+    }
 #painelFunc{
-    width: 70vw;
+    width: 68vw;
     padding: 4vh 3vw 4vh 6vw;
     height: 600px;
 }
@@ -133,7 +136,7 @@
             }
 
         #div-gif-func{
-            width: 90%;
+            width: 100%;
             height: 35%;
             margin: 2vw 0;
         }
