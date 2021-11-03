@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 650px) {
 
-    #acessarPlataforma{
+    .acessarPlataforma{
         position:fixed;
         top: auto;
         bottom: 10px;
