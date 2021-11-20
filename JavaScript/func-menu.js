@@ -42,7 +42,7 @@
         titulo.innerHTML = "Legislação";
         texto.innerHTML = "Parametrizamos os planos diretores para entender todas as condicionantes legais que impactam o terreno, analisando desde zona, altura máxima e coeficiente de aproveitamento até exceções como patrimônio histórico e áreas de proteção ambiental.";
         destaque.innerHTML = "Cálculo de outorga onerosa <br>em tempo real";
-        gif.style.background = "url(../imagens/05_funcionalidade/gifs/legislacao.gif) no-repeat";
+        gif.style.background = "url(./imagens/05_funcionalidade/gifs/legislacao.gif) no-repeat";
         gif.style.backgroundSize = 'cover';
      }
          while(e.name == "legislacao") {
@@ -54,7 +54,7 @@
         titulo.innerHTML = "Avaliação"
         texto.innerHTML = "Visando precificar o terreno para incorporação imobiliária, estimamos o valor do terreno a partir do potencial construtivo, da análise de valorização imobiliária da região e da taxa de atratividade para incorporação imobiliária."
         destaque.innerHTML = "+ de 10.000 terrenos <br>precificados."
-        gif.style.background = "url(../imagens/05_funcionalidade/gifs/avaliacao.gif) no-repeat"
+        gif.style.background = "url(./imagens/05_funcionalidade/gifs/avaliacao.gif) no-repeat"
         gif.style.backgroundSize = 'cover'
      }
          while(e.name == 'avaliacao'){
@@ -66,7 +66,7 @@
         titulo.innerHTML = "Viabilidade"
         texto.innerHTML = "Calculamos a viabilidade urbanística e financeira de qualquer terreno das cidades de São Paulo e Porto Alegre em um clique!"
         destaque.innerHTML = "+ de 12.000 estudos de <br>viabilidade realizados."
-        gif.style.background = "url(../imagens/05_funcionalidade/gifs/viabilidade.gif) no-repeat"
+        gif.style.background = "url(./imagens/05_funcionalidade/gifs/viabilidade.gif) no-repeat"
         gif.style.backgroundSize = 'cover'
      }
          while(e.name == 'viabilidade'){
@@ -78,7 +78,7 @@
         titulo.innerHTML = "Dashboard de terrenos"
         texto.innerHTML = "Salve seus estudos e visualize no painel de estudos de viabilidade, tendo acesso a histórico, comentários e possibilidade de rankeamento por indicadores."
         destaque.innerHTML = "Sem limite de <br>estudos salvos"
-        gif.style.background = "url(../imagens/05_funcionalidade/gifs/dashboard.gif) no-repeat"
+        gif.style.background = "url(./imagens/05_funcionalidade/gifs/dashboard.gif) no-repeat"
         gif.style.backgroundSize = 'cover'
      }
          while(e.name == 'dashboard'){
@@ -90,7 +90,7 @@
         titulo.innerHTML = "Camadas"
         texto.innerHTML = "Visualize no mapa e interaja com camadas de análise urbanística, potencial construtivo, lançamentos imobiliários, insights de incorporação e muito mais!"
         destaque.innerHTML = "+ de 7 milhões de dados <br>organizados e avaliados"
-        gif.style.background = "url(../imagens/05_funcionalidade/gifs/camadas.gif) no-repeat"
+        gif.style.background = "url(./imagens/05_funcionalidade/gifs/camadas.gif) no-repeat"
         gif.style.backgroundSize = 'cover'
      }
          while(e.name == 'camadas'){
@@ -102,7 +102,7 @@
         titulo.innerHTML = "Filtros"
         texto.innerHTML = "Combine e personalize camadas de dados para visualizar apenas os lotes que se adequam ao seu perfil de incorporação."
         destaque.innerHTML = "+ de 7 milhões de dados <br>organizados e avaliados"
-        gif.style.background = "url(../imagens/05_funcionalidade/gifs/filtros.gif) no-repeat"
+        gif.style.background = "url(./imagens/05_funcionalidade/gifs/filtros.gif) no-repeat"
         gif.style.backgroundSize = 'cover'
      }
          while(e.name == 'filtros'){
